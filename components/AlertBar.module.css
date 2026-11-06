@@ -1,0 +1,38 @@
+.bar {
+  background: var(--alert-bg);
+  color: var(--alert-text);
+  border-bottom: 1px solid color-mix(in srgb, var(--alert) 25%, transparent);
+}
+
+.inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  padding-block: 0.7rem;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  margin-top: 0.55rem;
+  border-radius: 50%;
+  background: var(--alert);
+  flex-shrink: 0;
+}
+
+.text {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.link {
+  color: var(--alert-text);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.link:hover {
+  color: var(--alert);
+}

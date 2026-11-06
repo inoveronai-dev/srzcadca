@@ -1,0 +1,123 @@
+.section {
+  background: var(--deep);
+  color: var(--white);
+  padding-block: var(--section-y);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.eyebrow {
+  color: var(--mint);
+  margin: 0 0 0.85rem;
+}
+
+.place,
+.dates,
+.questions {
+  margin: 0 0 1rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.dates {
+  font-weight: 600;
+}
+
+.checklist {
+  margin: 1.5rem 0;
+  padding: 1.2rem 1.25rem;
+  border-radius: var(--radius-card);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.checklist h3 {
+  font-size: 22px;
+  margin-bottom: 0.85rem;
+}
+
+.checklist ul {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.checklist li {
+  display: flex;
+  gap: 0.7rem;
+  align-items: flex-start;
+}
+
+.check {
+  color: var(--mint);
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+}
+
+.forms {
+  color: var(--mint);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.forms:hover {
+  color: var(--white);
+}
+
+.questions a {
+  color: var(--mint);
+  font-weight: 700;
+}
+
+.priceCard {
+  background: var(--white);
+  color: var(--ink);
+  border-radius: var(--radius-panel);
+  padding: 1.5rem 1.4rem 1.35rem;
+}
+
+.priceCard h3 {
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
+
+.priceCard ul {
+  list-style: none;
+  margin: 0 0 1.15rem;
+  padding: 0;
+}
+
+.priceCard li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 16px;
+}
+
+.priceCard li:last-child {
+  border-bottom: 0;
+}
+
+.priceCard strong {
+  white-space: nowrap;
+  color: var(--tint-text);
+}
+
+.fullLink {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media (max-width: 899px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

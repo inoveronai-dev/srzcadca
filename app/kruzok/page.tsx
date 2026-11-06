@@ -1,0 +1,10 @@
+import type { Metadata } from "next";
+import { StubPage } from "@/components/StubPage";
+
+export const metadata: Metadata = {
+  title: "Rybársky krúžok",
+};
+
+export default function Page() {
+  return <StubPage title="Rybársky krúžok" />;
+}

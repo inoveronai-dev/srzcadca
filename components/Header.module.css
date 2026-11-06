@@ -1,0 +1,282 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--white);
+  border-bottom: 1px solid var(--line);
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-block: 0.85rem;
+  transition: padding 150ms ease;
+}
+
+.scrolled .bar {
+  padding-block: 0.45rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: inherit;
+  min-width: 0;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  background: transparent;
+  border-radius: 12px;
+}
+
+.brand:hover {
+  color: inherit;
+}
+
+.brand:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.brand:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+.scrolled .logo {
+  width: 52px;
+  height: 52px;
+}
+
+.brandText {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.brandName {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.brandSub {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.2;
+}
+
+.desktopNav {
+  margin-left: auto;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navList > li > a,
+.navButton {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.35rem 0.55rem;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navList > li > a:hover,
+.navButton:hover {
+  color: var(--teal);
+}
+
+.hasDropdown {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% - 0.2rem);
+  left: 0;
+  min-width: 260px;
+  margin: 0;
+  padding: 0.55rem;
+  list-style: none;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: var(--shadow-tile);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(4px);
+  transition: opacity 150ms ease, transform 150ms ease, visibility 150ms ease;
+  z-index: 50;
+}
+
+.dropdownOpen,
+.hasDropdown:focus-within .dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown a {
+  display: block;
+  padding: 0.55rem 0.75rem;
+  border-radius: 10px;
+  color: var(--ink);
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.dropdown a:hover {
+  background: var(--tint);
+  color: var(--tint-text);
+}
+
+.cta {
+  flex-shrink: 0;
+}
+
+.burger {
+  display: none;
+  width: 48px;
+  height: 48px;
+  margin-left: auto;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--white);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.burger span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: var(--ink);
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 899px) {
+  .desktopNav,
+  .cta {
+    display: none;
+  }
+
+  .burger {
+    display: inline-flex;
+  }
+
+  .logo {
+    width: 52px;
+    height: 52px;
+  }
+
+  .brandName {
+    font-size: 18px;
+  }
+
+  .mobile {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 40;
+    background: var(--paper);
+    padding: 5.5rem var(--pad-x) 2rem;
+    overflow-y: auto;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 200ms ease, visibility 200ms ease;
+  }
+
+  .mobileOpen {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .mobileList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .mobileList > li > a,
+  .mobileToggle {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 52px;
+    padding: 0.65rem 0;
+    border: 0;
+    border-bottom: 1px solid var(--line);
+    background: transparent;
+    color: var(--ink);
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+  }
+
+  .mobileSub {
+    list-style: none;
+    margin: 0 0 0.5rem;
+    padding: 0.25rem 0 0.75rem 0.75rem;
+  }
+
+  .mobileSub a {
+    display: block;
+    padding: 0.55rem 0;
+    color: var(--muted);
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .mobileFooter {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .phone {
+    color: var(--ink);
+    font-weight: 700;
+    text-decoration: none;
+  }
+}

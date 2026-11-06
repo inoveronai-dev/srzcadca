@@ -1,0 +1,128 @@
+.section {
+  padding-top: 0;
+}
+
+.collage {
+  margin: 0 0 24px;
+}
+
+.collageImage {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1920 / 600;
+  object-fit: cover;
+  border-radius: var(--radius-panel);
+  display: block;
+}
+
+.caption {
+  margin: 0.55rem 0 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.club,
+.races {
+  border-radius: var(--radius-panel);
+  padding: 1.6rem 1.45rem;
+}
+
+.club {
+  background: var(--tint);
+  color: var(--tint-text);
+}
+
+.races {
+  background: var(--white);
+  border: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.club h3,
+.races h3 {
+  font-size: 32px;
+  margin-bottom: 0.9rem;
+}
+
+.club p,
+.races ul {
+  margin: 0 0 1.2rem;
+}
+
+.races ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.races li {
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid var(--line);
+  font-weight: 600;
+}
+
+.races li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.club a,
+.racesContent a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.posterLink {
+  display: block;
+  flex-shrink: 0;
+  line-height: 0;
+}
+
+.poster {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(15, 54, 52, 0.15);
+  transform: rotate(-2deg);
+}
+
+@media (max-width: 899px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 699px) {
+  .collageImage {
+    /* Keep full collage visible as a slimmer strip — no extra crop */
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .races {
+    grid-template-columns: 1fr;
+  }
+
+  .posterLink {
+    order: -1;
+    justify-self: start;
+  }
+
+  .poster {
+    width: min(100%, 320px);
+    height: auto;
+    aspect-ratio: 1 / 1;
+    transform: none;
+  }
+}
