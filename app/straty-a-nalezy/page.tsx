@@ -1,10 +1,18 @@
 import type { Metadata } from "next";
-import { StubPage } from "@/components/StubPage";
+import { CategoryListPage } from "@/components/CategoryListPage";
 
 export const metadata: Metadata = {
   title: "Straty a nálezy",
+  description: "Straty a nálezy na revíroch MO Čadca.",
 };
 
 export default function Page() {
-  return <StubPage title="Straty a nálezy" />;
+  return (
+    <CategoryListPage
+      title="Straty a nálezy"
+      description="Straty a nálezy na revíroch MO Čadca."
+      category="straty"
+      crumbsLabel="Straty a nálezy"
+    />
+  );
 }

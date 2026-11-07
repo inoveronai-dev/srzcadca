@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
 import { site } from "@/content/site";
+import { sk } from "@/lib/sk";
 import styles from "./Hero.module.css";
 
 export function Hero() {
@@ -9,9 +9,10 @@ export function Hero() {
       <div className={styles.media}>
         <Image
           src={site.hero.image}
-          alt={site.hero.imageAlt}
+          alt={sk(site.hero.imageAlt)}
           fill
           priority
+          quality={85}
           sizes="100vw"
           className={styles.image}
         />
@@ -19,17 +20,9 @@ export function Hero() {
       </div>
 
       <div className={`container ${styles.content}`}>
-        <p className={`eyebrow ${styles.eyebrow}`}>{site.hero.eyebrow}</p>
-        <h1 id="hero-title">{site.hero.title}</h1>
-        <p className={styles.text}>{site.hero.text}</p>
-        <div className={styles.actions}>
-          <Link href="/povolenia" className="btn btn--white">
-            Povolenia a cenník
-          </Link>
-          <Link href="/reviry" className={`btn btn--outline-white ${styles.secondary}`}>
-            Naše revíry
-          </Link>
-        </div>
+        <p className={`eyebrow ${styles.eyebrow}`}>{sk(site.hero.eyebrow)}</p>
+        <h1 id="hero-title">{sk(site.hero.title)}</h1>
+        <p className={styles.text}>{sk(site.hero.text)}</p>
       </div>
 
       <svg
@@ -39,19 +32,9 @@ export function Hero() {
         aria-hidden="true"
       >
         <path
-          fill="var(--deep-3)"
-          d="M0 72c120-28 240-52 360-44s240 40 360 44 240-20 360-36 240-20 360-8v92H0Z"
+          fill="var(--paper)"
+          d="M0 80 C 360 20 1080 20 1440 70 L1440 120 L0 120 Z"
         />
-        <path
-          fill="var(--deep-2)"
-          d="M0 86c140-24 260-40 400-28s260 36 400 28 260-36 400-40 160 0 240 8v66H0Z"
-        />
-        <path
-          fill="var(--teal-logo)"
-          fillOpacity="0.35"
-          d="M0 98c160-18 280-28 420-18s260 28 400 20 260-28 400-24 140 8 220 12v32H0Z"
-        />
-        <path fill="var(--deep)" d="M0 108c180-10 320-18 480-10s300 20 480 14 300-16 480-8v16H0Z" />
       </svg>
     </section>
   );

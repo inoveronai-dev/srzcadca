@@ -1,0 +1,29 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin: 0 0 2rem;
+}
+
+.card {
+  background: var(--tint);
+  color: var(--tint-text);
+  border-radius: var(--radius-card);
+  padding: 1.2rem 1.15rem;
+}
+
+.card h2 {
+  font-size: 36px;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-weight: 600;
+}
+
+@media (max-width: 899px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}

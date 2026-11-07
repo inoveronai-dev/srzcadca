@@ -6,12 +6,15 @@
     "dev": "next dev --hostname 127.0.0.1 --port 3000",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "import:cache": "python3 scripts/cache-wp.py",
+    "import:wp": "node scripts/import-wp.mjs"
   },
   "dependencies": {
     "next": "^15.5.4",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "turndown": "^7.2.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.7",

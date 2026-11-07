@@ -5,6 +5,7 @@ import {
   site,
   toTelHref,
 } from "@/content/site";
+import { sk } from "@/lib/sk";
 import styles from "./PermitsSection.module.css";
 
 export function PermitsSection() {
@@ -12,46 +13,55 @@ export function PermitsSection() {
     <section className={styles.section} aria-labelledby="permits-title">
       <div className={`container ${styles.grid}`}>
         <div>
-          <p className={`eyebrow ${styles.eyebrow}`}>Pre členov</p>
-          <h2 id="permits-title">Predaj povolení</h2>
-          <p className={styles.place}>{site.saleAddress}</p>
+          <p className={`eyebrow ${styles.eyebrow}`}>{sk("Pre členov")}</p>
+          <h2 id="permits-title">{sk("Predaj povolení")}</h2>
+          <p className={styles.place}>{sk(site.saleAddress)}</p>
           <p className={styles.dates}>
-            Termíny predaja na rok 2027: {site.saleDatesPlaceholder}
+            {sk(`Termíny predaja na rok 2027: ${site.saleDatesPlaceholder}`)}
           </p>
+          <p className={styles.dates}>
+            <a href={site.salePosterPdf.href}>{sk(site.salePosterPdf.label)}</a>
+          </p>
+          <p className={styles.dates}>{sk(site.memberFeeDeadline)}</p>
 
           <div className={styles.checklist}>
-            <h3>Čo si priniesť</h3>
+            <h3>{sk("Čo si priniesť")}</h3>
             <ul>
               {site.saleChecklist.map((item) => (
                 <li key={item}>
                   <IconCheck className={styles.check} />
-                  <span>{item}</span>
+                  <span>{sk(item)}</span>
                 </li>
               ))}
             </ul>
             <Link href="/tlaciva" className={styles.forms}>
-              Stiahnuť tlačivá →
+              {sk("Stiahnuť tlačivá →")}
             </Link>
           </div>
 
-          <p className={styles.questions}>
-            Otázky k predaju: {site.saleContact.name} –{" "}
-            <a href={toTelHref(site.saleContact.phone)}>{site.saleContact.phone}</a>
-          </p>
+          <div className={styles.saleRow}>
+            <div>
+              <p className={styles.saleRole}>{sk("Predaj povolení")}</p>
+              <p className={styles.saleName}>{sk(site.saleContact.name)}</p>
+            </div>
+            <a href={toTelHref(site.saleContact.phone)} className="btn btn--white">
+              {site.saleContact.phone}
+            </a>
+          </div>
         </div>
 
         <aside className={styles.priceCard}>
-          <h3>Cenník 2026 – dospelí</h3>
+          <h3>{sk("Cenník 2026 – dospelí")}</h3>
           <ul>
             {adultPermitPreview.map((row) => (
               <li key={row.name}>
-                <span>{row.name}</span>
-                <strong>{row.price}</strong>
+                <span>{sk(row.name)}</span>
+                <strong>{sk(row.price)}</strong>
               </li>
             ))}
           </ul>
           <Link href="/povolenia" className={styles.fullLink}>
-            Celý cenník vrátane detí a mládeže →
+            {sk("Celý cenník vrátane detí a mládeže →")}
           </Link>
         </aside>
       </div>

@@ -1,51 +1,67 @@
 import Image from "next/image";
 import Link from "next/link";
 import { site } from "@/content/site";
+import { sk } from "@/lib/sk";
 import styles from "./ClubRacesSection.module.css";
 
 export function ClubRacesSection() {
-  const { collage, poster, clubPlaceholder, races } = site.clubAndRaces;
+  const { collage, poster, clubText, clubMeetingPlaceholder, clubApplicationPdf, races } =
+    site.clubAndRaces;
 
   return (
-    <section className={`section ${styles.section}`} aria-labelledby="club-races-title">
+    <section
+      className={`section section--paper section--continue ${styles.section}`}
+      aria-labelledby="club-races-title"
+    >
       <div className="container">
         <h2 id="club-races-title" className="visually-hidden">
-          Krúžok a preteky
+          {sk("Krúžok a preteky")}
         </h2>
 
         <figure className={styles.collage}>
           <Image
             src={collage.src}
-            alt={collage.alt}
+            alt={sk(collage.alt)}
             width={collage.width}
             height={collage.height}
             sizes="(max-width: 1240px) 100vw, 1240px"
             loading="lazy"
             className={styles.collageImage}
           />
-          <figcaption className={styles.caption}>{collage.caption}</figcaption>
+          <figcaption className={styles.caption}>{sk(collage.caption)}</figcaption>
         </figure>
 
         <div className={styles.grid}>
           <article className={styles.club}>
-            <h3>Rybársky krúžok</h3>
-            <p>{clubPlaceholder}</p>
-            <Link href="/kruzok">Viac o krúžku →</Link>
+            <div className={styles.clubTop}>
+              <h3>{sk("Rybársky krúžok")}</h3>
+              <p>{sk(clubText)}</p>
+              <p>{sk(clubMeetingPlaceholder)}</p>
+              <Link href="/kruzok">{sk("Viac o krúžku →")}</Link>
+            </div>
+            <a
+              href={clubApplicationPdf.href}
+              className={`btn btn--ghost-pill ${styles.clubPdf}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {sk(clubApplicationPdf.label)}
+            </a>
           </article>
           <article className={styles.races}>
             <div className={styles.racesContent}>
-              <h3>Preteky</h3>
+              <h3>{sk("Preteky")}</h3>
               <ul>
                 {races.map((race) => (
-                  <li key={race}>{race}</li>
+                  <li key={race}>{sk(race)}</li>
                 ))}
               </ul>
-              <Link href="/preteky">Pozvánky a výsledky →</Link>
+              <Link href="/preteky">{sk("Pozvánky a výsledky →")}</Link>
             </div>
             <Link href={poster.href} className={styles.posterLink}>
               <Image
                 src={poster.src}
-                alt={poster.alt}
+                alt={sk(poster.alt)}
                 width={poster.width}
                 height={poster.height}
                 sizes="(max-width: 699px) min(100vw, 320px), 220px"

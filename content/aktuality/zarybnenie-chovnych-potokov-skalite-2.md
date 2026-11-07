@@ -1,0 +1,139 @@
+---
+title: Zarybnenie kaprom 29.04.2026
+date: "2026-04-22T23:41:09"
+modified: "2026-04-29T11:28:42"
+slug: zarybnenie-chovnych-potokov-skalite-2
+categories:
+  - reviry
+  - novinky
+  - zarybnovanie
+image: /uploads/2026/04/7a66566d-1b9a-11ef-b315-ca36e7882062.webp
+imageAlt: Zarybnenie kaprom 29.04.2026
+attachments:
+  - label: IMG_20260429_112440-353x1030.jpg
+    url: /uploads/2026/04/IMG_20260429_112440-353x1030.jpg
+    type: JPG
+  - label: MVIMG_20260429_062711-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_062711-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_063254-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_063254-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_063609-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_063609-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_063648-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_063648-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_065028-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_065028-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_065049-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_065049-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_070013-773x1030.jpg
+    url: /uploads/2026/04/MVIMG_20260429_070013-773x1030.jpg
+    type: JPG
+  - label: MVIMG_20260429_070017-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_070017-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_070348-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_070348-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_073407-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_073407-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_073411-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_073411-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_073418-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_073418-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_075544-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_075544-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_060454-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_060454-1030x773.jpg
+    type: JPG
+wpId: 3498
+---
+### Zarybnenie kaprom 29.04.2026
+
+Dňa 29.04.2026 o 7:30 prebehne nakládka kapra v Rybnikářstvi Pohořelice. Pri prebierke bude prítomný Milan Krkoška (tajomník) a člen kontrolnej komisie pán Kyzek.
+
+VN Milošová 4000 kg
+
+Rybník Svrčinovec 1000 kg
+
+Rybník Čierne 1000 kg
+
+Predpokladaný príchod: v priebehu dňa.
+
+##### Zdielať na
+
+-   [Zdielať Facebook](https://www.facebook.com/sharer.php?u=https://www.srzcadca.sk/zarybnenie-chovnych-potokov-skalite-2/&t=Zarybnenie%20kaprom%2029.04.2026)
+-   [Zdielať Twitter](https://twitter.com/share?text=Zarybnenie%20kaprom%2029.04.2026&url=https://www.srzcadca.sk/?p=3498)
+-   [Share on WhatsApp](https://api.whatsapp.com/send?text=https://www.srzcadca.sk/zarybnenie-chovnych-potokov-skalite-2/)
+-   [Zdielať Pinterest](https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.srzcadca.sk%2Fzarybnenie-chovnych-potokov-skalite-2%2F&description=Zarybnenie%20kaprom%2029.04.2026&media=https%3A%2F%2Fwww.srzcadca.sk%2Fwp-content%2Fuploads%2F2026%2F04%2F7a66566d-1b9a-11ef-b315-ca36e7882062-705x397.webp)
+
+[![](/uploads/2026/04/IMG_20260429_112440-495x400.jpg "IMG_20260429_112440")
+
+![](/uploads/2026/04/IMG_20260429_112440-495x400.jpg "IMG_20260429_112440")
+
+](/uploads/2026/04/IMG_20260429_112440-353x1030.jpg "IMG_20260429_112440")[![](/uploads/2026/04/MVIMG_20260429_062711-495x400.jpg "MVIMG_20260429_062711")
+
+![](/uploads/2026/04/MVIMG_20260429_062711-495x400.jpg "MVIMG_20260429_062711")
+
+](/uploads/2026/04/MVIMG_20260429_062711-1030x773.jpg "MVIMG_20260429_062711")[![](/uploads/2026/04/MVIMG_20260429_063254-495x400.jpg "MVIMG_20260429_063254")
+
+![](/uploads/2026/04/MVIMG_20260429_063254-495x400.jpg "MVIMG_20260429_063254")
+
+](/uploads/2026/04/MVIMG_20260429_063254-1030x773.jpg "MVIMG_20260429_063254")[![](/uploads/2026/04/MVIMG_20260429_063609-495x400.jpg "MVIMG_20260429_063609")
+
+![](/uploads/2026/04/MVIMG_20260429_063609-495x400.jpg "MVIMG_20260429_063609")
+
+](/uploads/2026/04/MVIMG_20260429_063609-1030x773.jpg "MVIMG_20260429_063609")[![](/uploads/2026/04/MVIMG_20260429_063648-495x400.jpg "MVIMG_20260429_063648")
+
+![](/uploads/2026/04/MVIMG_20260429_063648-495x400.jpg "MVIMG_20260429_063648")
+
+](/uploads/2026/04/MVIMG_20260429_063648-1030x773.jpg "MVIMG_20260429_063648")[![](/uploads/2026/04/MVIMG_20260429_065028-495x400.jpg "MVIMG_20260429_065028")
+
+![](/uploads/2026/04/MVIMG_20260429_065028-495x400.jpg "MVIMG_20260429_065028")
+
+](/uploads/2026/04/MVIMG_20260429_065028-1030x773.jpg "MVIMG_20260429_065028")[![](/uploads/2026/04/MVIMG_20260429_065049-495x400.jpg "MVIMG_20260429_065049")
+
+![](/uploads/2026/04/MVIMG_20260429_065049-495x400.jpg "MVIMG_20260429_065049")
+
+](/uploads/2026/04/MVIMG_20260429_065049-1030x773.jpg "MVIMG_20260429_065049")[![](/uploads/2026/04/MVIMG_20260429_070013-495x400.jpg "MVIMG_20260429_070013")
+
+![](/uploads/2026/04/MVIMG_20260429_070013-495x400.jpg "MVIMG_20260429_070013")
+
+](/uploads/2026/04/MVIMG_20260429_070013-773x1030.jpg "MVIMG_20260429_070013")[![](/uploads/2026/04/MVIMG_20260429_070017-495x400.jpg "MVIMG_20260429_070017")
+
+![](/uploads/2026/04/MVIMG_20260429_070017-495x400.jpg "MVIMG_20260429_070017")
+
+](/uploads/2026/04/MVIMG_20260429_070017-1030x773.jpg "MVIMG_20260429_070017")[![](/uploads/2026/04/MVIMG_20260429_070348-495x400.jpg "MVIMG_20260429_070348")
+
+![](/uploads/2026/04/MVIMG_20260429_070348-495x400.jpg "MVIMG_20260429_070348")
+
+](/uploads/2026/04/MVIMG_20260429_070348-1030x773.jpg "MVIMG_20260429_070348")[![](/uploads/2026/04/MVIMG_20260429_073407-495x400.jpg "MVIMG_20260429_073407")
+
+![](/uploads/2026/04/MVIMG_20260429_073407-495x400.jpg "MVIMG_20260429_073407")
+
+](/uploads/2026/04/MVIMG_20260429_073407-1030x773.jpg "MVIMG_20260429_073407")[![](/uploads/2026/04/MVIMG_20260429_073411-495x400.jpg "MVIMG_20260429_073411")
+
+![](/uploads/2026/04/MVIMG_20260429_073411-495x400.jpg "MVIMG_20260429_073411")
+
+](/uploads/2026/04/MVIMG_20260429_073411-1030x773.jpg "MVIMG_20260429_073411")[![](/uploads/2026/04/MVIMG_20260429_073418-495x400.jpg "MVIMG_20260429_073418")
+
+![](/uploads/2026/04/MVIMG_20260429_073418-495x400.jpg "MVIMG_20260429_073418")
+
+](/uploads/2026/04/MVIMG_20260429_073418-1030x773.jpg "MVIMG_20260429_073418")[![](/uploads/2026/04/MVIMG_20260429_075544-495x400.jpg "MVIMG_20260429_075544")
+
+![](/uploads/2026/04/MVIMG_20260429_075544-495x400.jpg "MVIMG_20260429_075544")
+
+](/uploads/2026/04/MVIMG_20260429_075544-1030x773.jpg "MVIMG_20260429_075544")[![](/uploads/2026/04/MVIMG_20260429_060454-495x400.jpg "MVIMG_20260429_060454")
+
+![](/uploads/2026/04/MVIMG_20260429_060454-495x400.jpg "MVIMG_20260429_060454")
+
+](/uploads/2026/04/MVIMG_20260429_060454-1030x773.jpg "MVIMG_20260429_060454")

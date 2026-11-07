@@ -26,7 +26,8 @@
   --radius-pill: 999px;
   --container: 1240px;
   --pad-x: 24px;
-  --section-y: 92px;
+  --section-y: 96px;
+  --section-continue-y: 32px;
   --shadow-tile: 0 12px 30px rgba(15, 54, 52, 0.12);
   --shadow-tile-hover: 0 16px 36px rgba(15, 54, 52, 0.18);
   --header-offset: 0px;
@@ -120,6 +121,28 @@ h3 {
 
 .section {
   padding-block: var(--section-y);
+}
+
+.section--paper {
+  background: var(--paper);
+}
+
+.section--white {
+  background: var(--white);
+}
+
+.section--deep {
+  background: var(--deep);
+  color: var(--white);
+}
+
+/* Same-background neighbors: 32 + 32 = 64px between sections */
+.section--continue {
+  padding-top: var(--section-continue-y);
+}
+
+.section--tight-bottom {
+  padding-bottom: var(--section-continue-y);
 }
 
 .btn {
@@ -251,7 +274,8 @@ h3 {
 @media (max-width: 899px) {
   :root {
     --pad-x: 16px;
-    --section-y: 56px;
+    --section-y: 64px;
+    --section-continue-y: 32px;
   }
 
   h2 {

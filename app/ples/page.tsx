@@ -1,10 +1,18 @@
 import type { Metadata } from "next";
-import { StubPage } from "@/components/StubPage";
+import { CategoryListPage } from "@/components/CategoryListPage";
 
 export const metadata: Metadata = {
   title: "Rybársky ples",
+  description: "Pozvánky a správy o rybárskom plese.",
 };
 
 export default function Page() {
-  return <StubPage title="Rybársky ples" />;
+  return (
+    <CategoryListPage
+      title="Rybársky ples"
+      description="Pozvánky a správy o rybárskom plese."
+      category="ples"
+      crumbsLabel="Rybársky ples"
+    />
+  );
 }

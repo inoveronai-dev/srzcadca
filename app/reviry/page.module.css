@@ -1,0 +1,54 @@
+.intro {
+  margin: -0.5rem 0 0;
+  color: var(--muted);
+}
+
+.groups {
+  padding-top: 0;
+}
+
+.group {
+  margin-bottom: 2.5rem;
+}
+
+.group h2 {
+  margin-bottom: 1rem;
+}
+
+.group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.group li {
+  display: grid;
+  gap: 0.55rem;
+  padding: 1rem 1.15rem;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+}
+
+.num {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.group p {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.warden {
+  font-weight: 600;
+}
+
+.more {
+  font-weight: 700;
+  text-decoration: none;
+}

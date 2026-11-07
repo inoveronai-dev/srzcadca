@@ -1,10 +1,17 @@
 import type { Metadata } from "next";
-import { StubPage } from "@/components/StubPage";
+import { MarkdownPage } from "@/components/MarkdownPage";
 
 export const metadata: Metadata = {
   title: "História",
+  description: "História Miestnej organizácie SRZ Čadca.",
 };
 
 export default function Page() {
-  return <StubPage title="História" />;
+  return (
+    <MarkdownPage
+      slug="historia"
+      fallbackTitle="História"
+      crumbsLabel="História"
+    />
+  );
 }

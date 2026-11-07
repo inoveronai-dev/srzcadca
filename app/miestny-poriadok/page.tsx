@@ -1,10 +1,17 @@
 import type { Metadata } from "next";
-import { StubPage } from "@/components/StubPage";
+import { MarkdownPage } from "@/components/MarkdownPage";
 
 export const metadata: Metadata = {
   title: "Miestny poriadok",
+  description: "Miestny rybársky poriadok MO Čadca.",
 };
 
 export default function Page() {
-  return <StubPage title="Miestny poriadok" />;
+  return (
+    <MarkdownPage
+      slug="miestny-rybarsky-poriadok"
+      fallbackTitle="Miestny poriadok"
+      crumbsLabel="Miestny poriadok"
+    />
+  );
 }

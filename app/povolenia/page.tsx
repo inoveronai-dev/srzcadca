@@ -6,6 +6,8 @@ import styles from "./page.module.css";
 
 export const metadata: Metadata = {
   title: "Povolenia a cenník",
+  description:
+    "Predaj povolení, cenník a informácie pre členov SRZ MO Čadca.",
 };
 
 export default function PermitsPage() {
@@ -18,6 +20,10 @@ export default function PermitsPage() {
         <p className={styles.dates}>
           Termíny predaja na rok 2027: {site.saleDatesPlaceholder}
         </p>
+        <p className={styles.dates}>
+          <a href={site.salePosterPdf.href}>{site.salePosterPdf.label}</a>
+        </p>
+        <p className={styles.dates}>{site.memberFeeDeadline}</p>
 
         <div className={styles.grid}>
           <div className={styles.checklist}>

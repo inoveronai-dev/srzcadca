@@ -1,0 +1,67 @@
+.intro {
+  margin: -0.25rem 0 1.5rem;
+  padding: 1.1rem 1.2rem;
+  background: var(--tint);
+  color: var(--tint-text);
+  border-radius: var(--radius-card);
+}
+
+.intro p {
+  margin: 0 0 0.45rem;
+}
+
+.intro p:last-child {
+  margin-bottom: 0;
+}
+
+.h2 {
+  margin: 1.5rem 0 1rem;
+  font-size: 36px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+  padding: 1.2rem 1.25rem;
+}
+
+.card h3 {
+  font-size: 26px;
+  margin-bottom: 0.65rem;
+}
+
+.card p {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.form {
+  margin: 0 0 2rem;
+  font-weight: 700;
+}
+
+.form a {
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.1rem;
+}
+
+@media (max-width: 899px) {
+  .cards,
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,8 +1,10 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import { toTelHref, waters, type WaterType } from "@/content/site";
+import { sk } from "@/lib/sk";
 import styles from "./WatersSection.module.css";
 
 const filters: Array<"Všetky" | WaterType> = [
@@ -21,12 +23,16 @@ export function WatersSection() {
   }, [filter]);
 
   return (
-    <section className={`section ${styles.section}`} aria-labelledby="waters-title">
+    <section
+      className={`section section--paper section--continue ${styles.section}`}
+      aria-labelledby="waters-title"
+    >
       <div className="container">
-        <h2 id="waters-title">Naše revíry</h2>
+        <h2 id="waters-title">{sk("Naše revíry")}</h2>
         <p className={styles.intro}>
-          Na každom revíri nájdete číslo revíru, platné povolenie, ryby a telefón na
-          hospodára.
+          {sk(
+            "Na každom revíri nájdete číslo revíru, platné povolenie, ryby a telefón na hospodára.",
+          )}
         </p>
 
         <div className={styles.filters} role="group" aria-label="Filter podľa typu revíru">
@@ -39,12 +45,12 @@ export function WatersSection() {
               onClick={() => setFilter(item)}
             >
               {item === "Kaprový"
-                ? "Kaprové"
+                ? sk("Kaprové")
                 : item === "Pstruhový"
-                  ? "Pstruhové"
+                  ? sk("Pstruhové")
                   : item === "Lipňový"
-                    ? "Lipňové"
-                    : item}
+                    ? sk("Lipňové")
+                    : sk(item)}
             </button>
           ))}
         </div>
@@ -56,7 +62,7 @@ export function WatersSection() {
                 {water.photo ? (
                   <Image
                     src={water.photo.src}
-                    alt={water.photo.alt}
+                    alt={sk(water.photo.alt)}
                     width={water.photo.width}
                     height={water.photo.height}
                     sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 400px"
@@ -65,26 +71,37 @@ export function WatersSection() {
                   />
                 ) : (
                   <div className="placeholder-box" style={{ height: "100%" }}>
-                    {water.name}
+                    {sk(water.name)}
                   </div>
                 )}
                 <div className={styles.chipShade} aria-hidden="true" />
-                <span className={styles.typeChip}>{water.type}</span>
+                <span className={styles.typeChip}>{sk(water.type)}</span>
               </div>
               <div className={styles.body}>
-                <h3>{water.name}</h3>
-                <p className={styles.number}>Revír č. {water.number}</p>
-                <p className={styles.desc}>{water.description}</p>
+                <h3>
+                  {water.href ? (
+                    <Link href={water.href} className={styles.nameLink}>
+                      {sk(water.name)}
+                    </Link>
+                  ) : (
+                    sk(water.name)
+                  )}
+                </h3>
+                <p className={styles.number}>
+                  {water.numberLabel === "useky" ? sk("Počet úsekov:") : sk("Revír č.")}{" "}
+                  {water.number}
+                </p>
+                <p className={styles.desc}>{sk(water.description)}</p>
                 <div className={styles.divider} />
                 <p className={styles.warden}>
-                  Hospodár:{" "}
+                  {sk("Hospodár:")}{" "}
                   {water.wardenPhone ? (
                     <>
-                      {water.wardenName},{" "}
+                      {sk(water.wardenName)},{" "}
                       <a href={toTelHref(water.wardenPhone)}>{water.wardenPhone}</a>
                     </>
                   ) : (
-                    water.wardenName
+                    sk(water.wardenName)
                   )}
                 </p>
               </div>

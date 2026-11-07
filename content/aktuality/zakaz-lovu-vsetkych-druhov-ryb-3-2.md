@@ -1,0 +1,145 @@
+---
+title: Zákaz lovu vysadených druhov rýb
+date: "2026-04-28T21:58:32"
+modified: "2026-05-21T09:10:40"
+slug: zakaz-lovu-vsetkych-druhov-ryb-3-2
+categories:
+  - reviry
+  - novinky
+  - zarybnovanie
+image: /uploads/2026/04/Zakaz-lovu-2-scaled.jpg
+imageAlt: Zákaz lovu vysadených druhov rýb
+attachments:
+  - label: IMG_20260429_112440-353x1030.jpg
+    url: /uploads/2026/04/IMG_20260429_112440-353x1030.jpg
+    type: JPG
+  - label: MVIMG_20260429_062711-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_062711-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_063254-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_063254-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_063609-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_063609-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_063648-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_063648-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_065028-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_065028-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_065049-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_065049-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_070013-773x1030.jpg
+    url: /uploads/2026/04/MVIMG_20260429_070013-773x1030.jpg
+    type: JPG
+  - label: MVIMG_20260429_070017-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_070017-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_070348-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_070348-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_073407-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_073407-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_073411-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_073411-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_073418-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_073418-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_075544-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_075544-1030x773.jpg
+    type: JPG
+  - label: MVIMG_20260429_060454-1030x773.jpg
+    url: /uploads/2026/04/MVIMG_20260429_060454-1030x773.jpg
+    type: JPG
+wpId: 3546
+---
+### **ZÁKAZ LOVU VYSADENÝH DRUHOV RÝB DOSAHUJÚCICH NAJMENŠIU LOVNÚ MIERU**
+
+* * *
+
+#### Rybník Svrčinovec
+
+Kapor rybničný
+
+od 29.04.2026 do 26. 05. 2026 vrátane
+
+#### Rybník Čierne
+
+Kapor rybničný
+
+od 29.04.2026 do 26. 05. 2026 vrátane
+
+Zákaz lovu vysadených druhov rýb je nariadený z dôvodu zarybnenia revírov.
+
+[![](/uploads/2026/04/IMG_20260429_112440-495x400.jpg "IMG_20260429_112440")
+
+![](/uploads/2026/04/IMG_20260429_112440-495x400.jpg "IMG_20260429_112440")
+
+](/uploads/2026/04/IMG_20260429_112440-353x1030.jpg "IMG_20260429_112440")[![](/uploads/2026/04/MVIMG_20260429_062711-495x400.jpg "MVIMG_20260429_062711")
+
+![](/uploads/2026/04/MVIMG_20260429_062711-495x400.jpg "MVIMG_20260429_062711")
+
+](/uploads/2026/04/MVIMG_20260429_062711-1030x773.jpg "MVIMG_20260429_062711")[![](/uploads/2026/04/MVIMG_20260429_063254-495x400.jpg "MVIMG_20260429_063254")
+
+![](/uploads/2026/04/MVIMG_20260429_063254-495x400.jpg "MVIMG_20260429_063254")
+
+](/uploads/2026/04/MVIMG_20260429_063254-1030x773.jpg "MVIMG_20260429_063254")[![](/uploads/2026/04/MVIMG_20260429_063609-495x400.jpg "MVIMG_20260429_063609")
+
+![](/uploads/2026/04/MVIMG_20260429_063609-495x400.jpg "MVIMG_20260429_063609")
+
+](/uploads/2026/04/MVIMG_20260429_063609-1030x773.jpg "MVIMG_20260429_063609")[![](/uploads/2026/04/MVIMG_20260429_063648-495x400.jpg "MVIMG_20260429_063648")
+
+![](/uploads/2026/04/MVIMG_20260429_063648-495x400.jpg "MVIMG_20260429_063648")
+
+](/uploads/2026/04/MVIMG_20260429_063648-1030x773.jpg "MVIMG_20260429_063648")[![](/uploads/2026/04/MVIMG_20260429_065028-495x400.jpg "MVIMG_20260429_065028")
+
+![](/uploads/2026/04/MVIMG_20260429_065028-495x400.jpg "MVIMG_20260429_065028")
+
+](/uploads/2026/04/MVIMG_20260429_065028-1030x773.jpg "MVIMG_20260429_065028")[![](/uploads/2026/04/MVIMG_20260429_065049-495x400.jpg "MVIMG_20260429_065049")
+
+![](/uploads/2026/04/MVIMG_20260429_065049-495x400.jpg "MVIMG_20260429_065049")
+
+](/uploads/2026/04/MVIMG_20260429_065049-1030x773.jpg "MVIMG_20260429_065049")[![](/uploads/2026/04/MVIMG_20260429_070013-495x400.jpg "MVIMG_20260429_070013")
+
+![](/uploads/2026/04/MVIMG_20260429_070013-495x400.jpg "MVIMG_20260429_070013")
+
+](/uploads/2026/04/MVIMG_20260429_070013-773x1030.jpg "MVIMG_20260429_070013")[![](/uploads/2026/04/MVIMG_20260429_070017-495x400.jpg "MVIMG_20260429_070017")
+
+![](/uploads/2026/04/MVIMG_20260429_070017-495x400.jpg "MVIMG_20260429_070017")
+
+](/uploads/2026/04/MVIMG_20260429_070017-1030x773.jpg "MVIMG_20260429_070017")[![](/uploads/2026/04/MVIMG_20260429_070348-495x400.jpg "MVIMG_20260429_070348")
+
+![](/uploads/2026/04/MVIMG_20260429_070348-495x400.jpg "MVIMG_20260429_070348")
+
+](/uploads/2026/04/MVIMG_20260429_070348-1030x773.jpg "MVIMG_20260429_070348")[![](/uploads/2026/04/MVIMG_20260429_073407-495x400.jpg "MVIMG_20260429_073407")
+
+![](/uploads/2026/04/MVIMG_20260429_073407-495x400.jpg "MVIMG_20260429_073407")
+
+](/uploads/2026/04/MVIMG_20260429_073407-1030x773.jpg "MVIMG_20260429_073407")[![](/uploads/2026/04/MVIMG_20260429_073411-495x400.jpg "MVIMG_20260429_073411")
+
+![](/uploads/2026/04/MVIMG_20260429_073411-495x400.jpg "MVIMG_20260429_073411")
+
+](/uploads/2026/04/MVIMG_20260429_073411-1030x773.jpg "MVIMG_20260429_073411")[![](/uploads/2026/04/MVIMG_20260429_073418-495x400.jpg "MVIMG_20260429_073418")
+
+![](/uploads/2026/04/MVIMG_20260429_073418-495x400.jpg "MVIMG_20260429_073418")
+
+](/uploads/2026/04/MVIMG_20260429_073418-1030x773.jpg "MVIMG_20260429_073418")[![](/uploads/2026/04/MVIMG_20260429_075544-495x400.jpg "MVIMG_20260429_075544")
+
+![](/uploads/2026/04/MVIMG_20260429_075544-495x400.jpg "MVIMG_20260429_075544")
+
+](/uploads/2026/04/MVIMG_20260429_075544-1030x773.jpg "MVIMG_20260429_075544")[![](/uploads/2026/04/MVIMG_20260429_060454-495x400.jpg "MVIMG_20260429_060454")
+
+![](/uploads/2026/04/MVIMG_20260429_060454-495x400.jpg "MVIMG_20260429_060454")
+
+](/uploads/2026/04/MVIMG_20260429_060454-1030x773.jpg "MVIMG_20260429_060454")
+
+##### Zdielať na
+
+-   [Zdielať Facebook](https://www.facebook.com/sharer.php?u=https://www.srzcadca.sk/zakaz-lovu-vsetkych-druhov-ryb-3-2/&t=Z%C3%A1kaz%20lovu%20vysaden%C3%BDch%20druhov%20r%C3%BDb)
+-   [Zdielať Twitter](https://twitter.com/share?text=Z%C3%A1kaz%20lovu%20vysaden%C3%BDch%20druhov%20r%C3%BDb&url=https://www.srzcadca.sk/?p=3546)
+-   [Share on WhatsApp](https://api.whatsapp.com/send?text=https://www.srzcadca.sk/zakaz-lovu-vsetkych-druhov-ryb-3-2/)
+-   [Zdielať Pinterest](https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.srzcadca.sk%2Fzakaz-lovu-vsetkych-druhov-ryb-3-2%2F&description=Z%C3%A1kaz%20lovu%20vysaden%C3%BDch%20druhov%20r%C3%BDb&media=https%3A%2F%2Fwww.srzcadca.sk%2Fwp-content%2Fuploads%2F2026%2F04%2FZakaz-lovu-2-705x499.jpg)

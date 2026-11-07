@@ -16,14 +16,15 @@
   margin: 0 0 0.85rem;
 }
 
-.place,
-.dates,
-.questions {
-  margin: 0 0 1rem;
+.place {
+  margin: 16px 0 1rem;
+  font-size: 18px;
   color: rgba(255, 255, 255, 0.9);
 }
 
 .dates {
+  margin: 0 0 1rem;
+  color: rgba(255, 255, 255, 0.9);
   font-weight: 600;
 }
 
@@ -70,9 +71,31 @@
   color: var(--white);
 }
 
-.questions a {
-  color: var(--mint);
+.saleRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: var(--radius-card);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.saleRole {
+  margin: 0 0 0.2rem;
+  font-size: 13px;
   font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--mint);
+}
+
+.saleName {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--white);
 }
 
 .priceCard {
@@ -119,5 +142,10 @@
 @media (max-width: 899px) {
   .grid {
     grid-template-columns: 1fr;
+  }
+
+  .saleRow {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

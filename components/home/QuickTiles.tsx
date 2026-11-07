@@ -6,6 +6,7 @@ import {
   IconWaters,
   IconWork,
 } from "@/components/Icons";
+import { sk } from "@/lib/sk";
 import styles from "./QuickTiles.module.css";
 
 const icons = {
@@ -26,8 +27,8 @@ export function QuickTiles() {
               <span className={styles.icon}>
                 <Icon />
               </span>
-              <p className={styles.title}>{tile.title}</p>
-              <p className={styles.text}>{tile.text}</p>
+              <p className={styles.title}>{sk(tile.title)}</p>
+              <p className={styles.text}>{sk(tile.text)}</p>
             </Link>
           );
         })}

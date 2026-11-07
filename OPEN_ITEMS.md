@@ -1,48 +1,31 @@
 # Open items – SRZ MO Čadca website
 
-Content and assets that still need real data before launch.
+## Stále doplniť
 
-## Content placeholders
+- Hospodár revíru Kysuca č. 3 – chýba.
+- Termíny predaja povolení 2027 – podľa oznamu Rady SRZ / výboru (v importe je len infoplagát PDF, bez konkrétnych dátumov predaja v MO).
+- Krúžok – kedy a kde sa stretáva, kontakt na vedúceho (WP stránka `/rybarsky-kruzok` obsahuje len archív pretekov, nie rozvrh).
+- [Overiť ceny na rok 2027] – cenník je zatiaľ označený ako Cenník 2026.
+- Klubinský potok – telefón hospodára „902482604“ je neúplný.
 
-- [doplniť] Hospodár VN Milošová
-- [doplniť] Číslo revíru – Rybník Svrčinovec
-- [doplniť] Popis – Rybník Svrčinovec
-- [doplniť] Číslo revíru – Rybník Čierne
-- [doplniť] Popis – Rybník Čierne
-- [doplniť] Číslo revíru – Kysuca č. 3
-- [doplniť] Popis – Kysuca č. 3
-- [doplniť] Hospodár – Kysuca č. 3
-- [doplniť] Číslo / označenie – Revíry lipňové
-- [doplniť] Popis – Revíry lipňové
-- [doplniť podľa oznamu] Termíny predaja povolení na rok 2027
-- [Overiť ceny na rok 2027] Full price table currently marked as Cenník 2026
-- [Doplniť: pre koho je krúžok, kedy a kde sa stretáva, ako prihlásiť dieťa.] Rybársky krúžok section
-- [overiť číslo: 902482604] Klubinský potok – Ing. Martin Kasák
-- Mapa – Rybársky dom (doplniť) – no third-party map embed yet
+## Rozpory na pôvodnom webe
 
-## Photos
+- **Bystrica č. 1a:** na stránke revíru `3-0380-5-1`, v miestnom poriadku `3-0380-5-4` (**použité: `3-0380-5-4` z miestneho poriadku – overiť**).
+- **Klubinský potok (3-0392-4-2):** v miestnom poriadku má popis skopírovaný z Capkovho potoka.
+- **Miestny poriadok:** „Platný od 01. 01. 2024“ vs. „s účinnosťou od 1. 1. 2023“, PDF je označené 2023.
+- **Liaheň:** na stránke liahne „postavená v 80. rokoch“, v histórii „1947: Liaheň v Čadci – časť Rieka“.
 
-- Revír cards: no water-body photos in project yet (name placeholders shown)
-- Hero uses club photo DSC_5163 from the current site (downloaded)
-- Hatchery uses a club photo from the current site (downloaded)
+## Import / media
 
-## Stub pages (title + „Táto stránka sa pripravuje.“)
+- **Stav (2026-11-07):** import dokončený – **193** postov, **29** stránok, **6** portfolio (revíry). Presmerovania: `content/redirects.json` (načítané v `next.config.ts`). Súhrn: `content/import-summary.json`.
+- Stiahnuté súbory: 41 nových (+ 127 už existujúcich / skip).
+- **Nepodarilo sa stiahnuť:** ~527 unikátnych súborov (veľa WP size variantov) – zoznam v `content/failed-media.txt`. Dominantne staršie galérie a brigádne fotky 2020–2022, plus časť MVIMG z 2026/02. Markdown text je importovaný; chýbajúce obrázky ukazujú broken `/uploads/...` alebo pôvodné URL.
+- Odporúčanie: `SKIP_MEDIA=0 node scripts/import-wp.mjs` s lepším sieťovým prístupom / retry len pre `failed-media.txt` (najprv full-size bez `-WxH`).
 
-- /aktuality
-- /reviry
-- /brigady
-- /liahen
-- /preteky
-- /tlaciva
-- /pre-rybarov
-- /miestny-poriadok
-- /legislativa
-- /zarybnovanie
-- /clenska-schodza
-- /vybor
-- /kruzok
-- /ples
-- /dane
-- /straty-a-nalezy
-- /historia
-- /zasady-cookies
+## WordPress stránky mimo menu (nebudované)
+
+Tieto stránky na pôvodnom webe existujú, ale nie sú v navigácii – podľa zadania sa **nestavali**:
+
+- `/rezervacie` – rezervácie (formulár / info o rezerváciách)
+- `/podnety-a-pripomienky` – podnety a pripomienky
+- `/ulovky-na-reviroch-mo` – úlovky na revíroch MO

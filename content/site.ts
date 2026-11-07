@@ -16,6 +16,8 @@ export type NewsItem = {
   perex?: string;
   href: string;
   isNotice?: boolean;
+  image?: string;
+  imageAlt?: string;
 };
 
 export type SiteImage = {
@@ -36,6 +38,8 @@ export type Water = {
   wardenName: string;
   wardenPhone?: string;
   photo?: SiteImage;
+  numberLabel?: "revir" | "useky";
+  href?: string;
 };
 
 export type ContactPerson = {
@@ -83,7 +87,7 @@ export const site = {
   hero: {
     image: "/images/hero-milosova.jpg",
     imageAlt: "Vodná nádrž Milošová",
-    eyebrow: "Miestna organizácia Čadca",
+    eyebrow: "Miestna organizácia Čadca · od roku 1945",
     title: "Staráme sa o kysucké vody",
     text: "Spravujeme vodnú nádrž Milošová, rybníky Svrčinovec a Čierne, Kysucu a pstruhové aj lipňové revíry. Ryby chováme vo vlastnej liahni a deti učíme rybárčiť.",
   },
@@ -113,17 +117,31 @@ export const site = {
       alt: "Plagát – Rybárske preteky detí v love na plávanú",
       width: 1254,
       height: 1254,
-      href: "/aktuality",
+      href: "/aktuality/detske-preteky-jesen-2026",
     },
-    clubPlaceholder:
-      "[Doplniť: pre koho je krúžok, kedy a kde sa stretáva, ako prihlásiť dieťa.]",
+    clubText:
+      "Krúžok je pre deti od 6 do 14 rokov. Prihlášku nájdete v tlačivách.",
+    clubMeetingPlaceholder: "[doplniť: kedy a kde sa krúžok stretáva]",
+    clubApplicationPdf: {
+      label: "Prihláška do krúžku (PDF)",
+      href: "https://www.srzrada.sk/wp-content/uploads/srzrada/rada_srz/tlaciva/tlaciva-prihlaska-do-kruzku-deti.pdf",
+    },
     races: [
       "Detské preteky jeseň 2026",
       "Muškárske preteky – jeseň 2026",
       "CCM Milošová 2026",
     ],
   },
+  mapsSearchUrl:
+    "https://www.google.com/maps/search/?api=1&query=Horn%C3%A1+1108%2F35%2C+022+01+%C4%8Cadca",
+  contactCardAddress: "Horná 1108/35, 022 01 Čadca",
+  footerContactAddress: "Rybársky dom, Horná 1108/35, 022 01 Čadca",
   saleDatesPlaceholder: "[doplniť podľa oznamu]",
+  salePosterPdf: {
+    label: "Informačný plagát Rady SRZ k predaju povolení 2027 (PDF) →",
+    href: "/uploads/2026/11/srz_a3_infoplagat-hoaxy-2.pdf",
+  },
+  memberFeeDeadline: "Členský príspevok je potrebné zaplatiť do 31. marca.",
   saleChecklist: [
     "Občiansky preukaz (u maloletých rodný list)",
     "Vyplnenú žiadosť o pridelenie ID člena",
@@ -151,8 +169,10 @@ export const news: NewsItem[] = [
     title: "Informácie k predaju povolení",
     perex:
       "Zverejňujeme informácie Rady SRZ o predaji povolení na rok 2027. Plagát A3 na stiahnutie.",
-    href: "/aktuality",
+    href: "/aktuality/informacie-k-predaji-povoleni",
     isNotice: true,
+    image: "/images/aktuality/predaj-povoleni.jpg",
+    imageAlt: "Informačný plagát k predaju povolení 2027",
   },
   {
     id: "e-srz",
@@ -160,7 +180,7 @@ export const news: NewsItem[] = [
     dateSort: "2026-10-14",
     category: "Pre rybárov",
     title: "Prihlásenie do aplikácie E-SRZ",
-    href: "/aktuality",
+    href: "/aktuality/prihlasenie-do-aplikacie-e-srz",
   },
   {
     id: "sbirolino",
@@ -168,7 +188,7 @@ export const news: NewsItem[] = [
     dateSort: "2026-10-12",
     category: "Pre rybárov",
     title: "Lov rýb pomocou sbirolina a bubliny",
-    href: "/aktuality",
+    href: "/aktuality/lov-ryb-pomocou-sbirolina-a-bubliny",
   },
   {
     id: "zakaz-lovu",
@@ -176,7 +196,7 @@ export const news: NewsItem[] = [
     dateSort: "2026-09-20",
     category: "Zákaz lovu",
     title: "Zákaz lovu všetkých druhov rýb",
-    href: "/aktuality",
+    href: "/aktuality/zakaz-lovu-vsetkych-druhov-ryb-4",
   },
   {
     id: "detske-preteky",
@@ -184,7 +204,7 @@ export const news: NewsItem[] = [
     dateSort: "2026-09-12",
     category: "Preteky",
     title: "Detské preteky jeseň 2026",
-    href: "/aktuality",
+    href: "/aktuality/detske-preteky-jesen-2026",
   },
 ];
 
@@ -212,7 +232,9 @@ export const waters: Water[] = [
     number: "3-3440-1-1",
     type: "Kaprový",
     description: "Vodná plocha cca 3 ha, postavená v roku 1987.",
-    wardenName: "[doplniť]",
+    wardenName: "Milan Krkoška ml.",
+    wardenPhone: "0907 633 033",
+    href: "/reviry/vn-milosova",
     photo: {
       src: "/images/reviry/vn-milosova.jpg",
       alt: "Vodná nádrž Milošová",
@@ -224,11 +246,12 @@ export const waters: Water[] = [
   {
     id: "svrcinovec",
     name: "Rybník Svrčinovec",
-    number: "[doplniť]",
+    number: "3-3520-1-1",
     type: "Kaprový",
-    description: "[doplniť]",
+    description: "Bočná vodná nádrž pri obci Svrčinovec, cca 2 ha.",
     wardenName: "Peter Krkoška",
     wardenPhone: "0914 215 465",
+    href: "/reviry/rybnik-svrcinovec",
     photo: {
       src: "/images/reviry/rybnik-svrcinovec.jpg",
       alt: "Rybník Svrčinovec",
@@ -240,11 +263,12 @@ export const waters: Water[] = [
   {
     id: "cierne",
     name: "Rybník Čierne",
-    number: "[doplniť]",
+    number: "3-0530-1-1",
     type: "Kaprový",
-    description: "[doplniť]",
+    description: "Bočná vodná nádrž v obci Čierne, cca 1 ha.",
     wardenName: "Roman Mikula",
     wardenPhone: "0908 563 111",
+    href: "/reviry/rybnik-cierne",
     photo: {
       src: "/images/reviry/rybnik-cierne.jpg",
       alt: "Rybník Čierne",
@@ -256,10 +280,12 @@ export const waters: Water[] = [
   {
     id: "kysuca-3",
     name: "Kysuca č. 3",
-    number: "[doplniť]",
+    number: "3-1850-1-1",
     type: "Kaprový",
-    description: "[doplniť]",
+    description:
+      "Od ústia Bystrice v Krásne nad Kysucou po ústie potoka Olešnianka.",
     wardenName: "[doplniť]",
+    href: "/reviry/kysuca-c-3",
     photo: {
       src: "/images/reviry/kysuca-c-3.jpg",
       alt: "Rieka Kysuca – revír Kysuca č. 3",
@@ -272,9 +298,11 @@ export const waters: Water[] = [
     id: "pstruhove",
     name: "Revíry pstruhové",
     number: "9 úsekov",
+    numberLabel: "useky",
     type: "Pstruhový",
     description: "Vychylovka, Oščadnica, Raková, Čadečanka, Trstená a ďalšie.",
     wardenName: "podľa úseku",
+    href: "/reviry/reviry-pstruhove",
     photo: {
       src: "/images/reviry/reviry-pstruhove.jpg",
       alt: "Pstruhový revír",
@@ -286,10 +314,12 @@ export const waters: Water[] = [
   {
     id: "lipnove",
     name: "Revíry lipňové",
-    number: "[doplniť]",
+    number: "3 úseky",
+    numberLabel: "useky",
     type: "Lipňový",
-    description: "[doplniť]",
+    description: "Čierňanka č. 1, Bystrica č. 1a (CHAP) a Bystrica č. 1b.",
     wardenName: "podľa úseku",
+    href: "/reviry/reviry-lipnove",
     photo: {
       src: "/images/reviry/reviry-lipnove.jpg",
       alt: "Lipňový revír",
@@ -350,6 +380,11 @@ export const committeeContacts: ContactPerson[] = [
 ];
 
 export const wardens: Warden[] = [
+  {
+    area: "VN Milošová",
+    name: "Milan Krkoška ml.",
+    phone: "0907 633 033",
+  },
   {
     area: "Rybník Čierne / Čierňanka",
     name: "Roman Mikula",
@@ -447,7 +482,7 @@ export const mainNav: NavItem[] = [
       { label: "Rybársky krúžok", href: "/kruzok" },
       { label: "Preteky", href: "/preteky" },
       { label: "Rybársky ples", href: "/ples" },
-      { label: "2 % dane", href: "/dane" },
+      { label: "2 % dane", href: "/2-percenta" },
       { label: "Straty a nálezy", href: "/straty-a-nalezy" },
       { label: "História", href: "/historia" },
     ],
@@ -459,25 +494,25 @@ export const quickTiles = [
   {
     href: "/povolenia",
     title: "Povolenia a cenník",
-    text: "Termíny predaja, ceny, čo si priniesť a tlačivá",
+    text: "Termíny, ceny a tlačivá",
     icon: "permits" as const,
   },
   {
     href: "/reviry",
     title: "Revíry",
-    text: "Čísla revírov, mapa a hospodári",
+    text: "Čísla revírov a hospodári",
     icon: "waters" as const,
   },
   {
     href: "/brigady",
     title: "Brigády",
-    text: "Plán brigád a prihlasovanie na termíny",
+    text: "Plán brigád na tento rok",
     icon: "work" as const,
   },
   {
     href: "/kontakt",
     title: "Kontakty",
-    text: "Výbor, predaj povolení a hospodári",
+    text: "Výbor, predaj a hospodári",
     icon: "contacts" as const,
   },
 ];
@@ -510,7 +545,7 @@ export const footerColumns: { title: string; links: FooterLink[] }[] = [
   {
     title: "Podporte nás",
     links: [
-      { label: "2 % dane pre SRZ MO Čadca", href: "/dane" },
+      { label: "2 % dane pre SRZ MO Čadca", href: "/2-percenta" },
       {
         label: "Facebook",
         href: "https://www.facebook.com/srzcadca/",

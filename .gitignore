@@ -31,6 +31,9 @@ yarn-error.log*
 # env files
 .env*
 
+# WordPress import cache (regenerable)
+/content/.wp-cache/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

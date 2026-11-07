@@ -1,10 +1,17 @@
 import type { Metadata } from "next";
-import { StubPage } from "@/components/StubPage";
+import { MarkdownPage } from "@/components/MarkdownPage";
 
 export const metadata: Metadata = {
   title: "Tlačivá",
+  description: "Tlačivá pre členov MO Čadca.",
 };
 
 export default function Page() {
-  return <StubPage title="Tlačivá" />;
+  return (
+    <MarkdownPage
+      slug="tlaciva"
+      fallbackTitle="Tlačivá"
+      crumbsLabel="Tlačivá"
+    />
+  );
 }

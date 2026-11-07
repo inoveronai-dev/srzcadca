@@ -1,10 +1,17 @@
 import type { Metadata } from "next";
-import { StubPage } from "@/components/StubPage";
+import { MarkdownPage } from "@/components/MarkdownPage";
 
 export const metadata: Metadata = {
   title: "Liaheň Rieka Čadca",
+  description: "Liaheň Rieka Čadca – história, obnova a chov pstruha.",
 };
 
 export default function Page() {
-  return <StubPage title="Liaheň Rieka Čadca" />;
+  return (
+    <MarkdownPage
+      slug="liahen-rieka-2"
+      fallbackTitle="Liaheň Rieka Čadca"
+      crumbsLabel="Liaheň Rieka Čadca"
+    />
+  );
 }

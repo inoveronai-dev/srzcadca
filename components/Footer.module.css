@@ -13,29 +13,52 @@
 .brand {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 16px;
 }
 
-.logo {
-  width: 88px;
-  height: 88px;
-  border-radius: 50%;
+.badge {
+  width: 136px;
+  height: 136px;
+  display: block;
 }
 
 .brandText {
   margin: 0;
-  font-family: var(--font-display);
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 1.05;
-  text-transform: uppercase;
-  max-width: 16ch;
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.35;
+  text-transform: none;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 22ch;
 }
 
 .columns {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1.5rem;
+}
+
+.contactBlock {
+  display: grid;
+  gap: 0.55rem;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.contactBlock p {
+  margin: 0;
+}
+
+.contactBlock a {
+  color: rgba(255, 255, 255, 0.88);
+  text-decoration: none;
+}
+
+.contactBlock a:hover {
+  color: var(--white);
 }
 
 .colTitle {
@@ -84,6 +107,26 @@
     gap: 2rem;
   }
 
+  .brand {
+    align-items: center;
+    text-align: center;
+  }
+
+  .badge {
+    width: 112px;
+    height: 112px;
+  }
+
+  .brandText {
+    max-width: 28ch;
+  }
+
+  .columns {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 599px) {
   .columns {
     grid-template-columns: 1fr;
   }
