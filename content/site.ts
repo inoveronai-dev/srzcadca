@@ -146,7 +146,7 @@ export const site = {
     label: "Informácie Rady SRZ k predaju (PDF)",
     href: "/uploads/2026/11/srz_a3_infoplagat-hoaxy-2.pdf",
   },
-  memberFeeValue: "zaplatiť do 31. marca",
+  memberFeeValue: "Zaplatiť do 31. marca",
   memberFeeDeadline: "Členský príspevok je potrebné zaplatiť do 31. marca.",
   saleChecklist: [
     "Občiansky preukaz (u maloletých rodný list)",
