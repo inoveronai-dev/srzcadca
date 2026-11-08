@@ -7,7 +7,7 @@
 ## Stále doplniť
 
 - Hospodár revíru Kysuca č. 3 – chýba.
-- Termíny predaja povolení 2027 – podľa oznamu Rady SRZ / výboru (v importe je len infoplagát PDF, bez konkrétnych dátumov predaja v MO).
+- Doplniť saleDates, keď výbor zverejní termíny predaja 2027.
 - Krúžok – kedy a kde sa stretáva, kontakt na vedúceho (WP stránka `/rybarsky-kruzok` obsahuje len archív pretekov, nie rozvrh).
 - [Overiť ceny na rok 2027] – cenník je zatiaľ označený ako Cenník 2026.
 - Klubinský potok – telefón hospodára „902482604“ je neúplný.

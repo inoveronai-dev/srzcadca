@@ -140,9 +140,10 @@ export const site = {
   contactCardAddress: "Horná 1108/35, 022 01 Čadca",
   contactOrgLine: "Slovenský rybársky zväz – MO Čadca",
   footerContactAddressLines: ["Rybársky dom, Horná 1108/35", "022 01 Čadca"],
-  saleDatesPlaceholder: "[doplniť podľa oznamu]",
+  /** Concrete sale dates when the board publishes them; empty → show notice + link. */
+  saleDates: "",
   salePosterPdf: {
-    label: "Informačný plagát 2027 (PDF)",
+    label: "Informácie Rady SRZ k predaju (PDF)",
     href: "/uploads/2026/11/srz_a3_infoplagat-hoaxy-2.pdf",
   },
   memberFeeValue: "zaplatiť do 31. marca",

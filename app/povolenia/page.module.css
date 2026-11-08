@@ -17,7 +17,28 @@
 .dates {
   font-weight: 700;
   color: var(--ink);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+.datesLink {
+  color: var(--teal);
+  text-decoration: none;
+}
+
+.datesLink:hover {
+  text-decoration: underline;
+}
+
+.posterBtn {
+  min-height: 40px;
+  padding: 0.45rem 1.1rem;
+  font-size: 15px;
+  color: var(--deep);
+  border: 1px solid var(--line);
+}
+
+.posterBtn:hover {
+  color: var(--deep);
 }
 
 .grid {

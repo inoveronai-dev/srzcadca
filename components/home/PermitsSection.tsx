@@ -5,19 +5,16 @@ import {
   IconPin,
   IconWallet,
 } from "@/components/Icons";
+import { SaleDatesValue } from "@/components/SaleDatesValue";
 import {
   adultPermitPreview,
   site,
   toTelHref,
 } from "@/content/site";
 import { sk } from "@/lib/sk";
-import { hidePlaceholders, isPlaceholderText } from "@/lib/placeholders";
 import styles from "./PermitsSection.module.css";
 
 export function PermitsSection() {
-  const hideDates =
-    hidePlaceholders() && isPlaceholderText(site.saleDatesPlaceholder);
-
   return (
     <section className={`section--deep ${styles.section}`} aria-labelledby="permits-title">
       <div className={`container ${styles.grid}`}>
@@ -39,16 +36,16 @@ export function PermitsSection() {
               <IconCalendar className={styles.factIcon} />
               <div>
                 <dt>{sk("Termíny 2027")}</dt>
-                {!hideDates ? (
-                  <dd>{sk(site.saleDatesPlaceholder)}</dd>
-                ) : null}
+                <dd>
+                  <SaleDatesValue linkClassName={styles.datesLink} />
+                </dd>
                 <a
                   href={site.salePosterPdf.href}
                   className={`btn btn--white ${styles.posterBtn}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {sk("Plagát 2027 (PDF)")}
+                  {sk(site.salePosterPdf.label)}
                 </a>
               </div>
             </div>

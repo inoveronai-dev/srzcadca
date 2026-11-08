@@ -63,6 +63,17 @@
   text-wrap: pretty;
 }
 
+.datesLink {
+  color: var(--mint);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.datesLink:hover {
+  text-decoration: underline;
+  color: var(--mint);
+}
+
 .posterBtn {
   display: inline-flex;
   margin-top: 0.65rem;

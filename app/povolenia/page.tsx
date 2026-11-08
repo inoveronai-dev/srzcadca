@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { IconCheck } from "@/components/Icons";
+import { SaleDatesValue } from "@/components/SaleDatesValue";
 import { permitPrices, site, toTelHref } from "@/content/site";
+import { sk } from "@/lib/sk";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -18,10 +20,18 @@ export default function PermitsPage() {
         <h1>Povolenia a cenník</h1>
         <p className={styles.lead}>{site.saleAddress}</p>
         <p className={styles.dates}>
-          Termíny predaja na rok 2027: {site.saleDatesPlaceholder}
+          {sk("Termíny 2027:")}{" "}
+          <SaleDatesValue linkClassName={styles.datesLink} />
         </p>
         <p className={styles.dates}>
-          <a href={site.salePosterPdf.href}>{site.salePosterPdf.label}</a>
+          <a
+            href={site.salePosterPdf.href}
+            className={`btn btn--white ${styles.posterBtn}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {sk(site.salePosterPdf.label)}
+          </a>
         </p>
         <p className={styles.dates}>{site.memberFeeDeadline}</p>
 
