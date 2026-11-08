@@ -62,7 +62,7 @@ export default function KruzokPage() {
         <Link href="/tlaciva">Tlačivá →</Link>
       </p>
 
-      <h2 className={styles.h2}>Aktuality krúžku</h2>
+      <h2 className={styles.h2}>Novinky krúžku</h2>
       <div className={styles.grid}>
         {articles.map((a) => (
           <ArticleCard key={a.slug} article={a} />

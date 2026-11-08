@@ -2,7 +2,7 @@ import Link from "next/link";
 import { site } from "@/content/site";
 import { sk } from "@/lib/sk";
 
-/** Shared Termíny 2027 value: concrete dates, or notice with link to /aktuality. */
+/** Shared Termíny 2027 value: concrete dates, or notice with link to /novinky. */
 export function SaleDatesValue({
   className,
   linkClassName,
@@ -18,8 +18,8 @@ export function SaleDatesValue({
   return (
     <span className={className}>
       {sk("Termíny predaja zverejníme")}{" "}
-      <Link href="/aktuality" className={linkClassName}>
-        {sk("v aktualitách")}
+      <Link href="/novinky" className={linkClassName}>
+        {sk("v novinkách")}
       </Link>
       .
     </span>

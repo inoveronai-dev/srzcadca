@@ -151,6 +151,57 @@ export function formatSkDate(iso: string): string {
   return `${d.getDate()}. ${d.getMonth() + 1}. ${d.getFullYear()}`;
 }
 
+const SK_MONTH_ABBR = [
+  "JAN",
+  "FEB",
+  "MAR",
+  "APR",
+  "MÁJ",
+  "JÚN",
+  "JÚL",
+  "AUG",
+  "SEP",
+  "OKT",
+  "NOV",
+  "DEC",
+] as const;
+
+export function articleHref(slug: string): string {
+  return `/novinky/${slug}`;
+}
+
+export function getArticleDateParts(iso: string): {
+  day: string;
+  monthAbbr: string;
+  full: string;
+  year: string;
+} | null {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return null;
+  return {
+    day: String(d.getDate()),
+    monthAbbr: SK_MONTH_ABBR[d.getMonth()],
+    full: formatSkDate(iso),
+    year: String(d.getFullYear()),
+  };
+}
+
+export function groupArticlesByYear(articles: Article[]): {
+  year: string;
+  articles: Article[];
+}[] {
+  const byYear = new Map<string, Article[]>();
+  for (const a of articles) {
+    const parts = getArticleDateParts(a.date);
+    const year = parts?.year || "Bez dátumu";
+    if (!byYear.has(year)) byYear.set(year, []);
+    byYear.get(year)!.push(a);
+  }
+  return [...byYear.entries()]
+    .sort((a, b) => b[0].localeCompare(a[0]))
+    .map(([year, list]) => ({ year, articles: list }));
+}
+
 function toArticle(slug: string, raw: string): Article {
   const { data, body } = parseFrontmatter(raw);
   const categories = (data.categories as string[]) || [];

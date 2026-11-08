@@ -1,19 +1,19 @@
 import Link from "next/link";
 import { quickTiles } from "@/content/site";
 import {
-  IconContacts,
+  IconNews,
   IconPermits,
-  IconWaters,
+  IconTrophy,
   IconWork,
 } from "@/components/Icons";
 import { sk } from "@/lib/sk";
 import styles from "./QuickTiles.module.css";
 
 const icons = {
-  permits: IconPermits,
-  waters: IconWaters,
+  news: IconNews,
   work: IconWork,
-  contacts: IconContacts,
+  trophy: IconTrophy,
+  permits: IconPermits,
 };
 
 export function QuickTiles() {

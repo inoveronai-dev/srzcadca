@@ -1,5 +1,88 @@
-.section {
-  background: var(--paper);
+.section h1 {
+  margin-bottom: 0.85rem;
+}
+
+.eyebrow {
+  color: var(--teal);
+  margin-bottom: 0.75rem;
+}
+
+.lead,
+.dates {
+  margin: 0 0 0.75rem;
+  color: var(--muted);
+  max-width: 50ch;
+}
+
+.dates {
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 1rem;
+}
+
+.datesLink {
+  color: var(--teal);
+  text-decoration: none;
+}
+
+.datesLink:hover {
+  text-decoration: underline;
+}
+
+.posterBtn {
+  min-height: 40px;
+  padding: 0.45rem 1.1rem;
+  font-size: 15px;
+  color: var(--deep);
+  border: 1px solid var(--line);
+}
+
+.posterBtn:hover {
+  color: var(--deep);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.checklist {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-panel);
+  padding: 1.4rem;
+}
+
+.checklist h2 {
+  font-size: 32px;
+  margin-bottom: 1rem;
+}
+
+.checklist ul {
+  list-style: none;
+  margin: 0 0 1.1rem;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.checklist li {
+  display: flex;
+  gap: 0.7rem;
+  align-items: flex-start;
+  color: var(--tint-text);
+}
+
+.checklist a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.checklist p {
+  margin: 1rem 0 0;
+  font-weight: 600;
 }
 
 .tableCard {
@@ -54,4 +137,14 @@
   font-weight: 700;
   white-space: nowrap;
   color: var(--tint-text);
+}
+
+@media (max-width: 899px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section h1 {
+    font-size: clamp(40px, 10vw, 64px);
+  }
 }

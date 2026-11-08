@@ -12,8 +12,23 @@ const PRIORITY_REDIRECTS = [
     permanent: true,
   },
   {
+    source: "/aktuality",
+    destination: "/novinky",
+    permanent: true,
+  },
+  {
+    source: "/aktuality/:path*",
+    destination: "/novinky/:path*",
+    permanent: true,
+  },
+  {
     source: "/vsetky-novinky",
-    destination: "/aktuality",
+    destination: "/novinky",
+    permanent: true,
+  },
+  {
+    source: "/informacie-z-revirov",
+    destination: "/novinky?kategoria=reviry",
     permanent: true,
   },
   {

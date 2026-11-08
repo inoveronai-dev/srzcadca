@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: `%s | ${site.name}`,
   },
   description:
-    "Miestna organizácia Slovenského rybárskeho zväzu v Čadci – povolenia, revíry, aktuality a kontakty.",
+    "Miestna organizácia Slovenského rybárskeho zväzu v Čadci – povolenia, revíry, novinky a kontakty.",
 };
 
 export default function RootLayout({

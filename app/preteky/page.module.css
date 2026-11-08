@@ -2,19 +2,12 @@
   margin-bottom: 2.5rem;
 }
 
-.year h2 {
+.yearTitle {
   margin-bottom: 1rem;
   font-size: 36px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.1rem;
-}
-
-@media (max-width: 899px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
+.empty {
+  color: var(--muted);
+  font-weight: 600;
 }

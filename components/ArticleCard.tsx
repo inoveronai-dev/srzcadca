@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import {
+  articleHref,
   chipForArticle,
   formatSkDate,
   type Article,
@@ -9,9 +10,10 @@ import styles from "./ArticleCard.module.css";
 
 export function ArticleCard({ article }: { article: Article }) {
   const chip = chipForArticle(article);
+  const href = articleHref(article.slug);
   return (
     <article className={styles.card}>
-      <Link href={`/aktuality/${article.slug}`} className={styles.media}>
+      <Link href={href} className={styles.media}>
         {article.image ? (
           <Image
             src={article.image}
@@ -33,7 +35,7 @@ export function ArticleCard({ article }: { article: Article }) {
           <span className={`chip ${chipClass(chip.key)}`}>{chip.label}</span>
         </div>
         <h2 className={styles.title}>
-          <Link href={`/aktuality/${article.slug}`}>{article.title}</Link>
+          <Link href={href}>{article.title}</Link>
         </h2>
       </div>
     </article>

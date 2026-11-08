@@ -6,7 +6,7 @@ import { hidePlaceholders, isPlaceholderText } from "@/lib/placeholders";
 import styles from "./ClubRacesSection.module.css";
 
 export function ClubRacesSection() {
-  const { collage, poster, clubText, clubMeetingPlaceholder, clubApplicationPdf, races } =
+  const { collage, poster, clubText, clubMeetingPlaceholder, clubApplicationPdf } =
     site.clubAndRaces;
   const meeting =
     hidePlaceholders() && isPlaceholderText(clubMeetingPlaceholder)
@@ -16,11 +16,11 @@ export function ClubRacesSection() {
   return (
     <section
       className={`section section--paper section--continue ${styles.section}`}
-      aria-labelledby="club-races-title"
+      aria-labelledby="club-title"
     >
       <div className="container">
-        <h2 id="club-races-title" className="visually-hidden">
-          {sk("Krúžok a preteky")}
+        <h2 id="club-title" className="visually-hidden">
+          {sk("Rybársky krúžok")}
         </h2>
 
         <figure className={styles.collage}>
@@ -36,8 +36,8 @@ export function ClubRacesSection() {
           <figcaption className={styles.caption}>{sk(collage.caption)}</figcaption>
         </figure>
 
-        <div className={styles.grid}>
-          <article className={styles.club}>
+        <article className={styles.club}>
+          <div className={styles.clubMain}>
             <div className={styles.clubTop}>
               <h3>{sk("Rybársky krúžok")}</h3>
               <p>{sk(clubText)}</p>
@@ -56,30 +56,19 @@ export function ClubRacesSection() {
                 {sk("Viac o krúžku →")}
               </Link>
             </div>
-          </article>
-          <article className={styles.races}>
-            <div className={styles.racesContent}>
-              <h3>{sk("Preteky")}</h3>
-              <ul>
-                {races.map((race) => (
-                  <li key={race}>{sk(race)}</li>
-                ))}
-              </ul>
-              <Link href="/preteky">{sk("Pozvánky a výsledky →")}</Link>
-            </div>
-            <Link href={poster.href} className={styles.posterLink}>
-              <Image
-                src={poster.src}
-                alt={sk(poster.alt)}
-                width={poster.width}
-                height={poster.height}
-                sizes="(max-width: 699px) min(100vw, 320px), 220px"
-                loading="lazy"
-                className={styles.poster}
-              />
-            </Link>
-          </article>
-        </div>
+          </div>
+          <Link href={poster.href} className={styles.posterLink}>
+            <Image
+              src={poster.src}
+              alt={sk(poster.alt)}
+              width={poster.width}
+              height={poster.height}
+              sizes="(max-width: 699px) min(100vw, 320px), 200px"
+              loading="lazy"
+              className={styles.poster}
+            />
+          </Link>
+        </article>
       </div>
     </section>
   );

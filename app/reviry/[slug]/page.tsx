@@ -91,7 +91,7 @@ export default async function WaterDetailPage({
       {slug === "vn-milosova" ? (
         <aside className={styles.note} role="note">
           <strong>Vjazd vozidlom:</strong> platné pravidlá k vjazdu k VN Milošová nájdete
-          v aktualite „Vjazd vozidlom k VN Milošová“.
+          v novinke „Vjazd vozidlom k VN Milošová“.
         </aside>
       ) : null}
 

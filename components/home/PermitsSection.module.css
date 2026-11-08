@@ -4,8 +4,22 @@
   padding-block: var(--section-y);
 }
 
-.header {
-  margin: 0 0 40px;
+.grid {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.headingBlock {
+  margin-bottom: 1.25rem;
 }
 
 .eyebrow {
@@ -13,70 +27,36 @@
   margin: 0 0 0.85rem;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
-  align-items: stretch;
-}
-
-.left,
-.right {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  min-width: 0;
-  min-height: 100%;
-}
-
-.grow {
-  flex: 1;
-}
-
-.panel {
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 20px;
-  padding: 28px;
-}
-
-.panelTitle {
-  font-size: 22px;
-  margin: 0 0 0.85rem;
-}
-
 .facts {
   margin: 0;
-}
-
-.factRow {
   display: grid;
-  grid-template-columns: 150px 1fr;
-  gap: 24px;
-  align-items: baseline;
-  padding: 18px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  gap: 1.15rem;
 }
 
-.factRow:first-child {
-  padding-top: 0;
+.fact {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
 }
 
-.factRow:last-child {
-  padding-bottom: 0;
-  border-bottom: 0;
+.factIcon {
+  width: 20px;
+  height: 20px;
+  color: var(--mint);
+  flex-shrink: 0;
+  margin-top: 0.15rem;
 }
 
-.factRow dt {
-  margin: 0;
+.fact dt {
+  margin: 0 0 0.2rem;
   font-size: 14px;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--mint);
 }
 
-.factRow dd {
+.fact dd {
   margin: 0;
   font-size: 18px;
   color: var(--white);
@@ -94,20 +74,33 @@
   color: var(--mint);
 }
 
-.pdfLink {
-  display: inline-block;
-  margin-top: 0.45rem;
-  color: var(--mint);
-  font-weight: 700;
-  text-decoration: none;
+.posterBtn {
+  display: inline-flex;
+  margin-top: 0.65rem;
+  min-height: 40px;
+  padding: 0.45rem 1.1rem;
+  font-size: 15px;
+  color: var(--deep);
 }
 
-.pdfLink:hover {
-  text-decoration: underline;
-  color: var(--mint);
+.posterBtn:hover {
+  color: var(--deep);
 }
 
 .checklist {
+  margin: 32px 0 0;
+  padding: 1.2rem 1.25rem;
+  border-radius: var(--radius-card);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.checklist h3 {
+  font-size: 22px;
+  margin-bottom: 0.85rem;
+}
+
+.checklist ul {
   list-style: none;
   margin: 0 0 1rem;
   padding: 0;
@@ -140,8 +133,8 @@
 .priceCard {
   background: var(--white);
   color: var(--ink);
-  border-radius: 20px;
-  padding: 28px;
+  border-radius: var(--radius-panel);
+  padding: 1.5rem 1.4rem 1.35rem;
 }
 
 .priceCard h3 {
@@ -188,9 +181,10 @@
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 28px;
+  margin-top: 16px;
+  padding: 1rem 1.1rem;
   border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 20px;
+  border-radius: var(--radius-card);
   background: rgba(255, 255, 255, 0.06);
 }
 
@@ -210,43 +204,16 @@
   color: var(--white);
 }
 
-.phoneBtn {
+.saleRow .btn--white,
+.saleRow a.btn {
   color: var(--deep);
-  flex-shrink: 0;
-}
-
-.phoneBtn:hover {
-  color: var(--deep);
-}
-
-/* Keyboard focus only — no ring after mouse click */
-.section :is(a, button):focus {
-  outline: none;
-}
-
-.section :is(a, button):focus:not(:focus-visible) {
-  outline: none;
-  box-shadow: none;
-}
-
-.section :is(a, button):focus-visible {
-  outline: 2px solid var(--mint);
-  outline-offset: 2px;
-}
-
-.section .priceCard :is(a, button):focus-visible {
-  outline-color: var(--teal);
 }
 
 @media (max-width: 899px) {
-  .header {
-    margin-bottom: 24px;
-  }
-
   .grid {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1.5rem;
   }
 
   .left,
@@ -254,28 +221,28 @@
     display: contents;
   }
 
-  .panelFacts {
+  .headingBlock {
     order: 1;
+    margin-bottom: 0;
   }
 
-  .priceCard {
+  .facts {
     order: 2;
   }
 
-  .panelChecklist {
+  .priceCard {
     order: 3;
-    flex: none;
+  }
+
+  .checklist {
+    order: 4;
+    margin-top: 0;
   }
 
   .saleRow {
-    order: 4;
-    flex: none;
+    order: 5;
+    margin-top: 0;
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .factRow {
-    grid-template-columns: 1fr;
-    gap: 0.35rem;
   }
 }

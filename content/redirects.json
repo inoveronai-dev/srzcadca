@@ -1,292 +1,292 @@
 [
   {
     "source": "/informacie-k-predaji-povoleni",
-    "destination": "/aktuality/informacie-k-predaji-povoleni",
+    "destination": "/novinky/informacie-k-predaji-povoleni",
     "permanent": true
   },
   {
     "source": "/informacie-k-predaji-povoleni/",
-    "destination": "/aktuality/informacie-k-predaji-povoleni",
+    "destination": "/novinky/informacie-k-predaji-povoleni",
     "permanent": true
   },
   {
     "source": "/prihlasenie-do-aplikacie-e-srz",
-    "destination": "/aktuality/prihlasenie-do-aplikacie-e-srz",
+    "destination": "/novinky/prihlasenie-do-aplikacie-e-srz",
     "permanent": true
   },
   {
     "source": "/prihlasenie-do-aplikacie-e-srz/",
-    "destination": "/aktuality/prihlasenie-do-aplikacie-e-srz",
+    "destination": "/novinky/prihlasenie-do-aplikacie-e-srz",
     "permanent": true
   },
   {
     "source": "/lov-ryb-pomocou-sbirolina-a-bubliny",
-    "destination": "/aktuality/lov-ryb-pomocou-sbirolina-a-bubliny",
+    "destination": "/novinky/lov-ryb-pomocou-sbirolina-a-bubliny",
     "permanent": true
   },
   {
     "source": "/lov-ryb-pomocou-sbirolina-a-bubliny/",
-    "destination": "/aktuality/lov-ryb-pomocou-sbirolina-a-bubliny",
+    "destination": "/novinky/lov-ryb-pomocou-sbirolina-a-bubliny",
     "permanent": true
   },
   {
     "source": "/zakaz-lovu-vsetkych-druhov-ryb-4",
-    "destination": "/aktuality/zakaz-lovu-vsetkych-druhov-ryb-4",
+    "destination": "/novinky/zakaz-lovu-vsetkych-druhov-ryb-4",
     "permanent": true
   },
   {
     "source": "/zakaz-lovu-vsetkych-druhov-ryb-4/",
-    "destination": "/aktuality/zakaz-lovu-vsetkych-druhov-ryb-4",
+    "destination": "/novinky/zakaz-lovu-vsetkych-druhov-ryb-4",
     "permanent": true
   },
   {
     "source": "/detske-preteky-jesen-2026",
-    "destination": "/aktuality/detske-preteky-jesen-2026",
+    "destination": "/novinky/detske-preteky-jesen-2026",
     "permanent": true
   },
   {
     "source": "/detske-preteky-jesen-2026/",
-    "destination": "/aktuality/detske-preteky-jesen-2026",
+    "destination": "/novinky/detske-preteky-jesen-2026",
     "permanent": true
   },
   {
     "source": "/muskarske-preteky-jesen-2026",
-    "destination": "/aktuality/muskarske-preteky-jesen-2026",
+    "destination": "/novinky/muskarske-preteky-jesen-2026",
     "permanent": true
   },
   {
     "source": "/muskarske-preteky-jesen-2026/",
-    "destination": "/aktuality/muskarske-preteky-jesen-2026",
+    "destination": "/novinky/muskarske-preteky-jesen-2026",
     "permanent": true
   },
   {
     "source": "/vjazd-vozidlom-k-vn-milosova",
-    "destination": "/aktuality/vjazd-vozidlom-k-vn-milosova",
+    "destination": "/novinky/vjazd-vozidlom-k-vn-milosova",
     "permanent": true
   },
   {
     "source": "/vjazd-vozidlom-k-vn-milosova/",
-    "destination": "/aktuality/vjazd-vozidlom-k-vn-milosova",
+    "destination": "/novinky/vjazd-vozidlom-k-vn-milosova",
     "permanent": true
   },
   {
     "source": "/brigada-ichyologicky-prieskum-01-a-02-jul",
-    "destination": "/aktuality/brigada-ichyologicky-prieskum-01-a-02-jul",
+    "destination": "/novinky/brigada-ichyologicky-prieskum-01-a-02-jul",
     "permanent": true
   },
   {
     "source": "/brigada-ichyologicky-prieskum-01-a-02-jul/",
-    "destination": "/aktuality/brigada-ichyologicky-prieskum-01-a-02-jul",
+    "destination": "/novinky/brigada-ichyologicky-prieskum-01-a-02-jul",
     "permanent": true
   },
   {
     "source": "/plan-brigad-pre-rok-2026",
-    "destination": "/aktuality/plan-brigad-pre-rok-2026",
+    "destination": "/novinky/plan-brigad-pre-rok-2026",
     "permanent": true
   },
   {
     "source": "/plan-brigad-pre-rok-2026/",
-    "destination": "/aktuality/plan-brigad-pre-rok-2026",
+    "destination": "/novinky/plan-brigad-pre-rok-2026",
     "permanent": true
   },
   {
     "source": "/brigada-milosova-preteky",
-    "destination": "/aktuality/brigada-milosova-preteky",
+    "destination": "/novinky/brigada-milosova-preteky",
     "permanent": true
   },
   {
     "source": "/brigada-milosova-preteky/",
-    "destination": "/aktuality/brigada-milosova-preteky",
+    "destination": "/novinky/brigada-milosova-preteky",
     "permanent": true
   },
   {
     "source": "/zarybnenie-chovnych-potokov-skalite-2-2",
-    "destination": "/aktuality/zarybnenie-chovnych-potokov-skalite-2-2",
+    "destination": "/novinky/zarybnenie-chovnych-potokov-skalite-2-2",
     "permanent": true
   },
   {
     "source": "/zarybnenie-chovnych-potokov-skalite-2-2/",
-    "destination": "/aktuality/zarybnenie-chovnych-potokov-skalite-2-2",
+    "destination": "/novinky/zarybnenie-chovnych-potokov-skalite-2-2",
     "permanent": true
   },
   {
     "source": "/brigada-zakopcie-23-05-2026",
-    "destination": "/aktuality/brigada-zakopcie-23-05-2026",
+    "destination": "/novinky/brigada-zakopcie-23-05-2026",
     "permanent": true
   },
   {
     "source": "/brigada-zakopcie-23-05-2026/",
-    "destination": "/aktuality/brigada-zakopcie-23-05-2026",
+    "destination": "/novinky/brigada-zakopcie-23-05-2026",
     "permanent": true
   },
   {
     "source": "/brigada-cierne-09-05-2026",
-    "destination": "/aktuality/brigada-cierne-09-05-2026",
+    "destination": "/novinky/brigada-cierne-09-05-2026",
     "permanent": true
   },
   {
     "source": "/brigada-cierne-09-05-2026/",
-    "destination": "/aktuality/brigada-cierne-09-05-2026",
+    "destination": "/novinky/brigada-cierne-09-05-2026",
     "permanent": true
   },
   {
     "source": "/zakaz-lovu-vsetkych-druhov-ryb-3-2",
-    "destination": "/aktuality/zakaz-lovu-vsetkych-druhov-ryb-3-2",
+    "destination": "/novinky/zakaz-lovu-vsetkych-druhov-ryb-3-2",
     "permanent": true
   },
   {
     "source": "/zakaz-lovu-vsetkych-druhov-ryb-3-2/",
-    "destination": "/aktuality/zakaz-lovu-vsetkych-druhov-ryb-3-2",
+    "destination": "/novinky/zakaz-lovu-vsetkych-druhov-ryb-3-2",
     "permanent": true
   },
   {
     "source": "/zarybnenie-chovnych-potokov-skalite-2",
-    "destination": "/aktuality/zarybnenie-chovnych-potokov-skalite-2",
+    "destination": "/novinky/zarybnenie-chovnych-potokov-skalite-2",
     "permanent": true
   },
   {
     "source": "/zarybnenie-chovnych-potokov-skalite-2/",
-    "destination": "/aktuality/zarybnenie-chovnych-potokov-skalite-2",
+    "destination": "/novinky/zarybnenie-chovnych-potokov-skalite-2",
     "permanent": true
   },
   {
     "source": "/brigada-klubinsky-potok-02-05-2026",
-    "destination": "/aktuality/brigada-klubinsky-potok-02-05-2026",
+    "destination": "/novinky/brigada-klubinsky-potok-02-05-2026",
     "permanent": true
   },
   {
     "source": "/brigada-klubinsky-potok-02-05-2026/",
-    "destination": "/aktuality/brigada-klubinsky-potok-02-05-2026",
+    "destination": "/novinky/brigada-klubinsky-potok-02-05-2026",
     "permanent": true
   },
   {
     "source": "/ccm-2026-milosova",
-    "destination": "/aktuality/ccm-2026-milosova",
+    "destination": "/novinky/ccm-2026-milosova",
     "permanent": true
   },
   {
     "source": "/ccm-2026-milosova/",
-    "destination": "/aktuality/ccm-2026-milosova",
+    "destination": "/novinky/ccm-2026-milosova",
     "permanent": true
   },
   {
     "source": "/zarybnenie-chovnych-potokov-skalite",
-    "destination": "/aktuality/zarybnenie-chovnych-potokov-skalite",
+    "destination": "/novinky/zarybnenie-chovnych-potokov-skalite",
     "permanent": true
   },
   {
     "source": "/zarybnenie-chovnych-potokov-skalite/",
-    "destination": "/aktuality/zarybnenie-chovnych-potokov-skalite",
+    "destination": "/novinky/zarybnenie-chovnych-potokov-skalite",
     "permanent": true
   },
   {
     "source": "/detske-kaprove-preteky-2026",
-    "destination": "/aktuality/detske-kaprove-preteky-2026",
+    "destination": "/novinky/detske-kaprove-preteky-2026",
     "permanent": true
   },
   {
     "source": "/detske-kaprove-preteky-2026/",
-    "destination": "/aktuality/detske-kaprove-preteky-2026",
+    "destination": "/novinky/detske-kaprove-preteky-2026",
     "permanent": true
   },
   {
     "source": "/zakaz-lovu-vsetkych-druhov-ryb-3",
-    "destination": "/aktuality/zakaz-lovu-vsetkych-druhov-ryb-3",
+    "destination": "/novinky/zakaz-lovu-vsetkych-druhov-ryb-3",
     "permanent": true
   },
   {
     "source": "/zakaz-lovu-vsetkych-druhov-ryb-3/",
-    "destination": "/aktuality/zakaz-lovu-vsetkych-druhov-ryb-3",
+    "destination": "/novinky/zakaz-lovu-vsetkych-druhov-ryb-3",
     "permanent": true
   },
   {
     "source": "/brigada-rakova-01-05-a-09-05",
-    "destination": "/aktuality/brigada-rakova-01-05-a-09-05",
+    "destination": "/novinky/brigada-rakova-01-05-a-09-05",
     "permanent": true
   },
   {
     "source": "/brigada-rakova-01-05-a-09-05/",
-    "destination": "/aktuality/brigada-rakova-01-05-a-09-05",
+    "destination": "/novinky/brigada-rakova-01-05-a-09-05",
     "permanent": true
   },
   {
     "source": "/zarybnenie-pstruhom-duhovym-4",
-    "destination": "/aktuality/zarybnenie-pstruhom-duhovym-4",
+    "destination": "/novinky/zarybnenie-pstruhom-duhovym-4",
     "permanent": true
   },
   {
     "source": "/zarybnenie-pstruhom-duhovym-4/",
-    "destination": "/aktuality/zarybnenie-pstruhom-duhovym-4",
+    "destination": "/novinky/zarybnenie-pstruhom-duhovym-4",
     "permanent": true
   },
   {
     "source": "/brigada-svrcinovec-14-03-2026",
-    "destination": "/aktuality/brigada-svrcinovec-14-03-2026",
+    "destination": "/novinky/brigada-svrcinovec-14-03-2026",
     "permanent": true
   },
   {
     "source": "/brigada-svrcinovec-14-03-2026/",
-    "destination": "/aktuality/brigada-svrcinovec-14-03-2026",
+    "destination": "/novinky/brigada-svrcinovec-14-03-2026",
     "permanent": true
   },
   {
     "source": "/skolenie-novych-clenov-rs-a-hospodarov-2",
-    "destination": "/aktuality/skolenie-novych-clenov-rs-a-hospodarov-2",
+    "destination": "/novinky/skolenie-novych-clenov-rs-a-hospodarov-2",
     "permanent": true
   },
   {
     "source": "/skolenie-novych-clenov-rs-a-hospodarov-2/",
-    "destination": "/aktuality/skolenie-novych-clenov-rs-a-hospodarov-2",
+    "destination": "/novinky/skolenie-novych-clenov-rs-a-hospodarov-2",
     "permanent": true
   },
   {
     "source": "/oficialne-stanoviska-k-peticii",
-    "destination": "/aktuality/oficialne-stanoviska-k-peticii",
+    "destination": "/novinky/oficialne-stanoviska-k-peticii",
     "permanent": true
   },
   {
     "source": "/oficialne-stanoviska-k-peticii/",
-    "destination": "/aktuality/oficialne-stanoviska-k-peticii",
+    "destination": "/novinky/oficialne-stanoviska-k-peticii",
     "permanent": true
   },
   {
     "source": "/vyrocna-clenska-schodza-2",
-    "destination": "/aktuality/vyrocna-clenska-schodza-2",
+    "destination": "/novinky/vyrocna-clenska-schodza-2",
     "permanent": true
   },
   {
     "source": "/vyrocna-clenska-schodza-2/",
-    "destination": "/aktuality/vyrocna-clenska-schodza-2",
+    "destination": "/novinky/vyrocna-clenska-schodza-2",
     "permanent": true
   },
   {
     "source": "/peticia-kormoran",
-    "destination": "/aktuality/peticia-kormoran",
+    "destination": "/novinky/peticia-kormoran",
     "permanent": true
   },
   {
     "source": "/peticia-kormoran/",
-    "destination": "/aktuality/peticia-kormoran",
+    "destination": "/novinky/peticia-kormoran",
     "permanent": true
   },
   {
     "source": "/peticia-oz-slovenskeho-rybarskeho-klubu",
-    "destination": "/aktuality/peticia-oz-slovenskeho-rybarskeho-klubu",
+    "destination": "/novinky/peticia-oz-slovenskeho-rybarskeho-klubu",
     "permanent": true
   },
   {
     "source": "/peticia-oz-slovenskeho-rybarskeho-klubu/",
-    "destination": "/aktuality/peticia-oz-slovenskeho-rybarskeho-klubu",
+    "destination": "/novinky/peticia-oz-slovenskeho-rybarskeho-klubu",
     "permanent": true
   },
   {
     "source": "/lru-pstruhove-preteky-2026",
-    "destination": "/aktuality/lru-pstruhove-preteky-2026",
+    "destination": "/novinky/lru-pstruhove-preteky-2026",
     "permanent": true
   },
   {
     "source": "/lru-pstruhove-preteky-2026/",
-    "destination": "/aktuality/lru-pstruhove-preteky-2026",
+    "destination": "/novinky/lru-pstruhove-preteky-2026",
     "permanent": true
   },
   {
@@ -301,1632 +301,1632 @@
   },
   {
     "source": "/2-dani",
-    "destination": "/aktuality/2-dani",
+    "destination": "/novinky/2-dani",
     "permanent": true
   },
   {
     "source": "/2-dani/",
-    "destination": "/aktuality/2-dani",
+    "destination": "/novinky/2-dani",
     "permanent": true
   },
   {
     "source": "/brigada-liahen-01-a-08-maja-2",
-    "destination": "/aktuality/brigada-liahen-01-a-08-maja-2",
+    "destination": "/novinky/brigada-liahen-01-a-08-maja-2",
     "permanent": true
   },
   {
     "source": "/brigada-liahen-01-a-08-maja-2/",
-    "destination": "/aktuality/brigada-liahen-01-a-08-maja-2",
+    "destination": "/novinky/brigada-liahen-01-a-08-maja-2",
     "permanent": true
   },
   {
     "source": "/zakaz-lovu-vsetkych-druhov-ryb-2",
-    "destination": "/aktuality/zakaz-lovu-vsetkych-druhov-ryb-2",
+    "destination": "/novinky/zakaz-lovu-vsetkych-druhov-ryb-2",
     "permanent": true
   },
   {
     "source": "/zakaz-lovu-vsetkych-druhov-ryb-2/",
-    "destination": "/aktuality/zakaz-lovu-vsetkych-druhov-ryb-2",
+    "destination": "/novinky/zakaz-lovu-vsetkych-druhov-ryb-2",
     "permanent": true
   },
   {
     "source": "/brigada-milosova-preteky-25-maj-2",
-    "destination": "/aktuality/brigada-milosova-preteky-25-maj-2",
+    "destination": "/novinky/brigada-milosova-preteky-25-maj-2",
     "permanent": true
   },
   {
     "source": "/brigada-milosova-preteky-25-maj-2/",
-    "destination": "/aktuality/brigada-milosova-preteky-25-maj-2",
+    "destination": "/novinky/brigada-milosova-preteky-25-maj-2",
     "permanent": true
   },
   {
     "source": "/detske-preteky-jesen-2024-2",
-    "destination": "/aktuality/detske-preteky-jesen-2024-2",
+    "destination": "/novinky/detske-preteky-jesen-2024-2",
     "permanent": true
   },
   {
     "source": "/detske-preteky-jesen-2024-2/",
-    "destination": "/aktuality/detske-preteky-jesen-2024-2",
+    "destination": "/novinky/detske-preteky-jesen-2024-2",
     "permanent": true
   },
   {
     "source": "/muskarske-preteky-jesen-2024-2",
-    "destination": "/aktuality/muskarske-preteky-jesen-2024-2",
+    "destination": "/novinky/muskarske-preteky-jesen-2024-2",
     "permanent": true
   },
   {
     "source": "/muskarske-preteky-jesen-2024-2/",
-    "destination": "/aktuality/muskarske-preteky-jesen-2024-2",
+    "destination": "/novinky/muskarske-preteky-jesen-2024-2",
     "permanent": true
   },
   {
     "source": "/upozornenie-ohladom-2-dani",
-    "destination": "/aktuality/upozornenie-ohladom-2-dani",
+    "destination": "/novinky/upozornenie-ohladom-2-dani",
     "permanent": true
   },
   {
     "source": "/upozornenie-ohladom-2-dani/",
-    "destination": "/aktuality/upozornenie-ohladom-2-dani",
+    "destination": "/novinky/upozornenie-ohladom-2-dani",
     "permanent": true
   },
   {
     "source": "/zakaz-vstupu-na-vn-milosova",
-    "destination": "/aktuality/zakaz-vstupu-na-vn-milosova",
+    "destination": "/novinky/zakaz-vstupu-na-vn-milosova",
     "permanent": true
   },
   {
     "source": "/zakaz-vstupu-na-vn-milosova/",
-    "destination": "/aktuality/zakaz-vstupu-na-vn-milosova",
+    "destination": "/novinky/zakaz-vstupu-na-vn-milosova",
     "permanent": true
   },
   {
     "source": "/brigada-milosova-pocas-celeho-tyzdna",
-    "destination": "/aktuality/brigada-milosova-pocas-celeho-tyzdna",
+    "destination": "/novinky/brigada-milosova-pocas-celeho-tyzdna",
     "permanent": true
   },
   {
     "source": "/brigada-milosova-pocas-celeho-tyzdna/",
-    "destination": "/aktuality/brigada-milosova-pocas-celeho-tyzdna",
+    "destination": "/novinky/brigada-milosova-pocas-celeho-tyzdna",
     "permanent": true
   },
   {
     "source": "/zakaz-lovu-vsetkych-druhov-ryb",
-    "destination": "/aktuality/zakaz-lovu-vsetkych-druhov-ryb",
+    "destination": "/novinky/zakaz-lovu-vsetkych-druhov-ryb",
     "permanent": true
   },
   {
     "source": "/zakaz-lovu-vsetkych-druhov-ryb/",
-    "destination": "/aktuality/zakaz-lovu-vsetkych-druhov-ryb",
+    "destination": "/novinky/zakaz-lovu-vsetkych-druhov-ryb",
     "permanent": true
   },
   {
     "source": "/brigada-na-klubinskom-potoku",
-    "destination": "/aktuality/brigada-na-klubinskom-potoku",
+    "destination": "/novinky/brigada-na-klubinskom-potoku",
     "permanent": true
   },
   {
     "source": "/brigada-na-klubinskom-potoku/",
-    "destination": "/aktuality/brigada-na-klubinskom-potoku",
+    "destination": "/novinky/brigada-na-klubinskom-potoku",
     "permanent": true
   },
   {
     "source": "/brigada-cierne-03-05-2025",
-    "destination": "/aktuality/brigada-cierne-03-05-2025",
+    "destination": "/novinky/brigada-cierne-03-05-2025",
     "permanent": true
   },
   {
     "source": "/brigada-cierne-03-05-2025/",
-    "destination": "/aktuality/brigada-cierne-03-05-2025",
+    "destination": "/novinky/brigada-cierne-03-05-2025",
     "permanent": true
   },
   {
     "source": "/brigada-rakova-01-05-a-08-05-2025",
-    "destination": "/aktuality/brigada-rakova-01-05-a-08-05-2025",
+    "destination": "/novinky/brigada-rakova-01-05-a-08-05-2025",
     "permanent": true
   },
   {
     "source": "/brigada-rakova-01-05-a-08-05-2025/",
-    "destination": "/aktuality/brigada-rakova-01-05-a-08-05-2025",
+    "destination": "/novinky/brigada-rakova-01-05-a-08-05-2025",
     "permanent": true
   },
   {
     "source": "/udelenie-suhlasu-na-vypustanie-nepovodnych-zivocichov-do-zivotneho-prostredia",
-    "destination": "/aktuality/udelenie-suhlasu-na-vypustanie-nepovodnych-zivocichov-do-zivotneho-prostredia",
+    "destination": "/novinky/udelenie-suhlasu-na-vypustanie-nepovodnych-zivocichov-do-zivotneho-prostredia",
     "permanent": true
   },
   {
     "source": "/udelenie-suhlasu-na-vypustanie-nepovodnych-zivocichov-do-zivotneho-prostredia/",
-    "destination": "/aktuality/udelenie-suhlasu-na-vypustanie-nepovodnych-zivocichov-do-zivotneho-prostredia",
+    "destination": "/novinky/udelenie-suhlasu-na-vypustanie-nepovodnych-zivocichov-do-zivotneho-prostredia",
     "permanent": true
   },
   {
     "source": "/zarybnenie-pstruhom-duhovym-3",
-    "destination": "/aktuality/zarybnenie-pstruhom-duhovym-3",
+    "destination": "/novinky/zarybnenie-pstruhom-duhovym-3",
     "permanent": true
   },
   {
     "source": "/zarybnenie-pstruhom-duhovym-3/",
-    "destination": "/aktuality/zarybnenie-pstruhom-duhovym-3",
+    "destination": "/novinky/zarybnenie-pstruhom-duhovym-3",
     "permanent": true
   },
   {
     "source": "/detske-preteky-v-love-kapra-2025",
-    "destination": "/aktuality/detske-preteky-v-love-kapra-2025",
+    "destination": "/novinky/detske-preteky-v-love-kapra-2025",
     "permanent": true
   },
   {
     "source": "/detske-preteky-v-love-kapra-2025/",
-    "destination": "/aktuality/detske-preteky-v-love-kapra-2025",
+    "destination": "/novinky/detske-preteky-v-love-kapra-2025",
     "permanent": true
   },
   {
     "source": "/skolenie-novych-clenov-rs-a-hospodarov",
-    "destination": "/aktuality/skolenie-novych-clenov-rs-a-hospodarov",
+    "destination": "/novinky/skolenie-novych-clenov-rs-a-hospodarov",
     "permanent": true
   },
   {
     "source": "/skolenie-novych-clenov-rs-a-hospodarov/",
-    "destination": "/aktuality/skolenie-novych-clenov-rs-a-hospodarov",
+    "destination": "/novinky/skolenie-novych-clenov-rs-a-hospodarov",
     "permanent": true
   },
   {
     "source": "/brigada-svrcinovec-08-marec",
-    "destination": "/aktuality/brigada-svrcinovec-08-marec",
+    "destination": "/novinky/brigada-svrcinovec-08-marec",
     "permanent": true
   },
   {
     "source": "/brigada-svrcinovec-08-marec/",
-    "destination": "/aktuality/brigada-svrcinovec-08-marec",
+    "destination": "/novinky/brigada-svrcinovec-08-marec",
     "permanent": true
   },
   {
     "source": "/clenska-schodza-2025",
-    "destination": "/aktuality/clenska-schodza-2025",
+    "destination": "/novinky/clenska-schodza-2025",
     "permanent": true
   },
   {
     "source": "/clenska-schodza-2025/",
-    "destination": "/aktuality/clenska-schodza-2025",
+    "destination": "/novinky/clenska-schodza-2025",
     "permanent": true
   },
   {
     "source": "/brigady-na-rok-2025",
-    "destination": "/aktuality/brigady-na-rok-2025",
+    "destination": "/novinky/brigady-na-rok-2025",
     "permanent": true
   },
   {
     "source": "/brigady-na-rok-2025/",
-    "destination": "/aktuality/brigady-na-rok-2025",
+    "destination": "/novinky/brigady-na-rok-2025",
     "permanent": true
   },
   {
     "source": "/ccm-carp-cup-milosova-2025",
-    "destination": "/aktuality/ccm-carp-cup-milosova-2025",
+    "destination": "/novinky/ccm-carp-cup-milosova-2025",
     "permanent": true
   },
   {
     "source": "/ccm-carp-cup-milosova-2025/",
-    "destination": "/aktuality/ccm-carp-cup-milosova-2025",
+    "destination": "/novinky/ccm-carp-cup-milosova-2025",
     "permanent": true
   },
   {
     "source": "/lru-pstruhove-preteky-2025",
-    "destination": "/aktuality/lru-pstruhove-preteky-2025",
+    "destination": "/novinky/lru-pstruhove-preteky-2025",
     "permanent": true
   },
   {
     "source": "/lru-pstruhove-preteky-2025/",
-    "destination": "/aktuality/lru-pstruhove-preteky-2025",
+    "destination": "/novinky/lru-pstruhove-preteky-2025",
     "permanent": true
   },
   {
     "source": "/15-rybarsky-ples-2",
-    "destination": "/aktuality/15-rybarsky-ples-2",
+    "destination": "/novinky/15-rybarsky-ples-2",
     "permanent": true
   },
   {
     "source": "/15-rybarsky-ples-2/",
-    "destination": "/aktuality/15-rybarsky-ples-2",
+    "destination": "/novinky/15-rybarsky-ples-2",
     "permanent": true
   },
   {
     "source": "/predaj-rybarskych-povoleni-na-rok-2025",
-    "destination": "/aktuality/predaj-rybarskych-povoleni-na-rok-2025",
+    "destination": "/novinky/predaj-rybarskych-povoleni-na-rok-2025",
     "permanent": true
   },
   {
     "source": "/predaj-rybarskych-povoleni-na-rok-2025/",
-    "destination": "/aktuality/predaj-rybarskych-povoleni-na-rok-2025",
+    "destination": "/novinky/predaj-rybarskych-povoleni-na-rok-2025",
     "permanent": true
   },
   {
     "source": "/vseobecny-zakaz-lovu-ryb-07-13-10-2024-2",
-    "destination": "/aktuality/vseobecny-zakaz-lovu-ryb-07-13-10-2024-2",
+    "destination": "/novinky/vseobecny-zakaz-lovu-ryb-07-13-10-2024-2",
     "permanent": true
   },
   {
     "source": "/vseobecny-zakaz-lovu-ryb-07-13-10-2024-2/",
-    "destination": "/aktuality/vseobecny-zakaz-lovu-ryb-07-13-10-2024-2",
+    "destination": "/novinky/vseobecny-zakaz-lovu-ryb-07-13-10-2024-2",
     "permanent": true
   },
   {
     "source": "/detske-preteky-jesen-2024",
-    "destination": "/aktuality/detske-preteky-jesen-2024",
+    "destination": "/novinky/detske-preteky-jesen-2024",
     "permanent": true
   },
   {
     "source": "/detske-preteky-jesen-2024/",
-    "destination": "/aktuality/detske-preteky-jesen-2024",
+    "destination": "/novinky/detske-preteky-jesen-2024",
     "permanent": true
   },
   {
     "source": "/vseobecny-zakaz-lovu-ryb-07-13-10-2024",
-    "destination": "/aktuality/vseobecny-zakaz-lovu-ryb-07-13-10-2024",
+    "destination": "/novinky/vseobecny-zakaz-lovu-ryb-07-13-10-2024",
     "permanent": true
   },
   {
     "source": "/vseobecny-zakaz-lovu-ryb-07-13-10-2024/",
-    "destination": "/aktuality/vseobecny-zakaz-lovu-ryb-07-13-10-2024",
+    "destination": "/novinky/vseobecny-zakaz-lovu-ryb-07-13-10-2024",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-1-10-2024",
-    "destination": "/aktuality/informacie-vyboru-1-10-2024",
+    "destination": "/novinky/informacie-vyboru-1-10-2024",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-1-10-2024/",
-    "destination": "/aktuality/informacie-vyboru-1-10-2024",
+    "destination": "/novinky/informacie-vyboru-1-10-2024",
     "permanent": true
   },
   {
     "source": "/muskarske-preteky-jesen-2024",
-    "destination": "/aktuality/muskarske-preteky-jesen-2024",
+    "destination": "/novinky/muskarske-preteky-jesen-2024",
     "permanent": true
   },
   {
     "source": "/muskarske-preteky-jesen-2024/",
-    "destination": "/aktuality/muskarske-preteky-jesen-2024",
+    "destination": "/novinky/muskarske-preteky-jesen-2024",
     "permanent": true
   },
   {
     "source": "/2732-2",
-    "destination": "/aktuality/2732-2",
+    "destination": "/novinky/2732-2",
     "permanent": true
   },
   {
     "source": "/2732-2/",
-    "destination": "/aktuality/2732-2",
+    "destination": "/novinky/2732-2",
     "permanent": true
   },
   {
     "source": "/mapa-vn-orava",
-    "destination": "/aktuality/mapa-vn-orava",
+    "destination": "/novinky/mapa-vn-orava",
     "permanent": true
   },
   {
     "source": "/mapa-vn-orava/",
-    "destination": "/aktuality/mapa-vn-orava",
+    "destination": "/novinky/mapa-vn-orava",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-zo-dna-2-5-2024",
-    "destination": "/aktuality/informacie-vyboru-zo-dna-2-5-2024",
+    "destination": "/novinky/informacie-vyboru-zo-dna-2-5-2024",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-zo-dna-2-5-2024/",
-    "destination": "/aktuality/informacie-vyboru-zo-dna-2-5-2024",
+    "destination": "/novinky/informacie-vyboru-zo-dna-2-5-2024",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-zo-dna-4-4-2024",
-    "destination": "/aktuality/informacie-vyboru-zo-dna-4-4-2024",
+    "destination": "/novinky/informacie-vyboru-zo-dna-4-4-2024",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-zo-dna-4-4-2024/",
-    "destination": "/aktuality/informacie-vyboru-zo-dna-4-4-2024",
+    "destination": "/novinky/informacie-vyboru-zo-dna-4-4-2024",
     "permanent": true
   },
   {
     "source": "/brigada-milosova-preteky-25-maj",
-    "destination": "/aktuality/brigada-milosova-preteky-25-maj",
+    "destination": "/novinky/brigada-milosova-preteky-25-maj",
     "permanent": true
   },
   {
     "source": "/brigada-milosova-preteky-25-maj/",
-    "destination": "/aktuality/brigada-milosova-preteky-25-maj",
+    "destination": "/novinky/brigada-milosova-preteky-25-maj",
     "permanent": true
   },
   {
     "source": "/brigada-rybnik-svrcinovec",
-    "destination": "/aktuality/brigada-rybnik-svrcinovec",
+    "destination": "/novinky/brigada-rybnik-svrcinovec",
     "permanent": true
   },
   {
     "source": "/brigada-rybnik-svrcinovec/",
-    "destination": "/aktuality/brigada-rybnik-svrcinovec",
+    "destination": "/novinky/brigada-rybnik-svrcinovec",
     "permanent": true
   },
   {
     "source": "/hlada-sa-klapmpiar",
-    "destination": "/aktuality/hlada-sa-klapmpiar",
+    "destination": "/novinky/hlada-sa-klapmpiar",
     "permanent": true
   },
   {
     "source": "/hlada-sa-klapmpiar/",
-    "destination": "/aktuality/hlada-sa-klapmpiar",
+    "destination": "/novinky/hlada-sa-klapmpiar",
     "permanent": true
   },
   {
     "source": "/brigada-liahen-01-a-08-maja",
-    "destination": "/aktuality/brigada-liahen-01-a-08-maja",
+    "destination": "/novinky/brigada-liahen-01-a-08-maja",
     "permanent": true
   },
   {
     "source": "/brigada-liahen-01-a-08-maja/",
-    "destination": "/aktuality/brigada-liahen-01-a-08-maja",
+    "destination": "/novinky/brigada-liahen-01-a-08-maja",
     "permanent": true
   },
   {
     "source": "/brigada-rakova-01-a-08-maja",
-    "destination": "/aktuality/brigada-rakova-01-a-08-maja",
+    "destination": "/novinky/brigada-rakova-01-a-08-maja",
     "permanent": true
   },
   {
     "source": "/brigada-rakova-01-a-08-maja/",
-    "destination": "/aktuality/brigada-rakova-01-a-08-maja",
+    "destination": "/novinky/brigada-rakova-01-a-08-maja",
     "permanent": true
   },
   {
     "source": "/ccm-2024-kaprove-preteky-2024",
-    "destination": "/aktuality/ccm-2024-kaprove-preteky-2024",
+    "destination": "/novinky/ccm-2024-kaprove-preteky-2024",
     "permanent": true
   },
   {
     "source": "/ccm-2024-kaprove-preteky-2024/",
-    "destination": "/aktuality/ccm-2024-kaprove-preteky-2024",
+    "destination": "/novinky/ccm-2024-kaprove-preteky-2024",
     "permanent": true
   },
   {
     "source": "/brigada-rybnik-cierne",
-    "destination": "/aktuality/brigada-rybnik-cierne",
+    "destination": "/novinky/brigada-rybnik-cierne",
     "permanent": true
   },
   {
     "source": "/brigada-rybnik-cierne/",
-    "destination": "/aktuality/brigada-rybnik-cierne",
+    "destination": "/novinky/brigada-rybnik-cierne",
     "permanent": true
   },
   {
     "source": "/detske-preteky-v-love-kapra-2024",
-    "destination": "/aktuality/detske-preteky-v-love-kapra-2024",
+    "destination": "/novinky/detske-preteky-v-love-kapra-2024",
     "permanent": true
   },
   {
     "source": "/detske-preteky-v-love-kapra-2024/",
-    "destination": "/aktuality/detske-preteky-v-love-kapra-2024",
+    "destination": "/novinky/detske-preteky-v-love-kapra-2024",
     "permanent": true
   },
   {
     "source": "/zakaz-lovu-vysadenych-druhov-ryb",
-    "destination": "/aktuality/zakaz-lovu-vysadenych-druhov-ryb",
+    "destination": "/novinky/zakaz-lovu-vysadenych-druhov-ryb",
     "permanent": true
   },
   {
     "source": "/zakaz-lovu-vysadenych-druhov-ryb/",
-    "destination": "/aktuality/zakaz-lovu-vysadenych-druhov-ryb",
+    "destination": "/novinky/zakaz-lovu-vysadenych-druhov-ryb",
     "permanent": true
   },
   {
     "source": "/skolenia-2024",
-    "destination": "/aktuality/skolenia-2024",
+    "destination": "/novinky/skolenia-2024",
     "permanent": true
   },
   {
     "source": "/skolenia-2024/",
-    "destination": "/aktuality/skolenia-2024",
+    "destination": "/novinky/skolenia-2024",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-07-03-2024",
-    "destination": "/aktuality/informacie-vyboru-07-03-2024",
+    "destination": "/novinky/informacie-vyboru-07-03-2024",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-07-03-2024/",
-    "destination": "/aktuality/informacie-vyboru-07-03-2024",
+    "destination": "/novinky/informacie-vyboru-07-03-2024",
     "permanent": true
   },
   {
     "source": "/rekonstrukcia-objektu-liahen-rieka",
-    "destination": "/aktuality/rekonstrukcia-objektu-liahen-rieka",
+    "destination": "/novinky/rekonstrukcia-objektu-liahen-rieka",
     "permanent": true
   },
   {
     "source": "/rekonstrukcia-objektu-liahen-rieka/",
-    "destination": "/aktuality/rekonstrukcia-objektu-liahen-rieka",
+    "destination": "/novinky/rekonstrukcia-objektu-liahen-rieka",
     "permanent": true
   },
   {
     "source": "/brigada-liahen-rieka-09-a-10-03-2024",
-    "destination": "/aktuality/brigada-liahen-rieka-09-a-10-03-2024",
+    "destination": "/novinky/brigada-liahen-rieka-09-a-10-03-2024",
     "permanent": true
   },
   {
     "source": "/brigada-liahen-rieka-09-a-10-03-2024/",
-    "destination": "/aktuality/brigada-liahen-rieka-09-a-10-03-2024",
+    "destination": "/novinky/brigada-liahen-rieka-09-a-10-03-2024",
     "permanent": true
   },
   {
     "source": "/brigada-02-03-2024",
-    "destination": "/aktuality/brigada-02-03-2024",
+    "destination": "/novinky/brigada-02-03-2024",
     "permanent": true
   },
   {
     "source": "/brigada-02-03-2024/",
-    "destination": "/aktuality/brigada-02-03-2024",
+    "destination": "/novinky/brigada-02-03-2024",
     "permanent": true
   },
   {
     "source": "/clenska-schodza-2024",
-    "destination": "/aktuality/clenska-schodza-2024",
+    "destination": "/novinky/clenska-schodza-2024",
     "permanent": true
   },
   {
     "source": "/clenska-schodza-2024/",
-    "destination": "/aktuality/clenska-schodza-2024",
+    "destination": "/novinky/clenska-schodza-2024",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-zo-dna-01-02-2024",
-    "destination": "/aktuality/informacie-vyboru-zo-dna-01-02-2024",
+    "destination": "/novinky/informacie-vyboru-zo-dna-01-02-2024",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-zo-dna-01-02-2024/",
-    "destination": "/aktuality/informacie-vyboru-zo-dna-01-02-2024",
+    "destination": "/novinky/informacie-vyboru-zo-dna-01-02-2024",
     "permanent": true
   },
   {
     "source": "/lru-2024-pstruhove-preteky",
-    "destination": "/aktuality/lru-2024-pstruhove-preteky",
+    "destination": "/novinky/lru-2024-pstruhove-preteky",
     "permanent": true
   },
   {
     "source": "/lru-2024-pstruhove-preteky/",
-    "destination": "/aktuality/lru-2024-pstruhove-preteky",
+    "destination": "/novinky/lru-2024-pstruhove-preteky",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-04-01-2024",
-    "destination": "/aktuality/informacie-vyboru-04-01-2024",
+    "destination": "/novinky/informacie-vyboru-04-01-2024",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-04-01-2024/",
-    "destination": "/aktuality/informacie-vyboru-04-01-2024",
+    "destination": "/novinky/informacie-vyboru-04-01-2024",
     "permanent": true
   },
   {
     "source": "/15-rybarsky-ples",
-    "destination": "/aktuality/15-rybarsky-ples",
+    "destination": "/novinky/15-rybarsky-ples",
     "permanent": true
   },
   {
     "source": "/15-rybarsky-ples/",
-    "destination": "/aktuality/15-rybarsky-ples",
+    "destination": "/novinky/15-rybarsky-ples",
     "permanent": true
   },
   {
     "source": "/informacie-z-vyboru-14-12-2023",
-    "destination": "/aktuality/informacie-z-vyboru-14-12-2023",
+    "destination": "/novinky/informacie-z-vyboru-14-12-2023",
     "permanent": true
   },
   {
     "source": "/informacie-z-vyboru-14-12-2023/",
-    "destination": "/aktuality/informacie-z-vyboru-14-12-2023",
+    "destination": "/novinky/informacie-z-vyboru-14-12-2023",
     "permanent": true
   },
   {
     "source": "/zarybnenie-pstruhom-duhovym-2",
-    "destination": "/aktuality/zarybnenie-pstruhom-duhovym-2",
+    "destination": "/novinky/zarybnenie-pstruhom-duhovym-2",
     "permanent": true
   },
   {
     "source": "/zarybnenie-pstruhom-duhovym-2/",
-    "destination": "/aktuality/zarybnenie-pstruhom-duhovym-2",
+    "destination": "/novinky/zarybnenie-pstruhom-duhovym-2",
     "permanent": true
   },
   {
     "source": "/informacie-z-vyboru-12-10-2023",
-    "destination": "/aktuality/informacie-z-vyboru-12-10-2023",
+    "destination": "/novinky/informacie-z-vyboru-12-10-2023",
     "permanent": true
   },
   {
     "source": "/informacie-z-vyboru-12-10-2023/",
-    "destination": "/aktuality/informacie-z-vyboru-12-10-2023",
+    "destination": "/novinky/informacie-z-vyboru-12-10-2023",
     "permanent": true
   },
   {
     "source": "/vseobecny-zakaz-lovu-ryb-od-20-09-2023",
-    "destination": "/aktuality/vseobecny-zakaz-lovu-ryb-od-20-09-2023",
+    "destination": "/novinky/vseobecny-zakaz-lovu-ryb-od-20-09-2023",
     "permanent": true
   },
   {
     "source": "/vseobecny-zakaz-lovu-ryb-od-20-09-2023/",
-    "destination": "/aktuality/vseobecny-zakaz-lovu-ryb-od-20-09-2023",
+    "destination": "/novinky/vseobecny-zakaz-lovu-ryb-od-20-09-2023",
     "permanent": true
   },
   {
     "source": "/detske-preteky-jesen-2023",
-    "destination": "/aktuality/detske-preteky-jesen-2023",
+    "destination": "/novinky/detske-preteky-jesen-2023",
     "permanent": true
   },
   {
     "source": "/detske-preteky-jesen-2023/",
-    "destination": "/aktuality/detske-preteky-jesen-2023",
+    "destination": "/novinky/detske-preteky-jesen-2023",
     "permanent": true
   },
   {
     "source": "/muskarske-preteky-2023",
-    "destination": "/aktuality/muskarske-preteky-2023",
+    "destination": "/novinky/muskarske-preteky-2023",
     "permanent": true
   },
   {
     "source": "/muskarske-preteky-2023/",
-    "destination": "/aktuality/muskarske-preteky-2023",
+    "destination": "/novinky/muskarske-preteky-2023",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-z-05-09-2023",
-    "destination": "/aktuality/informacie-vyboru-z-05-09-2023",
+    "destination": "/novinky/informacie-vyboru-z-05-09-2023",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-z-05-09-2023/",
-    "destination": "/aktuality/informacie-vyboru-z-05-09-2023",
+    "destination": "/novinky/informacie-vyboru-z-05-09-2023",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-8-6-2023",
-    "destination": "/aktuality/informacie-vyboru-8-6-2023",
+    "destination": "/novinky/informacie-vyboru-8-6-2023",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-8-6-2023/",
-    "destination": "/aktuality/informacie-vyboru-8-6-2023",
+    "destination": "/novinky/informacie-vyboru-8-6-2023",
     "permanent": true
   },
   {
     "source": "/mimoriadny-vybor-17-5-2023",
-    "destination": "/aktuality/mimoriadny-vybor-17-5-2023",
+    "destination": "/novinky/mimoriadny-vybor-17-5-2023",
     "permanent": true
   },
   {
     "source": "/mimoriadny-vybor-17-5-2023/",
-    "destination": "/aktuality/mimoriadny-vybor-17-5-2023",
+    "destination": "/novinky/mimoriadny-vybor-17-5-2023",
     "permanent": true
   },
   {
     "source": "/brigada-milosova-20-5-2023",
-    "destination": "/aktuality/brigada-milosova-20-5-2023",
+    "destination": "/novinky/brigada-milosova-20-5-2023",
     "permanent": true
   },
   {
     "source": "/brigada-milosova-20-5-2023/",
-    "destination": "/aktuality/brigada-milosova-20-5-2023",
+    "destination": "/novinky/brigada-milosova-20-5-2023",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-4-5-2023",
-    "destination": "/aktuality/informacie-vyboru-4-5-2023",
+    "destination": "/novinky/informacie-vyboru-4-5-2023",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-4-5-2023/",
-    "destination": "/aktuality/informacie-vyboru-4-5-2023",
+    "destination": "/novinky/informacie-vyboru-4-5-2023",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-06-04-2023",
-    "destination": "/aktuality/informacie-vyboru-06-04-2023",
+    "destination": "/novinky/informacie-vyboru-06-04-2023",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-06-04-2023/",
-    "destination": "/aktuality/informacie-vyboru-06-04-2023",
+    "destination": "/novinky/informacie-vyboru-06-04-2023",
     "permanent": true
   },
   {
     "source": "/zoznam-planovanych-prac",
-    "destination": "/aktuality/zoznam-planovanych-prac",
+    "destination": "/novinky/zoznam-planovanych-prac",
     "permanent": true
   },
   {
     "source": "/zoznam-planovanych-prac/",
-    "destination": "/aktuality/zoznam-planovanych-prac",
+    "destination": "/novinky/zoznam-planovanych-prac",
     "permanent": true
   },
   {
     "source": "/brigada-cierne-20-05-2023",
-    "destination": "/aktuality/brigada-cierne-20-05-2023",
+    "destination": "/novinky/brigada-cierne-20-05-2023",
     "permanent": true
   },
   {
     "source": "/brigada-cierne-20-05-2023/",
-    "destination": "/aktuality/brigada-cierne-20-05-2023",
+    "destination": "/novinky/brigada-cierne-20-05-2023",
     "permanent": true
   },
   {
     "source": "/lru-milosova-2023",
-    "destination": "/aktuality/lru-milosova-2023",
+    "destination": "/novinky/lru-milosova-2023",
     "permanent": true
   },
   {
     "source": "/lru-milosova-2023/",
-    "destination": "/aktuality/lru-milosova-2023",
+    "destination": "/novinky/lru-milosova-2023",
     "permanent": true
   },
   {
     "source": "/zarybnenie-a-zakaz-lovu-ryb",
-    "destination": "/aktuality/zarybnenie-a-zakaz-lovu-ryb",
+    "destination": "/novinky/zarybnenie-a-zakaz-lovu-ryb",
     "permanent": true
   },
   {
     "source": "/zarybnenie-a-zakaz-lovu-ryb/",
-    "destination": "/aktuality/zarybnenie-a-zakaz-lovu-ryb",
+    "destination": "/novinky/zarybnenie-a-zakaz-lovu-ryb",
     "permanent": true
   },
   {
     "source": "/brigada-liahen-22-04-2023",
-    "destination": "/aktuality/brigada-liahen-22-04-2023",
+    "destination": "/novinky/brigada-liahen-22-04-2023",
     "permanent": true
   },
   {
     "source": "/brigada-liahen-22-04-2023/",
-    "destination": "/aktuality/brigada-liahen-22-04-2023",
+    "destination": "/novinky/brigada-liahen-22-04-2023",
     "permanent": true
   },
   {
     "source": "/brigada-rakova-13-05-2023",
-    "destination": "/aktuality/brigada-rakova-13-05-2023",
+    "destination": "/novinky/brigada-rakova-13-05-2023",
     "permanent": true
   },
   {
     "source": "/brigada-rakova-13-05-2023/",
-    "destination": "/aktuality/brigada-rakova-13-05-2023",
+    "destination": "/novinky/brigada-rakova-13-05-2023",
     "permanent": true
   },
   {
     "source": "/brigada-gavlasov-potok-22-04-2023",
-    "destination": "/aktuality/brigada-gavlasov-potok-22-04-2023",
+    "destination": "/novinky/brigada-gavlasov-potok-22-04-2023",
     "permanent": true
   },
   {
     "source": "/brigada-gavlasov-potok-22-04-2023/",
-    "destination": "/aktuality/brigada-gavlasov-potok-22-04-2023",
+    "destination": "/novinky/brigada-gavlasov-potok-22-04-2023",
     "permanent": true
   },
   {
     "source": "/ccm-2023-kaprove-preteky",
-    "destination": "/aktuality/ccm-2023-kaprove-preteky",
+    "destination": "/novinky/ccm-2023-kaprove-preteky",
     "permanent": true
   },
   {
     "source": "/ccm-2023-kaprove-preteky/",
-    "destination": "/aktuality/ccm-2023-kaprove-preteky",
+    "destination": "/novinky/ccm-2023-kaprove-preteky",
     "permanent": true
   },
   {
     "source": "/detske-preteky-maj-2023",
-    "destination": "/aktuality/detske-preteky-maj-2023",
+    "destination": "/novinky/detske-preteky-maj-2023",
     "permanent": true
   },
   {
     "source": "/detske-preteky-maj-2023/",
-    "destination": "/aktuality/detske-preteky-maj-2023",
+    "destination": "/novinky/detske-preteky-maj-2023",
     "permanent": true
   },
   {
     "source": "/clenska-schodza-2023",
-    "destination": "/aktuality/clenska-schodza-2023",
+    "destination": "/novinky/clenska-schodza-2023",
     "permanent": true
   },
   {
     "source": "/clenska-schodza-2023/",
-    "destination": "/aktuality/clenska-schodza-2023",
+    "destination": "/novinky/clenska-schodza-2023",
     "permanent": true
   },
   {
     "source": "/zasadanie-vyboru-02-03-2023",
-    "destination": "/aktuality/zasadanie-vyboru-02-03-2023",
+    "destination": "/novinky/zasadanie-vyboru-02-03-2023",
     "permanent": true
   },
   {
     "source": "/zasadanie-vyboru-02-03-2023/",
-    "destination": "/aktuality/zasadanie-vyboru-02-03-2023",
+    "destination": "/novinky/zasadanie-vyboru-02-03-2023",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-5-januara-2023",
-    "destination": "/aktuality/informacie-vyboru-5-januara-2023",
+    "destination": "/novinky/informacie-vyboru-5-januara-2023",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-5-januara-2023/",
-    "destination": "/aktuality/informacie-vyboru-5-januara-2023",
+    "destination": "/novinky/informacie-vyboru-5-januara-2023",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-5-1-2023",
-    "destination": "/aktuality/informacie-vyboru-5-1-2023",
+    "destination": "/novinky/informacie-vyboru-5-1-2023",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-5-1-2023/",
-    "destination": "/aktuality/informacie-vyboru-5-1-2023",
+    "destination": "/novinky/informacie-vyboru-5-1-2023",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-11-2022",
-    "destination": "/aktuality/informacie-vyboru-11-2022",
+    "destination": "/novinky/informacie-vyboru-11-2022",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-11-2022/",
-    "destination": "/aktuality/informacie-vyboru-11-2022",
+    "destination": "/novinky/informacie-vyboru-11-2022",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-10-2022",
-    "destination": "/aktuality/informacie-vyboru-10-2022",
+    "destination": "/novinky/informacie-vyboru-10-2022",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-10-2022/",
-    "destination": "/aktuality/informacie-vyboru-10-2022",
+    "destination": "/novinky/informacie-vyboru-10-2022",
     "permanent": true
   },
   {
     "source": "/14-rybarsky-ples-2",
-    "destination": "/aktuality/14-rybarsky-ples-2",
+    "destination": "/novinky/14-rybarsky-ples-2",
     "permanent": true
   },
   {
     "source": "/14-rybarsky-ples-2/",
-    "destination": "/aktuality/14-rybarsky-ples-2",
+    "destination": "/novinky/14-rybarsky-ples-2",
     "permanent": true
   },
   {
     "source": "/muskarske-preteky-2022",
-    "destination": "/aktuality/muskarske-preteky-2022",
+    "destination": "/novinky/muskarske-preteky-2022",
     "permanent": true
   },
   {
     "source": "/muskarske-preteky-2022/",
-    "destination": "/aktuality/muskarske-preteky-2022",
+    "destination": "/novinky/muskarske-preteky-2022",
     "permanent": true
   },
   {
     "source": "/detske-jesenne-preteky-v-love-ryb-na-plavanu",
-    "destination": "/aktuality/detske-jesenne-preteky-v-love-ryb-na-plavanu",
+    "destination": "/novinky/detske-jesenne-preteky-v-love-ryb-na-plavanu",
     "permanent": true
   },
   {
     "source": "/detske-jesenne-preteky-v-love-ryb-na-plavanu/",
-    "destination": "/aktuality/detske-jesenne-preteky-v-love-ryb-na-plavanu",
+    "destination": "/novinky/detske-jesenne-preteky-v-love-ryb-na-plavanu",
     "permanent": true
   },
   {
     "source": "/vseobecny-zakaz-lovu-ryb-od-14-09-2022",
-    "destination": "/aktuality/vseobecny-zakaz-lovu-ryb-od-14-09-2022",
+    "destination": "/novinky/vseobecny-zakaz-lovu-ryb-od-14-09-2022",
     "permanent": true
   },
   {
     "source": "/vseobecny-zakaz-lovu-ryb-od-14-09-2022/",
-    "destination": "/aktuality/vseobecny-zakaz-lovu-ryb-od-14-09-2022",
+    "destination": "/novinky/vseobecny-zakaz-lovu-ryb-od-14-09-2022",
     "permanent": true
   },
   {
     "source": "/informacie-zo-zasadnutia-vyboru",
-    "destination": "/aktuality/informacie-zo-zasadnutia-vyboru",
+    "destination": "/novinky/informacie-zo-zasadnutia-vyboru",
     "permanent": true
   },
   {
     "source": "/informacie-zo-zasadnutia-vyboru/",
-    "destination": "/aktuality/informacie-zo-zasadnutia-vyboru",
+    "destination": "/novinky/informacie-zo-zasadnutia-vyboru",
     "permanent": true
   },
   {
     "source": "/stratil-sa-rybarsky-prut-a-navijak",
-    "destination": "/aktuality/stratil-sa-rybarsky-prut-a-navijak",
+    "destination": "/novinky/stratil-sa-rybarsky-prut-a-navijak",
     "permanent": true
   },
   {
     "source": "/stratil-sa-rybarsky-prut-a-navijak/",
-    "destination": "/aktuality/stratil-sa-rybarsky-prut-a-navijak",
+    "destination": "/novinky/stratil-sa-rybarsky-prut-a-navijak",
     "permanent": true
   },
   {
     "source": "/informacie-z-rokovania-vyboru-mo-cadca-2-5-2022-2",
-    "destination": "/aktuality/informacie-z-rokovania-vyboru-mo-cadca-2-5-2022-2",
+    "destination": "/novinky/informacie-z-rokovania-vyboru-mo-cadca-2-5-2022-2",
     "permanent": true
   },
   {
     "source": "/informacie-z-rokovania-vyboru-mo-cadca-2-5-2022-2/",
-    "destination": "/aktuality/informacie-z-rokovania-vyboru-mo-cadca-2-5-2022-2",
+    "destination": "/novinky/informacie-z-rokovania-vyboru-mo-cadca-2-5-2022-2",
     "permanent": true
   },
   {
     "source": "/1905-2",
-    "destination": "/aktuality/1905-2",
+    "destination": "/novinky/1905-2",
     "permanent": true
   },
   {
     "source": "/1905-2/",
-    "destination": "/aktuality/1905-2",
+    "destination": "/novinky/1905-2",
     "permanent": true
   },
   {
     "source": "/brigada-cierne-21-05-2022",
-    "destination": "/aktuality/brigada-cierne-21-05-2022",
+    "destination": "/novinky/brigada-cierne-21-05-2022",
     "permanent": true
   },
   {
     "source": "/brigada-cierne-21-05-2022/",
-    "destination": "/aktuality/brigada-cierne-21-05-2022",
+    "destination": "/novinky/brigada-cierne-21-05-2022",
     "permanent": true
   },
   {
     "source": "/vseobecny-zakaz-lovu-ryb-3",
-    "destination": "/aktuality/vseobecny-zakaz-lovu-ryb-3",
+    "destination": "/novinky/vseobecny-zakaz-lovu-ryb-3",
     "permanent": true
   },
   {
     "source": "/vseobecny-zakaz-lovu-ryb-3/",
-    "destination": "/aktuality/vseobecny-zakaz-lovu-ryb-3",
+    "destination": "/novinky/vseobecny-zakaz-lovu-ryb-3",
     "permanent": true
   },
   {
     "source": "/informacie-z-rokovania-vyboru-mo-cadca-2-5-2022",
-    "destination": "/aktuality/informacie-z-rokovania-vyboru-mo-cadca-2-5-2022",
+    "destination": "/novinky/informacie-z-rokovania-vyboru-mo-cadca-2-5-2022",
     "permanent": true
   },
   {
     "source": "/informacie-z-rokovania-vyboru-mo-cadca-2-5-2022/",
-    "destination": "/aktuality/informacie-z-rokovania-vyboru-mo-cadca-2-5-2022",
+    "destination": "/novinky/informacie-z-rokovania-vyboru-mo-cadca-2-5-2022",
     "permanent": true
   },
   {
     "source": "/ccm-milosova-2022",
-    "destination": "/aktuality/ccm-milosova-2022",
+    "destination": "/novinky/ccm-milosova-2022",
     "permanent": true
   },
   {
     "source": "/ccm-milosova-2022/",
-    "destination": "/aktuality/ccm-milosova-2022",
+    "destination": "/novinky/ccm-milosova-2022",
     "permanent": true
   },
   {
     "source": "/jazdil-v-koryte-rieky-kysuca-neznamy-vodic-usmrtil-stovky-ryb",
-    "destination": "/aktuality/jazdil-v-koryte-rieky-kysuca-neznamy-vodic-usmrtil-stovky-ryb",
+    "destination": "/novinky/jazdil-v-koryte-rieky-kysuca-neznamy-vodic-usmrtil-stovky-ryb",
     "permanent": true
   },
   {
     "source": "/jazdil-v-koryte-rieky-kysuca-neznamy-vodic-usmrtil-stovky-ryb/",
-    "destination": "/aktuality/jazdil-v-koryte-rieky-kysuca-neznamy-vodic-usmrtil-stovky-ryb",
+    "destination": "/novinky/jazdil-v-koryte-rieky-kysuca-neznamy-vodic-usmrtil-stovky-ryb",
     "permanent": true
   },
   {
     "source": "/vyrocna-clenska-schodza",
-    "destination": "/aktuality/vyrocna-clenska-schodza",
+    "destination": "/novinky/vyrocna-clenska-schodza",
     "permanent": true
   },
   {
     "source": "/vyrocna-clenska-schodza/",
-    "destination": "/aktuality/vyrocna-clenska-schodza",
+    "destination": "/novinky/vyrocna-clenska-schodza",
     "permanent": true
   },
   {
     "source": "/oznam-o-predkladani-navrhov-na-volby-srz-mo-2022",
-    "destination": "/aktuality/oznam-o-predkladani-navrhov-na-volby-srz-mo-2022",
+    "destination": "/novinky/oznam-o-predkladani-navrhov-na-volby-srz-mo-2022",
     "permanent": true
   },
   {
     "source": "/oznam-o-predkladani-navrhov-na-volby-srz-mo-2022/",
-    "destination": "/aktuality/oznam-o-predkladani-navrhov-na-volby-srz-mo-2022",
+    "destination": "/novinky/oznam-o-predkladani-navrhov-na-volby-srz-mo-2022",
     "permanent": true
   },
   {
     "source": "/brigada-blazkov-potok",
-    "destination": "/aktuality/brigada-blazkov-potok",
+    "destination": "/novinky/brigada-blazkov-potok",
     "permanent": true
   },
   {
     "source": "/brigada-blazkov-potok/",
-    "destination": "/aktuality/brigada-blazkov-potok",
+    "destination": "/novinky/brigada-blazkov-potok",
     "permanent": true
   },
   {
     "source": "/vyzva-k-predlozeniu-cenovej-ponuky",
-    "destination": "/aktuality/vyzva-k-predlozeniu-cenovej-ponuky",
+    "destination": "/novinky/vyzva-k-predlozeniu-cenovej-ponuky",
     "permanent": true
   },
   {
     "source": "/vyzva-k-predlozeniu-cenovej-ponuky/",
-    "destination": "/aktuality/vyzva-k-predlozeniu-cenovej-ponuky",
+    "destination": "/novinky/vyzva-k-predlozeniu-cenovej-ponuky",
     "permanent": true
   },
   {
     "source": "/brigada-pocas-pretekov",
-    "destination": "/aktuality/brigada-pocas-pretekov",
+    "destination": "/novinky/brigada-pocas-pretekov",
     "permanent": true
   },
   {
     "source": "/brigada-pocas-pretekov/",
-    "destination": "/aktuality/brigada-pocas-pretekov",
+    "destination": "/novinky/brigada-pocas-pretekov",
     "permanent": true
   },
   {
     "source": "/detske-preteky-maj-2022",
-    "destination": "/aktuality/detske-preteky-maj-2022",
+    "destination": "/novinky/detske-preteky-maj-2022",
     "permanent": true
   },
   {
     "source": "/detske-preteky-maj-2022/",
-    "destination": "/aktuality/detske-preteky-maj-2022",
+    "destination": "/novinky/detske-preteky-maj-2022",
     "permanent": true
   },
   {
     "source": "/na-rybach-petrov-zdar-5-6-a-7-marca-2022",
-    "destination": "/aktuality/na-rybach-petrov-zdar-5-6-a-7-marca-2022",
+    "destination": "/novinky/na-rybach-petrov-zdar-5-6-a-7-marca-2022",
     "permanent": true
   },
   {
     "source": "/na-rybach-petrov-zdar-5-6-a-7-marca-2022/",
-    "destination": "/aktuality/na-rybach-petrov-zdar-5-6-a-7-marca-2022",
+    "destination": "/novinky/na-rybach-petrov-zdar-5-6-a-7-marca-2022",
     "permanent": true
   },
   {
     "source": "/pomoc-pre-ukrajinu",
-    "destination": "/aktuality/pomoc-pre-ukrajinu",
+    "destination": "/novinky/pomoc-pre-ukrajinu",
     "permanent": true
   },
   {
     "source": "/pomoc-pre-ukrajinu/",
-    "destination": "/aktuality/pomoc-pre-ukrajinu",
+    "destination": "/novinky/pomoc-pre-ukrajinu",
     "permanent": true
   },
   {
     "source": "/rybolov-vo-februari",
-    "destination": "/aktuality/rybolov-vo-februari",
+    "destination": "/novinky/rybolov-vo-februari",
     "permanent": true
   },
   {
     "source": "/rybolov-vo-februari/",
-    "destination": "/aktuality/rybolov-vo-februari",
+    "destination": "/novinky/rybolov-vo-februari",
     "permanent": true
   },
   {
     "source": "/vybor-3-3-2022",
-    "destination": "/aktuality/vybor-3-3-2022",
+    "destination": "/novinky/vybor-3-3-2022",
     "permanent": true
   },
   {
     "source": "/vybor-3-3-2022/",
-    "destination": "/aktuality/vybor-3-3-2022",
+    "destination": "/novinky/vybor-3-3-2022",
     "permanent": true
   },
   {
     "source": "/lru-maj-2022",
-    "destination": "/aktuality/lru-maj-2022",
+    "destination": "/novinky/lru-maj-2022",
     "permanent": true
   },
   {
     "source": "/lru-maj-2022/",
-    "destination": "/aktuality/lru-maj-2022",
+    "destination": "/novinky/lru-maj-2022",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-13-01-2022",
-    "destination": "/aktuality/informacie-vyboru-13-01-2022",
+    "destination": "/novinky/informacie-vyboru-13-01-2022",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-13-01-2022/",
-    "destination": "/aktuality/informacie-vyboru-13-01-2022",
+    "destination": "/novinky/informacie-vyboru-13-01-2022",
     "permanent": true
   },
   {
     "source": "/predaj-rybarskych-povoleni-na-rok-2022",
-    "destination": "/aktuality/predaj-rybarskych-povoleni-na-rok-2022",
+    "destination": "/novinky/predaj-rybarskych-povoleni-na-rok-2022",
     "permanent": true
   },
   {
     "source": "/predaj-rybarskych-povoleni-na-rok-2022/",
-    "destination": "/aktuality/predaj-rybarskych-povoleni-na-rok-2022",
+    "destination": "/novinky/predaj-rybarskych-povoleni-na-rok-2022",
     "permanent": true
   },
   {
     "source": "/rybolov-v-oktobri",
-    "destination": "/aktuality/rybolov-v-oktobri",
+    "destination": "/novinky/rybolov-v-oktobri",
     "permanent": true
   },
   {
     "source": "/rybolov-v-oktobri/",
-    "destination": "/aktuality/rybolov-v-oktobri",
+    "destination": "/novinky/rybolov-v-oktobri",
     "permanent": true
   },
   {
     "source": "/brigada-gavlasov-potok-21-8-2021",
-    "destination": "/aktuality/brigada-gavlasov-potok-21-8-2021",
+    "destination": "/novinky/brigada-gavlasov-potok-21-8-2021",
     "permanent": true
   },
   {
     "source": "/brigada-gavlasov-potok-21-8-2021/",
-    "destination": "/aktuality/brigada-gavlasov-potok-21-8-2021",
+    "destination": "/novinky/brigada-gavlasov-potok-21-8-2021",
     "permanent": true
   },
   {
     "source": "/1533-2",
-    "destination": "/aktuality/1533-2",
+    "destination": "/novinky/1533-2",
     "permanent": true
   },
   {
     "source": "/1533-2/",
-    "destination": "/aktuality/1533-2",
+    "destination": "/novinky/1533-2",
     "permanent": true
   },
   {
     "source": "/muskarske-preteky-jesen-2021",
-    "destination": "/aktuality/muskarske-preteky-jesen-2021",
+    "destination": "/novinky/muskarske-preteky-jesen-2021",
     "permanent": true
   },
   {
     "source": "/muskarske-preteky-jesen-2021/",
-    "destination": "/aktuality/muskarske-preteky-jesen-2021",
+    "destination": "/novinky/muskarske-preteky-jesen-2021",
     "permanent": true
   },
   {
     "source": "/1467-2",
-    "destination": "/aktuality/1467-2",
+    "destination": "/novinky/1467-2",
     "permanent": true
   },
   {
     "source": "/1467-2/",
-    "destination": "/aktuality/1467-2",
+    "destination": "/novinky/1467-2",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-13-09-2021",
-    "destination": "/aktuality/informacie-vyboru-13-09-2021",
+    "destination": "/novinky/informacie-vyboru-13-09-2021",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-13-09-2021/",
-    "destination": "/aktuality/informacie-vyboru-13-09-2021",
+    "destination": "/novinky/informacie-vyboru-13-09-2021",
     "permanent": true
   },
   {
     "source": "/vseobecny-zakaz-lovu-ryb-2",
-    "destination": "/aktuality/vseobecny-zakaz-lovu-ryb-2",
+    "destination": "/novinky/vseobecny-zakaz-lovu-ryb-2",
     "permanent": true
   },
   {
     "source": "/vseobecny-zakaz-lovu-ryb-2/",
-    "destination": "/aktuality/vseobecny-zakaz-lovu-ryb-2",
+    "destination": "/novinky/vseobecny-zakaz-lovu-ryb-2",
     "permanent": true
   },
   {
     "source": "/brigada-vn-milosova-15-a-18-09-2021",
-    "destination": "/aktuality/brigada-vn-milosova-15-a-18-09-2021",
+    "destination": "/novinky/brigada-vn-milosova-15-a-18-09-2021",
     "permanent": true
   },
   {
     "source": "/brigada-vn-milosova-15-a-18-09-2021/",
-    "destination": "/aktuality/brigada-vn-milosova-15-a-18-09-2021",
+    "destination": "/novinky/brigada-vn-milosova-15-a-18-09-2021",
     "permanent": true
   },
   {
     "source": "/zarybnenie-jesen-2021",
-    "destination": "/aktuality/zarybnenie-jesen-2021",
+    "destination": "/novinky/zarybnenie-jesen-2021",
     "permanent": true
   },
   {
     "source": "/zarybnenie-jesen-2021/",
-    "destination": "/aktuality/zarybnenie-jesen-2021",
+    "destination": "/novinky/zarybnenie-jesen-2021",
     "permanent": true
   },
   {
     "source": "/detske-preteky-september-2021",
-    "destination": "/aktuality/detske-preteky-september-2021",
+    "destination": "/novinky/detske-preteky-september-2021",
     "permanent": true
   },
   {
     "source": "/detske-preteky-september-2021/",
-    "destination": "/aktuality/detske-preteky-september-2021",
+    "destination": "/novinky/detske-preteky-september-2021",
     "permanent": true
   },
   {
     "source": "/brigada-zarybnovanie-lipnom",
-    "destination": "/aktuality/brigada-zarybnovanie-lipnom",
+    "destination": "/novinky/brigada-zarybnovanie-lipnom",
     "permanent": true
   },
   {
     "source": "/brigada-zarybnovanie-lipnom/",
-    "destination": "/aktuality/brigada-zarybnovanie-lipnom",
+    "destination": "/novinky/brigada-zarybnovanie-lipnom",
     "permanent": true
   },
   {
     "source": "/lru-milosova-2021",
-    "destination": "/aktuality/lru-milosova-2021",
+    "destination": "/novinky/lru-milosova-2021",
     "permanent": true
   },
   {
     "source": "/lru-milosova-2021/",
-    "destination": "/aktuality/lru-milosova-2021",
+    "destination": "/novinky/lru-milosova-2021",
     "permanent": true
   },
   {
     "source": "/clenska-schodza-30-maj-2021",
-    "destination": "/aktuality/clenska-schodza-30-maj-2021",
+    "destination": "/novinky/clenska-schodza-30-maj-2021",
     "permanent": true
   },
   {
     "source": "/clenska-schodza-30-maj-2021/",
-    "destination": "/aktuality/clenska-schodza-30-maj-2021",
+    "destination": "/novinky/clenska-schodza-30-maj-2021",
     "permanent": true
   },
   {
     "source": "/1413-2",
-    "destination": "/aktuality/1413-2",
+    "destination": "/novinky/1413-2",
     "permanent": true
   },
   {
     "source": "/1413-2/",
-    "destination": "/aktuality/1413-2",
+    "destination": "/novinky/1413-2",
     "permanent": true
   },
   {
     "source": "/brigada-rybnik-cierne-22-05-2021",
-    "destination": "/aktuality/brigada-rybnik-cierne-22-05-2021",
+    "destination": "/novinky/brigada-rybnik-cierne-22-05-2021",
     "permanent": true
   },
   {
     "source": "/brigada-rybnik-cierne-22-05-2021/",
-    "destination": "/aktuality/brigada-rybnik-cierne-22-05-2021",
+    "destination": "/novinky/brigada-rybnik-cierne-22-05-2021",
     "permanent": true
   },
   {
     "source": "/704-2",
-    "destination": "/aktuality/704-2",
+    "destination": "/novinky/704-2",
     "permanent": true
   },
   {
     "source": "/704-2/",
-    "destination": "/aktuality/704-2",
+    "destination": "/novinky/704-2",
     "permanent": true
   },
   {
     "source": "/brigada-vn-milosova-01-02-2021",
-    "destination": "/aktuality/brigada-vn-milosova-01-02-2021",
+    "destination": "/novinky/brigada-vn-milosova-01-02-2021",
     "permanent": true
   },
   {
     "source": "/brigada-vn-milosova-01-02-2021/",
-    "destination": "/aktuality/brigada-vn-milosova-01-02-2021",
+    "destination": "/novinky/brigada-vn-milosova-01-02-2021",
     "permanent": true
   },
   {
     "source": "/informacia-k-brigadnickej-povinnosti-clenov-srz",
-    "destination": "/aktuality/informacia-k-brigadnickej-povinnosti-clenov-srz",
+    "destination": "/novinky/informacia-k-brigadnickej-povinnosti-clenov-srz",
     "permanent": true
   },
   {
     "source": "/informacia-k-brigadnickej-povinnosti-clenov-srz/",
-    "destination": "/aktuality/informacia-k-brigadnickej-povinnosti-clenov-srz",
+    "destination": "/novinky/informacia-k-brigadnickej-povinnosti-clenov-srz",
     "permanent": true
   },
   {
     "source": "/covid-automat-pre-sport",
-    "destination": "/aktuality/covid-automat-pre-sport",
+    "destination": "/novinky/covid-automat-pre-sport",
     "permanent": true
   },
   {
     "source": "/covid-automat-pre-sport/",
-    "destination": "/aktuality/covid-automat-pre-sport",
+    "destination": "/novinky/covid-automat-pre-sport",
     "permanent": true
   },
   {
     "source": "/covid-opatrenia-k-pstruhovej-sezone",
-    "destination": "/aktuality/covid-opatrenia-k-pstruhovej-sezone",
+    "destination": "/novinky/covid-opatrenia-k-pstruhovej-sezone",
     "permanent": true
   },
   {
     "source": "/covid-opatrenia-k-pstruhovej-sezone/",
-    "destination": "/aktuality/covid-opatrenia-k-pstruhovej-sezone",
+    "destination": "/novinky/covid-opatrenia-k-pstruhovej-sezone",
     "permanent": true
   },
   {
     "source": "/osobny-list-ministra-zp-sr-p-budaja-tajomnikovi-srz",
-    "destination": "/aktuality/osobny-list-ministra-zp-sr-p-budaja-tajomnikovi-srz",
+    "destination": "/novinky/osobny-list-ministra-zp-sr-p-budaja-tajomnikovi-srz",
     "permanent": true
   },
   {
     "source": "/osobny-list-ministra-zp-sr-p-budaja-tajomnikovi-srz/",
-    "destination": "/aktuality/osobny-list-ministra-zp-sr-p-budaja-tajomnikovi-srz",
+    "destination": "/novinky/osobny-list-ministra-zp-sr-p-budaja-tajomnikovi-srz",
     "permanent": true
   },
   {
     "source": "/odpracovanie-brigady-v-roku-2020",
-    "destination": "/aktuality/odpracovanie-brigady-v-roku-2020",
+    "destination": "/novinky/odpracovanie-brigady-v-roku-2020",
     "permanent": true
   },
   {
     "source": "/odpracovanie-brigady-v-roku-2020/",
-    "destination": "/aktuality/odpracovanie-brigady-v-roku-2020",
+    "destination": "/novinky/odpracovanie-brigady-v-roku-2020",
     "permanent": true
   },
   {
     "source": "/informacie-z-vyboru-01-12-2020",
-    "destination": "/aktuality/informacie-z-vyboru-01-12-2020",
+    "destination": "/novinky/informacie-z-vyboru-01-12-2020",
     "permanent": true
   },
   {
     "source": "/informacie-z-vyboru-01-12-2020/",
-    "destination": "/aktuality/informacie-z-vyboru-01-12-2020",
+    "destination": "/novinky/informacie-z-vyboru-01-12-2020",
     "permanent": true
   },
   {
     "source": "/odchov-pstruha-potocneho",
-    "destination": "/aktuality/odchov-pstruha-potocneho",
+    "destination": "/novinky/odchov-pstruha-potocneho",
     "permanent": true
   },
   {
     "source": "/odchov-pstruha-potocneho/",
-    "destination": "/aktuality/odchov-pstruha-potocneho",
+    "destination": "/novinky/odchov-pstruha-potocneho",
     "permanent": true
   },
   {
     "source": "/krabicka-s-hacikmi",
-    "destination": "/aktuality/krabicka-s-hacikmi",
+    "destination": "/novinky/krabicka-s-hacikmi",
     "permanent": true
   },
   {
     "source": "/krabicka-s-hacikmi/",
-    "destination": "/aktuality/krabicka-s-hacikmi",
+    "destination": "/novinky/krabicka-s-hacikmi",
     "permanent": true
   },
   {
     "source": "/krabicka-s-plavakmi",
-    "destination": "/aktuality/krabicka-s-plavakmi",
+    "destination": "/novinky/krabicka-s-plavakmi",
     "permanent": true
   },
   {
     "source": "/krabicka-s-plavakmi/",
-    "destination": "/aktuality/krabicka-s-plavakmi",
+    "destination": "/novinky/krabicka-s-plavakmi",
     "permanent": true
   },
   {
     "source": "/kruzok-mladych-rybarov",
-    "destination": "/aktuality/kruzok-mladych-rybarov",
+    "destination": "/novinky/kruzok-mladych-rybarov",
     "permanent": true
   },
   {
     "source": "/kruzok-mladych-rybarov/",
-    "destination": "/aktuality/kruzok-mladych-rybarov",
+    "destination": "/novinky/kruzok-mladych-rybarov",
     "permanent": true
   },
   {
     "source": "/clenska-schodza-22-2-2019",
-    "destination": "/aktuality/clenska-schodza-22-2-2019",
+    "destination": "/novinky/clenska-schodza-22-2-2019",
     "permanent": true
   },
   {
     "source": "/clenska-schodza-22-2-2019/",
-    "destination": "/aktuality/clenska-schodza-22-2-2019",
+    "destination": "/novinky/clenska-schodza-22-2-2019",
     "permanent": true
   },
   {
     "source": "/vseobecny-zakaz-lovu-ryb",
-    "destination": "/aktuality/vseobecny-zakaz-lovu-ryb",
+    "destination": "/novinky/vseobecny-zakaz-lovu-ryb",
     "permanent": true
   },
   {
     "source": "/vseobecny-zakaz-lovu-ryb/",
-    "destination": "/aktuality/vseobecny-zakaz-lovu-ryb",
+    "destination": "/novinky/vseobecny-zakaz-lovu-ryb",
     "permanent": true
   },
   {
     "source": "/brigada-rozhodca-na-pretekoch",
-    "destination": "/aktuality/brigada-rozhodca-na-pretekoch",
+    "destination": "/novinky/brigada-rozhodca-na-pretekoch",
     "permanent": true
   },
   {
     "source": "/brigada-rozhodca-na-pretekoch/",
-    "destination": "/aktuality/brigada-rozhodca-na-pretekoch",
+    "destination": "/novinky/brigada-rozhodca-na-pretekoch",
     "permanent": true
   },
   {
     "source": "/brigada-vn-milosova-12-9-2020",
-    "destination": "/aktuality/brigada-vn-milosova-12-9-2020",
+    "destination": "/novinky/brigada-vn-milosova-12-9-2020",
     "permanent": true
   },
   {
     "source": "/brigada-vn-milosova-12-9-2020/",
-    "destination": "/aktuality/brigada-vn-milosova-12-9-2020",
+    "destination": "/novinky/brigada-vn-milosova-12-9-2020",
     "permanent": true
   },
   {
     "source": "/informacie-zo-zasadnutia-vyboru-mo-srz-cadca",
-    "destination": "/aktuality/informacie-zo-zasadnutia-vyboru-mo-srz-cadca",
+    "destination": "/novinky/informacie-zo-zasadnutia-vyboru-mo-srz-cadca",
     "permanent": true
   },
   {
     "source": "/informacie-zo-zasadnutia-vyboru-mo-srz-cadca/",
-    "destination": "/aktuality/informacie-zo-zasadnutia-vyboru-mo-srz-cadca",
+    "destination": "/novinky/informacie-zo-zasadnutia-vyboru-mo-srz-cadca",
     "permanent": true
   },
   {
     "source": "/brigada-gavlasov-potok-29-8-2020",
-    "destination": "/aktuality/brigada-gavlasov-potok-29-8-2020",
+    "destination": "/novinky/brigada-gavlasov-potok-29-8-2020",
     "permanent": true
   },
   {
     "source": "/brigada-gavlasov-potok-29-8-2020/",
-    "destination": "/aktuality/brigada-gavlasov-potok-29-8-2020",
+    "destination": "/novinky/brigada-gavlasov-potok-29-8-2020",
     "permanent": true
   },
   {
     "source": "/brigada-25-07-2020-milosova",
-    "destination": "/aktuality/brigada-25-07-2020-milosova",
+    "destination": "/novinky/brigada-25-07-2020-milosova",
     "permanent": true
   },
   {
     "source": "/brigada-25-07-2020-milosova/",
-    "destination": "/aktuality/brigada-25-07-2020-milosova",
+    "destination": "/novinky/brigada-25-07-2020-milosova",
     "permanent": true
   },
   {
     "source": "/rybarsky-dennik-31-5-2020",
-    "destination": "/aktuality/rybarsky-dennik-31-5-2020",
+    "destination": "/novinky/rybarsky-dennik-31-5-2020",
     "permanent": true
   },
   {
     "source": "/rybarsky-dennik-31-5-2020/",
-    "destination": "/aktuality/rybarsky-dennik-31-5-2020",
+    "destination": "/novinky/rybarsky-dennik-31-5-2020",
     "permanent": true
   },
   {
     "source": "/posledna-brigada-pred-sezonou-na-vn-milosova",
-    "destination": "/aktuality/posledna-brigada-pred-sezonou-na-vn-milosova",
+    "destination": "/novinky/posledna-brigada-pred-sezonou-na-vn-milosova",
     "permanent": true
   },
   {
     "source": "/posledna-brigada-pred-sezonou-na-vn-milosova/",
-    "destination": "/aktuality/posledna-brigada-pred-sezonou-na-vn-milosova",
+    "destination": "/novinky/posledna-brigada-pred-sezonou-na-vn-milosova",
     "permanent": true
   },
   {
     "source": "/skolenia-maj-2020",
-    "destination": "/aktuality/skolenia-maj-2020",
+    "destination": "/novinky/skolenia-maj-2020",
     "permanent": true
   },
   {
     "source": "/skolenia-maj-2020/",
-    "destination": "/aktuality/skolenia-maj-2020",
+    "destination": "/novinky/skolenia-maj-2020",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-21-05-2020",
-    "destination": "/aktuality/informacie-vyboru-21-05-2020",
+    "destination": "/novinky/informacie-vyboru-21-05-2020",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-21-05-2020/",
-    "destination": "/aktuality/informacie-vyboru-21-05-2020",
+    "destination": "/novinky/informacie-vyboru-21-05-2020",
     "permanent": true
   },
   {
     "source": "/preteky-maj-2020",
-    "destination": "/aktuality/preteky-maj-2020",
+    "destination": "/novinky/preteky-maj-2020",
     "permanent": true
   },
   {
     "source": "/preteky-maj-2020/",
-    "destination": "/aktuality/preteky-maj-2020",
+    "destination": "/novinky/preteky-maj-2020",
     "permanent": true
   },
   {
     "source": "/zarybnenie-pstruhom-duhovym",
-    "destination": "/aktuality/zarybnenie-pstruhom-duhovym",
+    "destination": "/novinky/zarybnenie-pstruhom-duhovym",
     "permanent": true
   },
   {
     "source": "/zarybnenie-pstruhom-duhovym/",
-    "destination": "/aktuality/zarybnenie-pstruhom-duhovym",
+    "destination": "/novinky/zarybnenie-pstruhom-duhovym",
     "permanent": true
   },
   {
     "source": "/povoleny-lov-kapra",
-    "destination": "/aktuality/povoleny-lov-kapra",
+    "destination": "/novinky/povoleny-lov-kapra",
     "permanent": true
   },
   {
     "source": "/povoleny-lov-kapra/",
-    "destination": "/aktuality/povoleny-lov-kapra",
+    "destination": "/novinky/povoleny-lov-kapra",
     "permanent": true
   },
   {
     "source": "/prispevky-na-web-stranku",
-    "destination": "/aktuality/prispevky-na-web-stranku",
+    "destination": "/novinky/prispevky-na-web-stranku",
     "permanent": true
   },
   {
     "source": "/prispevky-na-web-stranku/",
-    "destination": "/aktuality/prispevky-na-web-stranku",
+    "destination": "/novinky/prispevky-na-web-stranku",
     "permanent": true
   },
   {
     "source": "/skolenie-novych-clenov-a-rybarskej-straze",
-    "destination": "/aktuality/skolenie-novych-clenov-a-rybarskej-straze",
+    "destination": "/novinky/skolenie-novych-clenov-a-rybarskej-straze",
     "permanent": true
   },
   {
     "source": "/skolenie-novych-clenov-a-rybarskej-straze/",
-    "destination": "/aktuality/skolenie-novych-clenov-a-rybarskej-straze",
+    "destination": "/novinky/skolenie-novych-clenov-a-rybarskej-straze",
     "permanent": true
   },
   {
     "source": "/brigada-vn-milosova-25-4-2020",
-    "destination": "/aktuality/brigada-vn-milosova-25-4-2020",
+    "destination": "/novinky/brigada-vn-milosova-25-4-2020",
     "permanent": true
   },
   {
     "source": "/brigada-vn-milosova-25-4-2020/",
-    "destination": "/aktuality/brigada-vn-milosova-25-4-2020",
+    "destination": "/novinky/brigada-vn-milosova-25-4-2020",
     "permanent": true
   },
   {
     "source": "/dodrziavanie-vzdialenosti-pri-love-ryb",
-    "destination": "/aktuality/dodrziavanie-vzdialenosti-pri-love-ryb",
+    "destination": "/novinky/dodrziavanie-vzdialenosti-pri-love-ryb",
     "permanent": true
   },
   {
     "source": "/dodrziavanie-vzdialenosti-pri-love-ryb/",
-    "destination": "/aktuality/dodrziavanie-vzdialenosti-pri-love-ryb",
+    "destination": "/novinky/dodrziavanie-vzdialenosti-pri-love-ryb",
     "permanent": true
   },
   {
     "source": "/vyradenie-pstruha-duhoveho-zo-zoznamu-uslachtilych-ryb",
-    "destination": "/aktuality/vyradenie-pstruha-duhoveho-zo-zoznamu-uslachtilych-ryb",
+    "destination": "/novinky/vyradenie-pstruha-duhoveho-zo-zoznamu-uslachtilych-ryb",
     "permanent": true
   },
   {
     "source": "/vyradenie-pstruha-duhoveho-zo-zoznamu-uslachtilych-ryb/",
-    "destination": "/aktuality/vyradenie-pstruha-duhoveho-zo-zoznamu-uslachtilych-ryb",
+    "destination": "/novinky/vyradenie-pstruha-duhoveho-zo-zoznamu-uslachtilych-ryb",
     "permanent": true
   },
   {
     "source": "/vseobecny-zakaz-lovu",
-    "destination": "/aktuality/vseobecny-zakaz-lovu",
+    "destination": "/novinky/vseobecny-zakaz-lovu",
     "permanent": true
   },
   {
     "source": "/vseobecny-zakaz-lovu/",
-    "destination": "/aktuality/vseobecny-zakaz-lovu",
+    "destination": "/novinky/vseobecny-zakaz-lovu",
     "permanent": true
   },
   {
     "source": "/zaciatok-pstruhovej-sezony-16-4-2020",
-    "destination": "/aktuality/zaciatok-pstruhovej-sezony-16-4-2020",
+    "destination": "/novinky/zaciatok-pstruhovej-sezony-16-4-2020",
     "permanent": true
   },
   {
     "source": "/zaciatok-pstruhovej-sezony-16-4-2020/",
-    "destination": "/aktuality/zaciatok-pstruhovej-sezony-16-4-2020",
+    "destination": "/novinky/zaciatok-pstruhovej-sezony-16-4-2020",
     "permanent": true
   },
   {
     "source": "/brigada-vn-milosova-18-4-2020",
-    "destination": "/aktuality/brigada-vn-milosova-18-4-2020",
+    "destination": "/novinky/brigada-vn-milosova-18-4-2020",
     "permanent": true
   },
   {
     "source": "/brigada-vn-milosova-18-4-2020/",
-    "destination": "/aktuality/brigada-vn-milosova-18-4-2020",
+    "destination": "/novinky/brigada-vn-milosova-18-4-2020",
     "permanent": true
   },
   {
     "source": "/13-rybarsky-ples",
-    "destination": "/aktuality/13-rybarsky-ples",
+    "destination": "/novinky/13-rybarsky-ples",
     "permanent": true
   },
   {
     "source": "/13-rybarsky-ples/",
-    "destination": "/aktuality/13-rybarsky-ples",
+    "destination": "/novinky/13-rybarsky-ples",
     "permanent": true
   },
   {
     "source": "/pozastavenie-predaja-povoleni-na-rybolov",
-    "destination": "/aktuality/pozastavenie-predaja-povoleni-na-rybolov",
+    "destination": "/novinky/pozastavenie-predaja-povoleni-na-rybolov",
     "permanent": true
   },
   {
     "source": "/pozastavenie-predaja-povoleni-na-rybolov/",
-    "destination": "/aktuality/pozastavenie-predaja-povoleni-na-rybolov",
+    "destination": "/novinky/pozastavenie-predaja-povoleni-na-rybolov",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-11-2-2020",
-    "destination": "/aktuality/informacie-vyboru-11-2-2020",
+    "destination": "/novinky/informacie-vyboru-11-2-2020",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-11-2-2020/",
-    "destination": "/aktuality/informacie-vyboru-11-2-2020",
+    "destination": "/novinky/informacie-vyboru-11-2-2020",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-23-01-2020",
-    "destination": "/aktuality/informacie-vyboru-23-01-2020",
+    "destination": "/novinky/informacie-vyboru-23-01-2020",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-23-01-2020/",
-    "destination": "/aktuality/informacie-vyboru-23-01-2020",
+    "destination": "/novinky/informacie-vyboru-23-01-2020",
     "permanent": true
   },
   {
     "source": "/informacie-z-vyboru-7-11-2019",
-    "destination": "/aktuality/informacie-z-vyboru-7-11-2019",
+    "destination": "/novinky/informacie-z-vyboru-7-11-2019",
     "permanent": true
   },
   {
     "source": "/informacie-z-vyboru-7-11-2019/",
-    "destination": "/aktuality/informacie-z-vyboru-7-11-2019",
+    "destination": "/novinky/informacie-z-vyboru-7-11-2019",
     "permanent": true
   },
   {
     "source": "/clenska-schodza-13-10-2019",
-    "destination": "/aktuality/clenska-schodza-13-10-2019",
+    "destination": "/novinky/clenska-schodza-13-10-2019",
     "permanent": true
   },
   {
     "source": "/clenska-schodza-13-10-2019/",
-    "destination": "/aktuality/clenska-schodza-13-10-2019",
+    "destination": "/novinky/clenska-schodza-13-10-2019",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-10-09-2019",
-    "destination": "/aktuality/informacie-vyboru-10-09-2019",
+    "destination": "/novinky/informacie-vyboru-10-09-2019",
     "permanent": true
   },
   {
     "source": "/informacie-vyboru-10-09-2019/",
-    "destination": "/aktuality/informacie-vyboru-10-09-2019",
+    "destination": "/novinky/informacie-vyboru-10-09-2019",
     "permanent": true
   },
   {
     "source": "/12-rybarsky-ples",
-    "destination": "/aktuality/12-rybarsky-ples",
+    "destination": "/novinky/12-rybarsky-ples",
     "permanent": true
   },
   {
     "source": "/12-rybarsky-ples/",
-    "destination": "/aktuality/12-rybarsky-ples",
+    "destination": "/novinky/12-rybarsky-ples",
     "permanent": true
   },
   {
     "source": "/clenska-schodza-31-3-2019",
-    "destination": "/aktuality/clenska-schodza-31-3-2019",
+    "destination": "/novinky/clenska-schodza-31-3-2019",
     "permanent": true
   },
   {
     "source": "/clenska-schodza-31-3-2019/",
-    "destination": "/aktuality/clenska-schodza-31-3-2019",
+    "destination": "/novinky/clenska-schodza-31-3-2019",
     "permanent": true
   },
   {
@@ -2021,12 +2021,12 @@
   },
   {
     "source": "/vsetky-novinky",
-    "destination": "/aktuality",
+    "destination": "/novinky",
     "permanent": true
   },
   {
     "source": "/vsetky-novinky/",
-    "destination": "/aktuality",
+    "destination": "/novinky",
     "permanent": true
   },
   {
@@ -2091,12 +2091,12 @@
   },
   {
     "source": "/informacie-z-revirov",
-    "destination": "/aktuality?kategoria=reviry",
+    "destination": "/novinky?kategoria=reviry",
     "permanent": true
   },
   {
     "source": "/informacie-z-revirov/",
-    "destination": "/aktuality?kategoria=reviry",
+    "destination": "/novinky?kategoria=reviry",
     "permanent": true
   },
   {
@@ -2111,12 +2111,12 @@
   },
   {
     "source": "/category/novinky",
-    "destination": "/aktuality",
+    "destination": "/novinky",
     "permanent": true
   },
   {
     "source": "/category/novinky/",
-    "destination": "/aktuality",
+    "destination": "/novinky",
     "permanent": true
   },
   {
@@ -2141,12 +2141,12 @@
   },
   {
     "source": "/category/pre-rybarov",
-    "destination": "/aktuality?kategoria=pre-rybarov",
+    "destination": "/novinky?kategoria=pre-rybarov",
     "permanent": true
   },
   {
     "source": "/category/informacie-z-revirov",
-    "destination": "/aktuality?kategoria=reviry",
+    "destination": "/novinky?kategoria=reviry",
     "permanent": true
   },
   {

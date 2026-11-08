@@ -29,12 +29,59 @@ export function IconWaters({ className }: IconProps) {
   );
 }
 
+export function IconNews({ className }: IconProps) {
+  return (
+    <svg className={className} width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path
+        d="M4 10.5v3c0 1.5 1.2 2.5 3 2.5h1.5"
+        stroke="currentColor"
+        strokeWidth="1.75"
+        strokeLinecap="round"
+      />
+      <path
+        d="M8.5 7.5c2.2-1.6 4.4-2.4 7-2.4 1.4 0 2.6.3 3.5.8v8.2c-.9.5-2.1.8-3.5.8-2.6 0-4.8-.8-7-2.4V7.5Z"
+        stroke="currentColor"
+        strokeWidth="1.75"
+        strokeLinejoin="round"
+      />
+      <path d="M8.5 16v3.5" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
+    </svg>
+  );
+}
+
 export function IconWork({ className }: IconProps) {
   return (
     <svg className={className} width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path d="M8 8V6.5A2.5 2.5 0 0 1 10.5 4h3A2.5 2.5 0 0 1 16 6.5V8" stroke="currentColor" strokeWidth="1.75" />
-      <rect x="3.5" y="8" width="17" height="12" rx="2" stroke="currentColor" strokeWidth="1.75" />
-      <path d="M3.5 13h17" stroke="currentColor" strokeWidth="1.75" />
+      <path
+        d="M14.5 4.5 9 16.5l-1.8-.7 5.5-12 1.8.7Z"
+        stroke="currentColor"
+        strokeWidth="1.75"
+        strokeLinejoin="round"
+      />
+      <path d="M7.5 17.5h5" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
+      <path
+        d="M16 8.5c1.8 1.2 3 3.2 3 5.5a5 5 0 0 1-5 5"
+        stroke="currentColor"
+        strokeWidth="1.75"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export function IconTrophy({ className }: IconProps) {
+  return (
+    <svg className={className} width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path
+        d="M8 5h8v3.5a4 4 0 0 1-8 0V5Z"
+        stroke="currentColor"
+        strokeWidth="1.75"
+        strokeLinejoin="round"
+      />
+      <path d="M8 6.5H5.5A2.5 2.5 0 0 0 8 9" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
+      <path d="M16 6.5h2.5A2.5 2.5 0 0 1 16 9" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
+      <path d="M12 12.5V15" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
+      <path d="M8.5 19h7M9.5 15h5v4h-5v-4Z" stroke="currentColor" strokeWidth="1.75" strokeLinejoin="round" />
     </svg>
   );
 }

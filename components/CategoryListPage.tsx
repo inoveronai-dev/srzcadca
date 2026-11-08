@@ -1,7 +1,7 @@
 import { ArticleCard } from "@/components/ArticleCard";
 import { PageShell } from "@/components/PageShell";
 import { getArticlesByCategory } from "@/lib/content";
-import styles from "@/app/aktuality/page.module.css";
+import styles from "@/app/novinky/page.module.css";
 
 export function CategoryListPage({
   title,

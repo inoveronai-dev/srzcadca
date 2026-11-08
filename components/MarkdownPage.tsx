@@ -1,6 +1,6 @@
 import { PageShell } from "@/components/PageShell";
 import { getPage } from "@/lib/content";
-import styles from "@/app/aktuality/[slug]/page.module.css";
+import styles from "@/app/novinky/[slug]/page.module.css";
 
 export function MarkdownPage({
   slug,

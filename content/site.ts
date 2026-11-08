@@ -121,7 +121,7 @@ export const site = {
       alt: "Plagát – Rybárske preteky detí v love na plávanú",
       width: 1254,
       height: 1254,
-      href: "/aktuality/detske-preteky-jesen-2026",
+      href: "/novinky/detske-preteky-jesen-2026",
     },
     clubText:
       "Krúžok je pre deti od 6 do 14 rokov. Prihlášku nájdete v tlačivách.",
@@ -130,11 +130,6 @@ export const site = {
       label: "Prihláška do krúžku (PDF)",
       href: "https://www.srzrada.sk/wp-content/uploads/srzrada/rada_srz/tlaciva/tlaciva-prihlaska-do-kruzku-deti.pdf",
     },
-    races: [
-      "Detské preteky jeseň 2026",
-      "Muškárske preteky – jeseň 2026",
-      "CCM Milošová 2026",
-    ],
   },
   mapsSearchUrl: "https://maps.app.goo.gl/T9zE1FdTucfwTo2MA",
   contactCardAddress: "Horná 1108/35, 022 01 Čadca",
@@ -146,7 +141,7 @@ export const site = {
     label: "Informácie Rady SRZ k predaju (PDF)",
     href: "/uploads/2026/11/srz_a3_infoplagat-hoaxy-2.pdf",
   },
-  memberFeeValue: "Zaplatiť do 31. marca",
+  memberFeeValue: "zaplatiť do 31. marca",
   memberFeeDeadline: "Členský príspevok je potrebné zaplatiť do 31. marca.",
   saleChecklist: [
     "Občiansky preukaz (u maloletých rodný list)",
@@ -175,7 +170,7 @@ export const news: NewsItem[] = [
     title: "Informácie k predaju povolení",
     perex:
       "Zverejňujeme informácie Rady SRZ o predaji povolení na rok 2027. Plagát A3 na stiahnutie.",
-    href: "/aktuality/informacie-k-predaji-povoleni",
+    href: "/novinky/informacie-k-predaji-povoleni",
     isNotice: true,
     image: "/images/aktuality/predaj-povoleni.jpg",
     imageAlt: "Informačný plagát k predaju povolení 2027",
@@ -189,7 +184,7 @@ export const news: NewsItem[] = [
     dateSort: "2026-10-14",
     category: "Pre rybárov",
     title: "Prihlásenie do aplikácie E-SRZ",
-    href: "/aktuality/prihlasenie-do-aplikacie-e-srz",
+    href: "/novinky/prihlasenie-do-aplikacie-e-srz",
   },
   {
     id: "sbirolino",
@@ -197,7 +192,7 @@ export const news: NewsItem[] = [
     dateSort: "2026-10-12",
     category: "Pre rybárov",
     title: "Lov rýb pomocou sbirolina a bubliny",
-    href: "/aktuality/lov-ryb-pomocou-sbirolina-a-bubliny",
+    href: "/novinky/lov-ryb-pomocou-sbirolina-a-bubliny",
   },
   {
     id: "zakaz-lovu",
@@ -205,7 +200,7 @@ export const news: NewsItem[] = [
     dateSort: "2026-09-20",
     category: "Zákaz lovu",
     title: "Zákaz lovu všetkých druhov rýb",
-    href: "/aktuality/zakaz-lovu-vsetkych-druhov-ryb-4",
+    href: "/novinky/zakaz-lovu-vsetkych-druhov-ryb-4",
   },
   {
     id: "detske-preteky",
@@ -213,7 +208,7 @@ export const news: NewsItem[] = [
     dateSort: "2026-09-12",
     category: "Preteky",
     title: "Detské preteky jeseň 2026",
-    href: "/aktuality/detske-preteky-jesen-2026",
+    href: "/novinky/detske-preteky-jesen-2026",
   },
 ];
 
@@ -473,15 +468,16 @@ export const wardens: Warden[] = [
 ];
 
 export const mainNav: NavItem[] = [
+  { label: "Novinky", href: "/novinky" },
+  { label: "Brigády", href: "/brigady" },
+  { label: "Preteky", href: "/preteky" },
   { label: "Povolenia", href: "/povolenia" },
   { label: "Revíry", href: "/reviry" },
-  { label: "Aktuality", href: "/aktuality" },
-  { label: "Brigády", href: "/brigady" },
-  { label: "Liaheň", href: "/liahen" },
   {
     label: "Pre rybárov",
     href: "/pre-rybarov",
     children: [
+      { label: "Liaheň", href: "/liahen" },
       { label: "Miestny poriadok", href: "/miestny-poriadok" },
       { label: "Legislatíva", href: "/legislativa" },
       { label: "Tlačivá", href: "/tlaciva" },
@@ -489,7 +485,6 @@ export const mainNav: NavItem[] = [
       { label: "Členská schôdza", href: "/clenska-schodza" },
       { label: "Výbor a kontrolná komisia", href: "/vybor" },
       { label: "Rybársky krúžok", href: "/kruzok" },
-      { label: "Preteky", href: "/preteky" },
       { label: "Rybársky ples", href: "/ples" },
       { label: "2 % dane", href: "/2-percenta" },
       { label: "Straty a nálezy", href: "/straty-a-nalezy" },
@@ -501,28 +496,28 @@ export const mainNav: NavItem[] = [
 
 export const quickTiles = [
   {
-    href: "/povolenia",
-    title: "Povolenia a cenník",
-    text: "Termíny, ceny a tlačivá",
-    icon: "permits" as const,
-  },
-  {
-    href: "/reviry",
-    title: "Revíry",
-    text: "Čísla revírov a hospodári",
-    icon: "waters" as const,
+    href: "/novinky",
+    title: "Novinky",
+    text: "Oznamy, zákazy lovu a zarybňovanie",
+    icon: "news" as const,
   },
   {
     href: "/brigady",
     title: "Brigády",
-    text: "Plán brigád na tento rok",
+    text: "Termíny a plán brigád",
     icon: "work" as const,
   },
   {
-    href: "/kontakt",
-    title: "Kontakty",
-    text: "Výbor, predaj a hospodári",
-    icon: "contacts" as const,
+    href: "/preteky",
+    title: "Preteky",
+    text: "Pozvánky a výsledky pretekov",
+    icon: "trophy" as const,
+  },
+  {
+    href: "/povolenia",
+    title: "Povolenia a cenník",
+    text: "Termíny, ceny a tlačivá",
+    icon: "permits" as const,
   },
 ];
 
@@ -565,7 +560,7 @@ export const footerColumns: { title: string; links: FooterLink[] }[] = [
 ];
 
 export const stubPages: { path: string; title: string }[] = [
-  { path: "/aktuality", title: "Aktuality" },
+  { path: "/novinky", title: "Novinky" },
   { path: "/reviry", title: "Revíry" },
   { path: "/brigady", title: "Brigády" },
   { path: "/liahen", title: "Liaheň Rieka Čadca" },

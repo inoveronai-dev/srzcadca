@@ -1,5 +1,6 @@
 import { ClubRacesSection } from "@/components/home/ClubRacesSection";
 import { ContactSection } from "@/components/home/ContactSection";
+import { EventsSection } from "@/components/home/EventsSection";
 import { HatcherySection } from "@/components/home/HatcherySection";
 import { Hero } from "@/components/home/Hero";
 import { NewsSection } from "@/components/home/NewsSection";
@@ -13,6 +14,7 @@ export default function HomePage() {
       <Hero />
       <QuickTiles />
       <NewsSection />
+      <EventsSection />
       <WatersSection />
       <PermitsSection />
       <HatcherySection />

@@ -30,9 +30,9 @@ export function NewsSection() {
     >
       <div className="container">
         <div className={styles.heading}>
-          <h2 id="news-title">{sk("Aktuality")}</h2>
-          <Link href="/aktuality" className={styles.all}>
-            {sk("Všetky aktuality →")}
+          <h2 id="news-title">{sk("Novinky")}</h2>
+          <Link href="/novinky" className={styles.all}>
+            {sk("Všetky novinky →")}
           </Link>
         </div>
 
