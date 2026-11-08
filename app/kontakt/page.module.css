@@ -1,36 +1,37 @@
 .section h1 {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.85rem;
 }
 
-.top {
+.subtitle {
+  margin: 0 0 32px;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.lower {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: stretch;
   margin-bottom: 2.5rem;
 }
 
-.address {
-  font-style: normal;
-  color: var(--muted);
-  margin: 0 0 0.75rem;
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 0;
 }
 
-.mapPlaceholder {
-  margin-top: 1.25rem;
-  min-height: 220px;
-  border-radius: var(--radius-panel);
-  border: 1px dashed color-mix(in srgb, var(--teal) 35%, var(--line));
-  background: var(--tint);
-  color: var(--tint-text);
-  display: grid;
-  place-items: center;
-  text-align: center;
-  padding: 1.5rem;
-  font-weight: 700;
-  max-width: 640px;
+.sideTitle {
+  font-size: 28px;
+  margin: 0 0 0.35rem;
 }
 
 .contacts {
   display: grid;
   gap: 0.85rem;
-  margin: 1rem 0 2.5rem;
+  align-content: start;
 }
 
 .row {
@@ -94,6 +95,12 @@
 @media (max-width: 899px) {
   .section h1 {
     font-size: clamp(40px, 10vw, 64px);
+  }
+
+  .lower {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+    align-items: start;
   }
 
   .row {

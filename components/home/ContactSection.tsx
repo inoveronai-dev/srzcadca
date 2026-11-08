@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { AddressCard } from "@/components/AddressCard";
+import { MapEmbed } from "@/components/MapEmbed";
 import { committeeContacts, site, toTelHref } from "@/content/site";
 import { sk } from "@/lib/sk";
 import styles from "./ContactSection.module.css";
@@ -16,25 +18,9 @@ export function ContactSection() {
         </div>
 
         <div className={styles.lower}>
-          <div className={styles.addressCard}>
-            <p className={`eyebrow ${styles.cardEyebrow}`}>{sk("Rybársky dom")}</p>
-            <p className={styles.cardAddress}>{sk(site.contactCardAddress)}</p>
-            <div className={styles.cardActions}>
-              <a
-                href={site.mapsSearchUrl}
-                className="btn btn--white"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {sk("Navigovať")}
-              </a>
-              <a
-                href={`mailto:${site.email}`}
-                className={`btn btn--outline-white ${styles.mailBtn}`}
-              >
-                {sk("Napísať e-mail")}
-              </a>
-            </div>
+          <div className={styles.left}>
+            <AddressCard />
+            <MapEmbed fill />
           </div>
 
           <div className={styles.contacts}>

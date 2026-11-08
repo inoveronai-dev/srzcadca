@@ -43,7 +43,14 @@
 
 .brand:focus-visible {
   outline: 2px solid var(--teal);
-  outline-offset: 2px;
+  outline-offset: 4px;
+}
+
+.brand:focus-visible .logo,
+.logo:focus,
+.logo:focus-visible {
+  outline: none;
+  box-shadow: none;
 }
 
 .logo {

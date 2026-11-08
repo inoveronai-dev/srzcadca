@@ -230,9 +230,23 @@ h3 {
   white-space: nowrap;
 }
 
-.section--deep a,
+/* Mint only for text links on dark — never override white surfaces / pill buttons */
+.section--deep a:not(.btn):not(.fullLink) {
+  color: var(--mint);
+}
+
 .section a.mint-link {
   color: var(--mint);
+}
+
+.section--deep .btn--white,
+.section--deep a.btn--white {
+  color: var(--deep);
+}
+
+.section--deep .btn--white:hover,
+.section--deep a.btn--white:hover {
+  color: var(--deep);
 }
 
 .chip {

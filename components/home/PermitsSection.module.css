@@ -15,18 +15,22 @@
 .right {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  min-width: 0;
+}
+
+.headingBlock {
+  margin-bottom: 1.25rem;
 }
 
 .eyebrow {
   color: var(--mint);
-  margin: 0;
+  margin: 0 0 0.85rem;
 }
 
 .facts {
   margin: 0;
   display: grid;
-  gap: 1rem;
+  gap: 1.15rem;
 }
 
 .fact {
@@ -60,34 +64,58 @@
 }
 
 .posterBtn {
-  align-self: flex-start;
+  display: inline-flex;
+  margin-top: 0.65rem;
+  min-height: 40px;
+  padding: 0.45rem 1.1rem;
+  font-size: 15px;
+  color: var(--deep);
 }
 
-.saleRow {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 1rem 1.1rem;
-  border: 1px solid rgba(255, 255, 255, 0.16);
+.posterBtn:hover {
+  color: var(--deep);
+}
+
+.checklist {
+  margin: 32px 0 0;
+  padding: 1.2rem 1.25rem;
   border-radius: var(--radius-card);
-  background: rgba(255, 255, 255, 0.06);
-  margin-top: auto;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
-.saleRole {
-  margin: 0 0 0.2rem;
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+.checklist h3 {
+  font-size: 22px;
+  margin-bottom: 0.85rem;
+}
+
+.checklist ul {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.checklist li {
+  display: flex;
+  gap: 0.7rem;
+  align-items: flex-start;
+}
+
+.check {
   color: var(--mint);
+  flex-shrink: 0;
+  margin-top: 0.15rem;
 }
 
-.saleName {
-  margin: 0;
-  font-size: 18px;
+.forms {
+  color: var(--mint);
   font-weight: 700;
+  text-decoration: none;
+}
+
+.forms:hover {
   color: var(--white);
 }
 
@@ -133,59 +161,76 @@
   color: var(--teal);
 }
 
-.checklist {
-  margin: 0;
-  padding: 1.2rem 1.25rem;
-  border-radius: var(--radius-card);
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+.fullLink:hover {
+  color: var(--deep);
 }
 
-.checklist h3 {
-  font-size: 22px;
-  margin-bottom: 0.85rem;
-}
-
-.checklist ul {
-  list-style: none;
-  margin: 0 0 1rem;
-  padding: 0;
-  display: grid;
-  gap: 0.7rem;
-}
-
-.checklist li {
+.saleRow {
   display: flex;
-  gap: 0.7rem;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 16px;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: var(--radius-card);
+  background: rgba(255, 255, 255, 0.06);
 }
 
-.check {
-  color: var(--mint);
-  flex-shrink: 0;
-  margin-top: 0.15rem;
-}
-
-.forms {
-  color: var(--mint);
+.saleRole {
+  margin: 0 0 0.2rem;
+  font-size: 13px;
   font-weight: 700;
-  text-decoration: none;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--mint);
 }
 
-.forms:hover {
+.saleName {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
   color: var(--white);
 }
 
-.section a:not(.btn):not(.fullLink) {
-  color: var(--mint);
+.saleRow .btn--white,
+.saleRow a.btn {
+  color: var(--deep);
 }
 
 @media (max-width: 899px) {
   .grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .left,
+  .right {
+    display: contents;
+  }
+
+  .headingBlock {
+    order: 1;
+    margin-bottom: 0;
+  }
+
+  .facts {
+    order: 2;
+  }
+
+  .priceCard {
+    order: 3;
+  }
+
+  .checklist {
+    order: 4;
+    margin-top: 0;
   }
 
   .saleRow {
+    order: 5;
+    margin-top: 0;
     flex-direction: column;
     align-items: flex-start;
   }

@@ -14,6 +14,8 @@ _Tieto Zásady používania súborov cookie boli naposledy aktualizované 17. ma
 
 Naša webová stránka, [https://www.srzcadca.sk](https://www.srzcadca.sk) (ďalej len „webová stránka“) používa súbory cookie a ďalšie súvisiace technológie (všetky technológie sa kvôli pohodliu označujú ako „súbory cookie“). Súbory cookie umiestňujú aj tretie strany, ktoré sme zapojili. V nižšie uvedenom dokumente vás informujeme o používaní súborov cookie na našich webových stránkach.
 
+Na stránke Kontakt zobrazujeme mapu Google Maps, ktorá môže ukladať cookies spoločnosti Google.
+
 ## 2\. Čo sú cookies?
 
 Cookie je malý jednoduchý súbor, ktorý je odoslaný spolu so stránkami tohto webu a uložený vašim prehliadačom na pevnom disku vášho počítača alebo iného zariadenia. Informácie v nich uložené môžu byť vrátené na naše servery alebo na servery príslušných tretích strán počas nasledujúcej návštevy.
