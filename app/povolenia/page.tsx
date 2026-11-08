@@ -39,7 +39,9 @@ export default function PermitsPage() {
             <Link href="/tlaciva">Stiahnuť tlačivá →</Link>
             <p>
               Otázky k predaju: {site.saleContact.name} –{" "}
-              <a href={toTelHref(site.saleContact.phone)}>{site.saleContact.phone}</a>
+              <a href={toTelHref(site.saleContact.phone)} className="tel">
+                {site.saleContact.phone}
+              </a>
             </p>
           </div>
 

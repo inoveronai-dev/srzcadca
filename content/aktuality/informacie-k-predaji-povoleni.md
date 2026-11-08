@@ -6,8 +6,9 @@ slug: informacie-k-predaji-povoleni
 categories:
   - novinky
   - povolenia
-image: 
-imageAlt: Informácie k predaji povolení
+image: /images/aktuality/predaj-povoleni.jpg
+imageAlt: Informačný plagát k predaju povolení 2027
+heroImage: false
 attachments:
   - label: srz_a3_infoplagat-hoaxy-2.pdf
     url: /uploads/2026/11/srz_a3_infoplagat-hoaxy-2.pdf

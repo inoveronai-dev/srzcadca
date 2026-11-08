@@ -57,7 +57,9 @@ export default async function ArticlePage({
       </div>
 
       {article.image ? (
-        <div className={styles.heroImage}>
+        <div
+          className={`${styles.heroImage} ${article.heroImage ? styles.heroPhoto : styles.heroPoster}`}
+        >
           <Image
             src={article.image}
             alt={article.imageAlt || article.title}

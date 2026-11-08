@@ -18,6 +18,10 @@ export type NewsItem = {
   isNotice?: boolean;
   image?: string;
   imageAlt?: string;
+  /** Real photo suitable for cropped featured card; posters stay false. */
+  heroImage?: boolean;
+  pdfHref?: string;
+  pdfLabel?: string;
 };
 
 export type SiteImage = {
@@ -132,15 +136,16 @@ export const site = {
       "CCM Milošová 2026",
     ],
   },
-  mapsSearchUrl:
-    "https://www.google.com/maps/search/?api=1&query=Horn%C3%A1+1108%2F35%2C+022+01+%C4%8Cadca",
+  mapsSearchUrl: "https://maps.app.goo.gl/T9zE1FdTucfwTo2MA",
   contactCardAddress: "Horná 1108/35, 022 01 Čadca",
-  footerContactAddress: "Rybársky dom, Horná 1108/35, 022 01 Čadca",
+  contactOrgLine: "Slovenský rybársky zväz – MO Čadca",
+  footerContactAddressLines: ["Rybársky dom, Horná 1108/35", "022 01 Čadca"],
   saleDatesPlaceholder: "[doplniť podľa oznamu]",
   salePosterPdf: {
-    label: "Informačný plagát Rady SRZ k predaju povolení 2027 (PDF) →",
+    label: "Informačný plagát 2027 (PDF)",
     href: "/uploads/2026/11/srz_a3_infoplagat-hoaxy-2.pdf",
   },
+  memberFeeValue: "zaplatiť do 31. marca",
   memberFeeDeadline: "Členský príspevok je potrebné zaplatiť do 31. marca.",
   saleChecklist: [
     "Občiansky preukaz (u maloletých rodný list)",
@@ -173,6 +178,9 @@ export const news: NewsItem[] = [
     isNotice: true,
     image: "/images/aktuality/predaj-povoleni.jpg",
     imageAlt: "Informačný plagát k predaju povolení 2027",
+    heroImage: false,
+    pdfHref: "/uploads/2026/11/srz_a3_infoplagat-hoaxy-2.pdf",
+    pdfLabel: "Plagát (PDF)",
   },
   {
     id: "e-srz",
@@ -297,7 +305,7 @@ export const waters: Water[] = [
   {
     id: "pstruhove",
     name: "Revíry pstruhové",
-    number: "9 úsekov",
+    number: "9",
     numberLabel: "useky",
     type: "Pstruhový",
     description: "Vychylovka, Oščadnica, Raková, Čadečanka, Trstená a ďalšie.",
@@ -314,7 +322,7 @@ export const waters: Water[] = [
   {
     id: "lipnove",
     name: "Revíry lipňové",
-    number: "3 úseky",
+    number: "3",
     numberLabel: "useky",
     type: "Lipňový",
     description: "Čierňanka č. 1, Bystrica č. 1a (CHAP) a Bystrica č. 1b.",

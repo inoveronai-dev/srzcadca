@@ -35,8 +35,7 @@ export function Footer() {
   const supportIndex = footerColumns.findIndex((c) => c.title === "Podporte nás");
   const beforeSupport =
     supportIndex === -1 ? footerColumns : footerColumns.slice(0, supportIndex);
-  const support =
-    supportIndex === -1 ? null : footerColumns[supportIndex];
+  const support = supportIndex === -1 ? null : footerColumns[supportIndex];
 
   return (
     <footer className={styles.footer}>
@@ -52,42 +51,45 @@ export function Footer() {
             className={styles.badge}
           />
           <p className={styles.brandText}>
-            {sk("Slovenský rybársky zväz Miestna organizácia Čadca")}
+            <span className={styles.brandLine}>{sk("Slovenský rybársky zväz")}</span>
+            <span className={styles.brandLine}>
+              {sk("Miestna organizácia Čadca")}
+            </span>
           </p>
         </div>
 
-        <div className={styles.columns}>
-          {beforeSupport.map((column) => (
-            <FooterLinksColumn
-              key={column.title}
-              title={column.title}
-              links={column.links}
-            />
-          ))}
+        {beforeSupport.map((column) => (
+          <FooterLinksColumn
+            key={column.title}
+            title={column.title}
+            links={column.links}
+          />
+        ))}
 
-          <div>
-            <h2 className={styles.colTitle}>{sk("Kontakt")}</h2>
-            <div className={styles.contactBlock}>
-              <p>{sk(site.footerContactAddress)}</p>
-              <p>
-                <a href={`mailto:${site.email}`}>{site.email}</a>
-              </p>
-              <p>
-                {sk("Predaj povolení:")}{" "}
-                <a href={toTelHref(site.saleContact.phone)}>
-                  {site.saleContact.phone}
-                </a>
-              </p>
-            </div>
+        <div>
+          <h2 className={styles.colTitle}>{sk("Kontakt")}</h2>
+          <div className={styles.contactBlock}>
+            {site.footerContactAddressLines.map((line) => (
+              <p key={line}>{sk(line)}</p>
+            ))}
+            <p>
+              <a href={`mailto:${site.email}`}>{site.email}</a>
+            </p>
+            <p className={styles.saleLabel}>{sk("Predaj povolení:")}</p>
+            <p>
+              <a
+                href={toTelHref(site.saleContact.phone)}
+                className="tel"
+              >
+                {site.saleContact.phone}
+              </a>
+            </p>
           </div>
-
-          {support ? (
-            <FooterLinksColumn
-              title={support.title}
-              links={support.links}
-            />
-          ) : null}
         </div>
+
+        {support ? (
+          <FooterLinksColumn title={support.title} links={support.links} />
+        ) : null}
       </div>
 
       <div className={styles.bottom}>

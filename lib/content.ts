@@ -13,6 +13,8 @@ export type Article = {
   categories: string[];
   image?: string;
   imageAlt?: string;
+  /** When true, image is a real photo safe to crop in cards. Posters stay false. */
+  heroImage?: boolean;
   attachments: Attachment[];
   body: string;
   html: string;
@@ -160,6 +162,7 @@ function toArticle(slug: string, raw: string): Article {
     categories,
     image: data.image ? String(data.image) : undefined,
     imageAlt: data.imageAlt ? String(data.imageAlt) : undefined,
+    heroImage: data.heroImage === true || data.heroImage === "true",
     attachments: (data.attachments as Attachment[]) || [],
     body,
     html: skHtml(markdownToHtml(body)),

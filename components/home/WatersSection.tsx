@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { toTelHref, waters, type WaterType } from "@/content/site";
 import { sk } from "@/lib/sk";
+import { hidePlaceholders, isPlaceholderText } from "@/lib/placeholders";
 import styles from "./WatersSection.module.css";
 
 const filters: Array<"Všetky" | WaterType> = [
@@ -32,7 +33,7 @@ export function WatersSection() {
         <p className={styles.intro}>
           {sk(
             "Na každom revíri nájdete číslo revíru, platné povolenie, ryby a telefón na hospodára.",
-          )}
+          ).replace(/\s+(\S+)\s*$/u, "\u00A0$1")}
         </p>
 
         <div className={styles.filters} role="group" aria-label="Filter podľa typu revíru">
@@ -93,17 +94,21 @@ export function WatersSection() {
                 </p>
                 <p className={styles.desc}>{sk(water.description)}</p>
                 <div className={styles.divider} />
-                <p className={styles.warden}>
-                  {sk("Hospodár:")}{" "}
-                  {water.wardenPhone ? (
-                    <>
-                      {sk(water.wardenName)},{" "}
-                      <a href={toTelHref(water.wardenPhone)}>{water.wardenPhone}</a>
-                    </>
-                  ) : (
-                    sk(water.wardenName)
-                  )}
-                </p>
+                {!(hidePlaceholders() && isPlaceholderText(water.wardenName)) ? (
+                  <p className={styles.warden}>
+                    {sk("Hospodár:")}{" "}
+                    {water.wardenPhone ? (
+                      <>
+                        {sk(water.wardenName)},{" "}
+                        <a href={toTelHref(water.wardenPhone)} className="tel">
+                          {water.wardenPhone}
+                        </a>
+                      </>
+                    ) : (
+                      sk(water.wardenName)
+                    )}
+                  </p>
+                ) : null}
               </div>
             </article>
           ))}

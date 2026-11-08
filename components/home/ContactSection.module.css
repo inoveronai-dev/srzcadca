@@ -2,18 +2,21 @@
   /* white band from globals */
 }
 
-.grid {
+.intro {
+  margin-bottom: 32px;
+}
+
+.subtitle {
+  margin: 0.85rem 0 0;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.lower {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2.5rem;
   align-items: start;
-}
-
-.address {
-  font-style: normal;
-  margin: 32px 0 1.5rem;
-  color: var(--muted);
-  line-height: 1.55;
 }
 
 .addressCard {
@@ -96,7 +99,7 @@
 }
 
 @media (max-width: 899px) {
-  .grid {
+  .lower {
     grid-template-columns: 1fr;
     gap: 1.75rem;
   }

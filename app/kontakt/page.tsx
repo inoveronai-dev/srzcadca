@@ -35,7 +35,7 @@ export default function ContactPage() {
                 <p className={styles.name}>{person.name}</p>
               </div>
               {person.phone ? (
-                <a href={toTelHref(person.phone)} className="btn btn--teal">
+                <a href={toTelHref(person.phone)} className="btn btn--teal tel">
                   {person.phone}
                 </a>
               ) : person.email ? (
@@ -55,7 +55,7 @@ export default function ContactPage() {
               <p>{warden.name}</p>
               {warden.phone ? (
                 <p>
-                  <a href={toTelHref(warden.phone)}>
+                  <a href={toTelHref(warden.phone)} className="tel">
                     {warden.phone.length === 9
                       ? warden.phone.replace(/(\d{3})(\d{3})(\d{3})/, "$1 $2 $3")
                       : warden.phone}

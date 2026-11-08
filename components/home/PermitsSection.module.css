@@ -6,69 +6,61 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
+  grid-template-columns: 1.05fr 0.95fr;
   gap: 2rem;
   align-items: start;
 }
 
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
 .eyebrow {
   color: var(--mint);
-  margin: 0 0 0.85rem;
+  margin: 0;
 }
 
-.place {
-  margin: 16px 0 1rem;
-  font-size: 18px;
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.dates {
-  margin: 0 0 1rem;
-  color: rgba(255, 255, 255, 0.9);
-  font-weight: 600;
-}
-
-.checklist {
-  margin: 1.5rem 0;
-  padding: 1.2rem 1.25rem;
-  border-radius: var(--radius-card);
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-}
-
-.checklist h3 {
-  font-size: 22px;
-  margin-bottom: 0.85rem;
-}
-
-.checklist ul {
-  list-style: none;
-  margin: 0 0 1rem;
-  padding: 0;
+.facts {
+  margin: 0;
   display: grid;
-  gap: 0.7rem;
+  gap: 1rem;
 }
 
-.checklist li {
+.fact {
   display: flex;
-  gap: 0.7rem;
+  gap: 0.75rem;
   align-items: flex-start;
 }
 
-.check {
+.factIcon {
+  width: 20px;
+  height: 20px;
   color: var(--mint);
   flex-shrink: 0;
   margin-top: 0.15rem;
 }
 
-.forms {
-  color: var(--mint);
+.fact dt {
+  margin: 0 0 0.2rem;
+  font-size: 14px;
   font-weight: 700;
-  text-decoration: none;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--mint);
 }
 
-.forms:hover {
+.fact dd {
+  margin: 0;
+  font-size: 18px;
   color: var(--white);
+  text-wrap: pretty;
+}
+
+.posterBtn {
+  align-self: flex-start;
 }
 
 .saleRow {
@@ -80,6 +72,7 @@
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: var(--radius-card);
   background: rgba(255, 255, 255, 0.06);
+  margin-top: auto;
 }
 
 .saleRole {
@@ -137,6 +130,54 @@
 .fullLink {
   font-weight: 700;
   text-decoration: none;
+  color: var(--teal);
+}
+
+.checklist {
+  margin: 0;
+  padding: 1.2rem 1.25rem;
+  border-radius: var(--radius-card);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.checklist h3 {
+  font-size: 22px;
+  margin-bottom: 0.85rem;
+}
+
+.checklist ul {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.checklist li {
+  display: flex;
+  gap: 0.7rem;
+  align-items: flex-start;
+}
+
+.check {
+  color: var(--mint);
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+}
+
+.forms {
+  color: var(--mint);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.forms:hover {
+  color: var(--white);
+}
+
+.section a:not(.btn):not(.fullLink) {
+  color: var(--mint);
 }
 
 @media (max-width: 899px) {

@@ -38,7 +38,7 @@ export default function ReviryPage() {
                       {item.description ? <p>{item.description}</p> : null}
                     </div>
                     {item.wardenPhone ? (
-                      <a href={toTelHref(item.wardenPhone)} className="btn btn--teal">
+                      <a href={toTelHref(item.wardenPhone)} className="btn btn--teal tel">
                         {item.wardenName}: {item.wardenPhone}
                       </a>
                     ) : item.wardenName ? (

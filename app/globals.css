@@ -28,8 +28,8 @@
   --pad-x: 24px;
   --section-y: 96px;
   --section-continue-y: 32px;
-  --shadow-tile: 0 12px 30px rgba(15, 54, 52, 0.12);
-  --shadow-tile-hover: 0 16px 36px rgba(15, 54, 52, 0.18);
+  --shadow-tile: 0 1px 2px rgba(15, 54, 52, 0.06), 0 8px 24px rgba(15, 54, 52, 0.08);
+  --shadow-tile-hover: 0 2px 4px rgba(15, 54, 52, 0.08), 0 14px 32px rgba(15, 54, 52, 0.12);
   --header-offset: 0px;
 }
 
@@ -211,6 +211,28 @@ h3 {
 .btn--ghost-pill.is-active {
   background: var(--teal);
   color: var(--white);
+}
+
+.btn--white-outline {
+  background: var(--white);
+  color: var(--tint-text);
+  border-color: var(--line);
+  border-width: 1px;
+  min-height: 44px;
+}
+
+.btn--white-outline:hover {
+  background: var(--paper);
+  color: var(--tint-text);
+}
+
+.tel {
+  white-space: nowrap;
+}
+
+.section--deep a,
+.section a.mint-link {
+  color: var(--mint);
 }
 
 .chip {

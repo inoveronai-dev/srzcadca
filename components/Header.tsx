@@ -152,7 +152,7 @@ export function Header() {
           <Link href="/povolenia" className="btn btn--teal" onClick={closeMenu}>
             Predaj povolení
           </Link>
-          <a href={toTelHref(site.saleContact.phone)} className={styles.phone}>
+          <a href={toTelHref(site.saleContact.phone)} className={`${styles.phone} tel`}>
             Predaj povolení: {site.saleContact.phone}
           </a>
         </div>

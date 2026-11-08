@@ -56,7 +56,7 @@ export default function BrigadyPage() {
               Podrobný zoznam úloh a „Čo si priniesť“ nájdete v článku Plán brigád
               pre rok 2026.
             </p>
-            <a href={toTelHref(item.phone)} className="btn btn--teal">
+            <a href={toTelHref(item.phone)} className="btn btn--teal tel">
               {item.contact}: {item.phone}
             </a>
           </article>

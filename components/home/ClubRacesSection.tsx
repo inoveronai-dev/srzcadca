@@ -2,11 +2,16 @@ import Image from "next/image";
 import Link from "next/link";
 import { site } from "@/content/site";
 import { sk } from "@/lib/sk";
+import { hidePlaceholders, isPlaceholderText } from "@/lib/placeholders";
 import styles from "./ClubRacesSection.module.css";
 
 export function ClubRacesSection() {
   const { collage, poster, clubText, clubMeetingPlaceholder, clubApplicationPdf, races } =
     site.clubAndRaces;
+  const meeting =
+    hidePlaceholders() && isPlaceholderText(clubMeetingPlaceholder)
+      ? null
+      : clubMeetingPlaceholder;
 
   return (
     <section
@@ -36,17 +41,21 @@ export function ClubRacesSection() {
             <div className={styles.clubTop}>
               <h3>{sk("Rybársky krúžok")}</h3>
               <p>{sk(clubText)}</p>
-              <p>{sk(clubMeetingPlaceholder)}</p>
-              <Link href="/kruzok">{sk("Viac o krúžku →")}</Link>
+              {meeting ? <p>{sk(meeting)}</p> : null}
             </div>
-            <a
-              href={clubApplicationPdf.href}
-              className={`btn btn--ghost-pill ${styles.clubPdf}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {sk(clubApplicationPdf.label)}
-            </a>
+            <div className={styles.clubActions}>
+              <a
+                href={clubApplicationPdf.href}
+                className={`btn btn--white-outline ${styles.clubPdf}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {sk(clubApplicationPdf.label)}
+              </a>
+              <Link href="/kruzok" className={styles.clubMore}>
+                {sk("Viac o krúžku →")}
+              </Link>
+            </div>
           </article>
           <article className={styles.races}>
             <div className={styles.racesContent}>

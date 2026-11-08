@@ -5,6 +5,7 @@ import { ArticleCard } from "@/components/ArticleCard";
 import { PageShell } from "@/components/PageShell";
 import { site } from "@/content/site";
 import { getArticlesByCategory, getPage } from "@/lib/content";
+import { hidePlaceholders, isPlaceholderText } from "@/lib/placeholders";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -32,9 +33,14 @@ export default function KruzokPage() {
           Prihláška do krúžku detí (PDF na srzrada.sk) →
         </a>
       </p>
-      <p className={styles.placeholder}>
-        [doplniť: kedy a kde sa stretáva, kontakt na vedúceho]
-      </p>
+      {!(
+        hidePlaceholders() &&
+        isPlaceholderText("[doplniť: kedy a kde sa stretáva, kontakt na vedúceho]")
+      ) ? (
+        <p className={styles.placeholder}>
+          [doplniť: kedy a kde sa stretáva, kontakt na vedúceho]
+        </p>
+      ) : null}
 
       <figure className={styles.collage}>
         <Image

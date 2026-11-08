@@ -6,6 +6,7 @@
   margin: 32px 0 1.25rem;
   max-width: 52ch;
   color: var(--muted);
+  text-wrap: pretty;
 }
 
 .filters {

@@ -6,9 +6,8 @@
   min-height: min(80vh, 760px);
   display: flex;
   align-items: center;
-  /* Room for overlapping tiles; text centers in the photo above them */
   padding-bottom: 166px;
-  padding-top: 2rem;
+  padding-top: 120px;
   overflow: hidden;
 }
 
@@ -34,6 +33,18 @@
   );
 }
 
+.sideGradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(15, 54, 52, 0.55) 0%,
+    rgba(15, 54, 52, 0.25) 45%,
+    rgba(15, 54, 52, 0) 70%
+  );
+  pointer-events: none;
+}
+
 .content {
   position: relative;
   z-index: 1;
@@ -41,21 +52,30 @@
 }
 
 .eyebrow {
-  color: var(--mint);
-  font-size: 15px;
-  margin: 0 0 1rem;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 14px;
+  letter-spacing: 0.16em;
+  margin: 0 0 20px;
 }
 
-.content h1 {
-  max-width: 12ch;
-  margin-bottom: 1.1rem;
+.title {
+  font-size: clamp(44px, 5.4vw, 80px);
+  line-height: 0.95;
+  letter-spacing: 0.005em;
+  margin: 0 0 24px;
+  max-width: none;
+}
+
+.line {
+  display: inline;
 }
 
 .text {
-  max-width: 620px;
+  max-width: 34em;
   margin: 0;
-  font-size: 18px;
+  font-size: 19px;
   color: rgba(255, 255, 255, 0.9);
+  text-wrap: pretty;
 }
 
 .hills {
@@ -69,20 +89,22 @@
   display: block;
 }
 
+@media (min-width: 900px) {
+  .line {
+    display: block;
+  }
+}
+
 @media (max-width: 899px) {
   .hero {
     min-height: auto;
     padding-bottom: 124px;
-    padding-top: 3rem;
+    padding-top: 72px;
     align-items: flex-end;
   }
 
   .content {
     padding-bottom: 0.5rem;
-  }
-
-  .content h1 {
-    max-width: none;
   }
 
   .hills {

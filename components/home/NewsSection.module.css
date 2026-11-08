@@ -37,10 +37,17 @@
 .featuredBody {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  justify-content: space-between;
+  gap: 1.25rem;
   padding: 1.75rem;
   flex: 1;
   min-width: 0;
+}
+
+.featuredTop {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .featuredWithImage {
@@ -76,10 +83,14 @@
 
 .featuredTitle {
   font-family: var(--font-display);
-  font-size: clamp(32px, 4vw, 44px);
+  font-size: 40px;
   line-height: 0.98;
   text-transform: uppercase;
   margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .featuredTitle a {
@@ -91,10 +102,18 @@
   margin: 0;
   max-width: 36ch;
   color: rgba(255, 255, 255, 0.92);
+  text-wrap: pretty;
+}
+
+.featuredActions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.85rem;
+  margin-top: auto;
 }
 
 .featuredLink {
-  margin-top: auto;
   color: var(--white);
   font-weight: 700;
   text-decoration: none;
@@ -102,6 +121,12 @@
 
 .featuredLink:hover {
   color: var(--mint);
+}
+
+.pdfBtn {
+  min-height: 40px;
+  padding-inline: 1.1rem;
+  font-size: 15px;
 }
 
 .list {
@@ -155,6 +180,10 @@
     grid-template-columns: 1fr;
   }
 
+  .featuredTitle {
+    font-size: clamp(32px, 8vw, 40px);
+  }
+
   .featuredWithImage {
     grid-template-columns: 1fr;
   }
@@ -165,5 +194,4 @@
     min-height: 0;
     border-radius: var(--radius-panel) var(--radius-panel) 0 0;
   }
-
 }

@@ -76,7 +76,7 @@ export default async function WaterDetailPage({
             <p>
               <span className={styles.label}>Hospodár</span>
               {water.wardenPhone ? (
-                <a href={toTelHref(water.wardenPhone)}>
+                <a href={toTelHref(water.wardenPhone)} className="tel">
                   {water.wardenName}, {water.wardenPhone}
                 </a>
               ) : (

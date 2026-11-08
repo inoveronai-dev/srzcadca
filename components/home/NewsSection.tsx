@@ -21,7 +21,7 @@ function chipClass(category: NewsCategory): string {
 
 export function NewsSection() {
   const { featured, list } = getHomepageNews();
-  const hasImage = Boolean(featured?.image);
+  const showImage = Boolean(featured?.heroImage && featured.image);
 
   return (
     <section
@@ -39,26 +39,40 @@ export function NewsSection() {
         <div className={styles.grid}>
           {featured ? (
             <article
-              className={`${styles.featured} ${hasImage ? styles.featuredWithImage : ""}`}
+              className={`${styles.featured} ${showImage ? styles.featuredWithImage : ""}`}
             >
               <div className={styles.featuredBody}>
-                <div className={styles.featuredMeta}>
-                  <time dateTime={featured.dateSort}>{sk(featured.dateLabel)}</time>
-                  <span className={chipClass(featured.category)}>
-                    {sk(featured.category)}
-                  </span>
+                <div className={styles.featuredTop}>
+                  <div className={styles.featuredMeta}>
+                    <time dateTime={featured.dateSort}>{sk(featured.dateLabel)}</time>
+                    <span className={chipClass(featured.category)}>
+                      {sk(featured.category)}
+                    </span>
+                  </div>
+                  <h3 className={styles.featuredTitle}>
+                    <Link href={featured.href}>{sk(featured.title)}</Link>
+                  </h3>
+                  {featured.perex ? (
+                    <p className={styles.perex}>{sk(featured.perex)}</p>
+                  ) : null}
                 </div>
-                <h3 className={styles.featuredTitle}>
-                  <Link href={featured.href}>{sk(featured.title)}</Link>
-                </h3>
-                {featured.perex ? (
-                  <p className={styles.perex}>{sk(featured.perex)}</p>
-                ) : null}
-                <Link href={featured.href} className={styles.featuredLink}>
-                  {sk("Prečítať →")}
-                </Link>
+                <div className={styles.featuredActions}>
+                  <Link href={featured.href} className={styles.featuredLink}>
+                    {sk("Prečítať →")}
+                  </Link>
+                  {featured.pdfHref ? (
+                    <a
+                      href={featured.pdfHref}
+                      className={`btn btn--white ${styles.pdfBtn}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {sk(featured.pdfLabel || "Plagát (PDF)")}
+                    </a>
+                  ) : null}
+                </div>
               </div>
-              {hasImage && featured.image ? (
+              {showImage && featured.image ? (
                 <div className={styles.featuredMedia}>
                   <Image
                     src={featured.image}

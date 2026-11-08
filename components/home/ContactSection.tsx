@@ -9,17 +9,13 @@ export function ContactSection() {
       className={`section section--white ${styles.section}`}
       aria-labelledby="contact-title"
     >
-      <div className={`container ${styles.grid}`}>
-        <div>
+      <div className="container">
+        <div className={styles.intro}>
           <h2 id="contact-title">{sk("Kontakt")}</h2>
-          <address className={styles.address}>
-            {site.addressLines.map((line) => (
-              <span key={line}>
-                {sk(line)}
-                <br />
-              </span>
-            ))}
-          </address>
+          <p className={styles.subtitle}>{sk(site.contactOrgLine)}</p>
+        </div>
+
+        <div className={styles.lower}>
           <div className={styles.addressCard}>
             <p className={`eyebrow ${styles.cardEyebrow}`}>{sk("Rybársky dom")}</p>
             <p className={styles.cardAddress}>{sk(site.contactCardAddress)}</p>
@@ -40,29 +36,32 @@ export function ContactSection() {
               </a>
             </div>
           </div>
-        </div>
 
-        <div className={styles.contacts}>
-          {committeeContacts.map((person) => (
-            <div key={person.role} className={styles.row}>
-              <div>
-                <p className={styles.role}>{sk(person.role)}</p>
-                <p className={styles.name}>{sk(person.name)}</p>
+          <div className={styles.contacts}>
+            {committeeContacts.map((person) => (
+              <div key={person.role} className={styles.row}>
+                <div>
+                  <p className={styles.role}>{sk(person.role)}</p>
+                  <p className={styles.name}>{sk(person.name)}</p>
+                </div>
+                {person.phone ? (
+                  <a
+                    href={toTelHref(person.phone)}
+                    className="btn btn--teal tel"
+                  >
+                    {person.phone}
+                  </a>
+                ) : person.email ? (
+                  <a href={`mailto:${person.email}`} className="btn btn--teal">
+                    {sk("Napísať e-mail")}
+                  </a>
+                ) : null}
               </div>
-              {person.phone ? (
-                <a href={toTelHref(person.phone)} className="btn btn--teal">
-                  {person.phone}
-                </a>
-              ) : person.email ? (
-                <a href={`mailto:${person.email}`} className="btn btn--teal">
-                  {sk("Napísať e-mail")}
-                </a>
-              ) : null}
-            </div>
-          ))}
-          <Link href="/kontakt" className={styles.wardensLink}>
-            {sk("Hospodári všetkých revírov (15) →")}
-          </Link>
+            ))}
+            <Link href="/kontakt" className={styles.wardensLink}>
+              {sk("Hospodári všetkých revírov (15) →")}
+            </Link>
+          </div>
         </div>
       </div>
     </section>

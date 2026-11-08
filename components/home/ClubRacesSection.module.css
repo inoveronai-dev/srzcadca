@@ -48,9 +48,28 @@
   width: 100%;
 }
 
-.clubPdf {
+.clubTop p {
+  margin: 0 0 1.2rem;
+  text-wrap: pretty;
+}
+
+.clubActions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
   margin-top: 1.5rem;
-  align-self: flex-start;
+  width: 100%;
+}
+
+.clubPdf {
+  flex-shrink: 0;
+}
+
+.clubMore {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--tint-text);
 }
 
 .races {
@@ -68,12 +87,8 @@
   margin-bottom: 0.9rem;
 }
 
-.club p,
 .races ul {
   margin: 0 0 1.2rem;
-}
-
-.races ul {
   list-style: none;
   padding: 0;
   display: grid;
@@ -91,7 +106,6 @@
   padding-bottom: 0;
 }
 
-.club a:not(.btn),
 .racesContent a {
   font-weight: 700;
   text-decoration: none;

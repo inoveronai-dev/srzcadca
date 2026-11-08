@@ -3,6 +3,13 @@ import { site } from "@/content/site";
 import { sk } from "@/lib/sk";
 import styles from "./Hero.module.css";
 
+const NBSP = "\u00A0";
+
+function preventLastOrphan(text: string): string {
+  const t = sk(text);
+  return t.replace(/\s+(\S+)\s*$/u, `${NBSP}$1`);
+}
+
 export function Hero() {
   return (
     <section className={styles.hero} aria-labelledby="hero-title">
@@ -17,12 +24,23 @@ export function Hero() {
           className={styles.image}
         />
         <div className={styles.gradient} aria-hidden="true" />
+        <div className={styles.sideGradient} aria-hidden="true" />
       </div>
 
       <div className={`container ${styles.content}`}>
         <p className={`eyebrow ${styles.eyebrow}`}>{sk(site.hero.eyebrow)}</p>
-        <h1 id="hero-title">{sk(site.hero.title)}</h1>
-        <p className={styles.text}>{sk(site.hero.text)}</p>
+        <h1 id="hero-title" className={styles.title}>
+          <span className={styles.line}>{sk("Staráme sa")}</span>
+          <span className={styles.line}>
+            {["o", "kysucké", "vody"].map((w, i) => (
+              <span key={w}>
+                {i > 0 ? NBSP : null}
+                {sk(w)}
+              </span>
+            ))}
+          </span>
+        </h1>
+        <p className={styles.text}>{preventLastOrphan(site.hero.text)}</p>
       </div>
 
       <svg

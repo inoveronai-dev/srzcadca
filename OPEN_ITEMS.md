@@ -1,5 +1,9 @@
 # Open items – SRZ MO Čadca website
 
+## Pred spustením (ešte neaktívne)
+
+- Nastaviť `NEXT_PUBLIC_HIDE_PLACEHOLDERS=true` pred launchom – skryje riadky s `[doplniť` (default `false` na review).
+
 ## Stále doplniť
 
 - Hospodár revíru Kysuca č. 3 – chýba.
