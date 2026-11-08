@@ -18,12 +18,12 @@ export function PermitsSection() {
   return (
     <section className={`section--deep ${styles.section}`} aria-labelledby="permits-title">
       <div className={`container ${styles.grid}`}>
-        <div className={styles.left}>
-          <div className={styles.headingBlock}>
-            <p className={`eyebrow ${styles.eyebrow}`}>{sk("Pre členov")}</p>
-            <h2 id="permits-title">{sk("Predaj povolení")}</h2>
-          </div>
+        <div className={styles.headingBlock}>
+          <p className={`eyebrow ${styles.eyebrow}`}>{sk("Pre členov")}</p>
+          <h2 id="permits-title">{sk("Predaj povolení")}</h2>
+        </div>
 
+        <div className={styles.left}>
           <dl className={styles.facts}>
             <div className={styles.fact}>
               <IconPin className={styles.factIcon} />

@@ -7,19 +7,30 @@
 .grid {
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
-  gap: 2rem;
+  grid-template-areas:
+    "heading ."
+    "body right";
+  column-gap: 2rem;
   align-items: start;
 }
 
-.left,
-.right {
+.headingBlock {
+  grid-area: heading;
+  margin-bottom: 1.25rem;
+}
+
+.left {
+  grid-area: body;
   display: flex;
   flex-direction: column;
   min-width: 0;
 }
 
-.headingBlock {
-  margin-bottom: 1.25rem;
+.right {
+  grid-area: right;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
 }
 
 .eyebrow {
